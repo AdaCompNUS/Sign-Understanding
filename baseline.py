@@ -25,7 +25,6 @@ class VLM:
         self.config = file_utils.load_yaml(config)
         self.img_queue = deque(maxlen=self.config['exp']['prompt_img_len'])
         self.video_name = None
-        # self.img_dict = {i: {'full': None, 'rot_crops': None} for i in range(self.config['exp']['prompt_img_len'])} 
         self.model_name = self.config['exp']['model_name']
         self.rot_crops = self.config['exp']['rot_crops'] #if you want to prompt the crops
         self.prompt_img_quality = self.config['exp']['prompt_img_quality']
@@ -76,7 +75,6 @@ class VLM:
                 width, height = im.shape[1], im.shape[0]
                 im = Image.open(BytesIO(open(img_path[0], "rb").read()))
                 im.thumbnail([1024,1024], Image.Resampling.LANCZOS)
-                # pdb.set_trace()
                 while True:
                     try:
                         time.sleep(3)
@@ -278,9 +276,9 @@ if __name__ == "__main__":
         try:
             r = input("Recognition or Full-Pipeline Evaluation? R/F")
             if r.upper() == 'R':
-                config = os.path.join(root, 'config/recognition_eval_config.yaml')  # Update with your config path
+                config = os.path.join(root, 'config/recognition_eval_config.yaml')  
             elif r.upper() == 'F':
-                config =  os.path.join(root,'config/full_pipeline_eval_config.yaml')  # Update with your config path
+                config =  os.path.join(root,'config/full_pipeline_eval_config.yaml') 
             break
         except Exception as e:
             print('Please enter valid response....')
@@ -304,10 +302,10 @@ if __name__ == "__main__":
             vlm.crop_model.video_name = nm
         
         if vlm.config['exp']['source'] == 'selected-frames' and vlm.config['name'] == 'recognition':
-            all_frame_folder = os.path.join(root, vlm.config['exp']['dataset_dir']) #f'/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset'
+            all_frame_folder = os.path.join(root, vlm.config['exp']['dataset_dir']) 
         elif vlm.config['exp']['source'] == 'selected-frames' and vlm.config['name'] == 'full-pipeline':
-            all_frame_folder = os.path.join(root, vlm.config['exp']['dataset_dir']) #f'/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/fullpipeline_dataset'
-            bbox_gt_path = os.path.join(root,vlm.config['exp']['recg_groundtruth'])#"/home/ayush/new-baseline-sign-gpt/sign-gpt/ros-wrkspc/src/smpl_pkg/src/utils/vlm_utils/updated_mix_gt.json"
+            all_frame_folder = os.path.join(root, vlm.config['exp']['dataset_dir']) 
+            bbox_gt_path = os.path.join(root,vlm.config['exp']['recg_groundtruth'])
             bbox_gt_dict = dict()
             gt_resp_dict = dict()
             for idx, item in enumerate(file_utils.read_json(bbox_gt_path)):
