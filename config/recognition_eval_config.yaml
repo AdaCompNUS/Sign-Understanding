@@ -1,0 +1,21 @@
+name: recognition
+root: /home/ayush/arxiv
+
+exp: 
+  directions: ['left','right','straight','straight-right','straight-left','locational']
+  source: selected-frames
+  symbols: prompts/symbols.txt
+  prompt_file: prompts/prompt.txt
+  model_name: gemini
+  model_version: gemini-2.0-flash
+  prompt_img_len: 1
+  rot_crops: False
+  voting_iter_count: 5
+  prompt_img_quality: high
+  retry_count: 3
+  openai_api_key_path: keys/openai_api_key.yaml
+  gemini_api_key_path: keys/gemini_api_key.yaml
+  dataset_dir: gt/recognition_dataset
+  result_dir: recognition_results
+  groundtruth: gt/gt_annotation.json
+  excludePath: gt/recognition-exclude-imgs.txt

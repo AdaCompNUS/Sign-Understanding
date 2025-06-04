@@ -1,0 +1,1847 @@
+[
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0049_frame_0003_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0049_frame_0003_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'EXIT': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0039_frame_0012_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0039_frame_0012_0.jpg"
+        ],
+        "voted response": "{'S': {'UPESCALATORS': 'STRAIGHT', 'TAXISTAND': 'STRAIGHT'}, 'T': {'ORCHARDMRT@B1/B2': 'STRAIGHT', 'IONPATERSONLINK@B2': 'STRAIGHT', 'DROPOFF@L2': 'STRAIGHT', 'TAXI@L2': 'STRAIGHT', 'B4': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6431_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6431_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'RIGHT', 'VISITORLIFTS': 'LEFT'}, 'T': {'WARDS': 'LEFT', 'VISITORSELF-REGISTRATION': 'LEFT', 'KIDNEYUNIT': 'LEFT', 'PERENNIALBUSINESSCITY': 'RIGHT', 'JEM': 'RIGHT', 'MRT': 'RIGHT', 'EMERGENCYVISITORLOUNGE': 'RIGHT', 'TOWER': 'LOCATIONAL', 'VISITORLIFTS': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6599_frame_0016_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6599_frame_0016_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'VISITORREGISTRATION': 'STRAIGHT', 'WARDS20TO64': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6440_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6440_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT', 'BABYCAREROOM': 'STRAIGHT'}, 'T': {'COURTYARD': 'LEFT', '#03-02TO#03-03': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6414_frame_0005_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6414_frame_0005_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT', 'TOILET': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT'}, 'T': {'L2': 'LOCATIONAL', 'LOBBYB': 'STRAIGHT', 'MRT': 'STRAIGHT', 'PASSENGERLIFTS': 'STRAIGHT', 'TOILET': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6450_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6450_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT', 'BABYCAREROOM': 'STRAIGHT', 'PASSENGERLIFTS': 'RIGHT'}, 'T': {'#04-01': 'RIGHT', '#04-02TO#04-04': 'STRAIGHT', '#04-03ATO#04-03D': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6418_frame_0018_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6418_frame_0018_0.jpg"
+        ],
+        "voted response": "{'S': {'EMERGENCY': 'LOCATIONAL'}, 'T': {'TOWERBWARDS': 'STRAIGHT-LEFT', 'EMERGENCY': 'LOCATIONAL', 'TOWERCCOMMUNITYHOSPITAL': 'STRAIGHT-RIGHT', 'WARDS': 'LOCATIONAL', 'COMMUNITYHOSPITAL': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6596_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6596_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'F01-11TOF01-14': 'STRAIGHT', 'ACUTEMEDICALUNIT1(AMU1)': 'STRAIGHT', 'ZONE': 'LOCATIONAL', 'F': 'LOCATIONAL', 'LEVEL': 'LOCATIONAL', '1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0043_frame_0016_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0043_frame_0016_1.jpg"
+        ],
+        "voted response": "{'S': {'UPESCALATORS': 'STRAIGHT', 'TRAIN': 'STRAIGHT', 'PASSENGERLIFTS': 'LEFT', 'DEFIBRILLATOR': 'LEFT', 'TAXISTANDVIALIFT': 'LEFT'}, 'T': {'ORCHARDMRT@B1': 'LOCATIONAL', 'TAXI@L2': 'LEFT', 'TE14': 'LOCATIONAL', 'B2': 'LOCATIONAL', 'LOBBYA': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6542_frame_0026_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6542_frame_0026_1.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LOCATIONAL', 'BABYCAREROOM': 'LOCATIONAL', 'WHEELCHAIRACCESSIBILITY': 'LOCATIONAL'}, 'T': {'CLUSIACOVE': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6539_frame_0021_2.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6539_frame_0021_2.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT', 'BABYCAREROOM': 'LEFT', 'RESTAURANT': 'LEFT'}, 'T': {'LAKESIDEHOUSE': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0069_frame_0011_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0069_frame_0011_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'B1SHOPS': 'STRAIGHT-RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6574_frame_0027_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6574_frame_0027_0.jpg"
+        ],
+        "voted response": "{'S': {'MRT': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT-LEFT', 'LIFTTOPLATFORM': 'STRAIGHT-LEFT'}, 'T': {'MRT': 'STRAIGHT', 'LIFTTOPLATFORM': 'STRAIGHT-LEFT', 'SOUTHBUONAVISTAROAD': 'STRAIGHT-LEFT', \"GENEO/S'PORESCIENCEPARK1\": 'STRAIGHT-LEFT', 'NUHMEDICALCENTRE': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6543_frame_0031_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6543_frame_0031_0.jpg"
+        ],
+        "voted response": "{'S': {'TAXISTAND': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT', 'CARPICKUP/DROPOFFVIALIFT': 'LEFT', 'PARKING': 'LEFT'}, 'T': {'ENTRANCEPAVILION': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6601_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6601_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {'FOODCOURT': 'LOCATIONAL'}, 'T': {'VISITORREGISTRATION': 'LOCATIONAL', 'WARDS20-64': 'LEFT', 'FOODCOURT': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6583_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6583_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {\"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'RIGHT', 'NATIONALUNIVERSITYHEARTCENTRE,SINGAPORE': 'RIGHT', 'WARDS20TO64': 'RIGHT', 'ZONEC': 'RIGHT', 'ZONEDKENTRIDGEWING': 'RIGHT', 'ZONEE': 'RIGHT', 'ZONEGMAINBUILDING': 'RIGHT', 'MAINBUILDING': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6572_frame_0019_2.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6572_frame_0019_2.jpg"
+        ],
+        "voted response": "{'S': {'BUSSTOP': 'RIGHT', 'BUS': 'RIGHT'}, 'T': {'EXITA': 'RIGHT', 'BUSSTOP4': 'RIGHT', 'BUSSERVICESTOWARDSDHOBYGHAUT8': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6564_frame_0022_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6564_frame_0022_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'RIGHT'}, 'T': {'MORESHOPS': 'STRAIGHT', '2': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0066_frame_0010_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0066_frame_0010_1.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT'}, 'T': {'NORTHBUONAVISTARD': 'STRAIGHT', 'VISTAEXCHANGEGREEN': 'STRAIGHT', 'LIFTTOCIRCLELINE': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6582_frame_0020_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6582_frame_0020_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'EMERGENCY': 'LEFT', \"CHILDREN'SEMERGENCY\": 'LEFT', 'MEDICALCENTRE': 'STRAIGHT-RIGHT', 'NATIONALUNIVERSITYCANCERINSTITUTE,SINGAPORE': 'STRAIGHT-RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6589_frame_0021_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6589_frame_0021_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT', 'TOILET': 'STRAIGHT', 'FOOD': 'STRAIGHT'}, 'T': {'KENTRIDGEWING': 'LEFT', 'WARDS2ATO9B': 'LEFT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'LEFT', 'NUHSTOWERBLOCK': 'LEFT', 'TOILETS': 'STRAIGHT', 'LEVEL1': 'LOCATIONAL', 'F': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6411_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6411_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT-LEFT', 'UPESCALATORS': 'STRAIGHT-LEFT'}, 'T': {'L2': 'LOCATIONAL', 'MRT': 'STRAIGHT-LEFT', 'LOBBYB': 'STRAIGHT-LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0051_frame_0005_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0051_frame_0005_0.jpg"
+        ],
+        "voted response": "{'S': {'TAXISTAND': 'LEFT', 'CARPICKUP/DROPOFFVIALIFT': 'LEFT'}, 'T': {'TAXI@L2': 'LEFT', 'IONPATERSONLINK': 'STRAIGHT', 'ORCHARDMRT@B1/B2': 'RIGHT', 'B2': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6581_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6581_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {\"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'LEFT', 'NATIONALUNIVERSITYHEARTCENTRE,SINGAPORE': 'LEFT', 'WARDS20TO64': 'LEFT', 'KENTRIDGEWING': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6423_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6423_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'LEFT'}, 'T': {'DEVANNAIRINSTITUTE': 'STRAIGHT-RIGHT', 'IMM': 'STRAIGHT-RIGHT', 'VISITORLIFTLOBBYA': 'LEFT', 'TOWERB(WARDS)': 'RIGHT', 'TOWERC(JCH)': 'RIGHT', 'EMERGENCY': 'LOCATIONAL', 'TOWERA': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6558_frame_0016_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6558_frame_0016_0.jpg"
+        ],
+        "voted response": "{'S': {'RESTAURANT': 'STRAIGHT'}, 'T': {'MORESHOPS': 'STRAIGHT', '3': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6590_frame_0019_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6590_frame_0019_1.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'STRAIGHT'}, 'T': {'KENTRIDGEWING': 'LEFT', 'WARDS2ATO9B': 'LEFT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'LEFT', 'NUHSTOWERBLOCK': 'LEFT', 'TOILETS': 'STRAIGHT', 'FOODCOURT': 'STRAIGHT', 'MAINBUILDING': 'STRAIGHT', 'NATIONALUNIVERSITYCENTREFORORALHEALTH,SINGAPORE': 'STRAIGHT', 'F01-11TOF01-33': 'STRAIGHT', 'WARDS20TO64': 'STRAIGHT', 'LEVEL': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0050_frame_0008_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0050_frame_0008_0.jpg"
+        ],
+        "voted response": "{'S': {'DOWNESCALATORS': 'STRAIGHT'}, 'T': {'IONPATERSONLINK': 'STRAIGHT', 'IONSTATION(EVENTHALL)@B4': 'STRAIGHT', 'B2': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6429_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6429_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'LEFT', 'DOWNESCALATORS': 'LEFT', 'TAXISTAND': 'LEFT', 'CARPICKUP/DROPOFFVIALIFT': 'LEFT', 'MRT': 'STRAIGHT'}, 'T': {'DISCHARGEPHARMACY': 'STRAIGHT-RIGHT', 'PERENNIALBUSINESSCITY': 'STRAIGHT', 'EMERGENCY(VIALEVEL1)': 'LEFT', 'ISOLATIONWARD(VIALEVEL1)': 'STRAIGHT-RIGHT', 'RADIOLOGY(TOWERB)': 'LEFT', 'TOWERB': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6444_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6444_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'RIGHT', 'BABYCAREROOM': 'RIGHT'}, 'T': {'#03-01': 'RIGHT', '#03-02TO#03-03': 'RIGHT', 'COURTYARD': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6603_frame_0016_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6603_frame_0016_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'VISITORREGISTRATION': 'STRAIGHT', 'WARDS20-64': 'STRAIGHT', 'ZONEG': 'LOCATIONAL', 'LEVEL1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6551_frame_0019_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6551_frame_0019_0.jpg"
+        ],
+        "voted response": "{'S': {'LRT': 'STRAIGHT', 'FOOD': 'STRAIGHT'}, 'T': {'MORESHOPS': 'STRAIGHT', 'LRT': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6448_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6448_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LOCATIONAL', 'WHEELCHAIRACCESSIBILITY': 'LOCATIONAL', 'BABYCAREROOM': 'LOCATIONAL'}, 'T': {'#04-01TO#04-02': 'RIGHT', '#04-03ATO#04-03D': 'RIGHT', '#04-04': 'LEFT', '#04-05TO#04-10': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0058_frame_0011_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0058_frame_0011_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'WAYOUT': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6624_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6624_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'MRT': 'LEFT', 'FOODCOURT': 'LEFT', 'TAXI': 'RIGHT', 'DROP-OFF': 'RIGHT'}, 'T': {'MRT': 'LEFT', 'TAXI': 'RIGHT', 'FOODCOURT': 'LEFT', 'DROP-OFF': 'RIGHT', 'NATIONALUNIVERSITYCANCERINSTITUTE,SINGAPORE': 'LEFT', 'WARDS2ATO9B': 'LEFT', 'NATIONALUNIVERSITYHEARTCENTRE,SINGAPORE': 'LEFT', 'WARDS20TO64': 'RIGHT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'LEFT', 'NATIONALUNIVERSITYCENTREFORORALHEALTH,SINGAPORE': 'RIGHT', 'MEDICALCENTRE': 'LEFT', 'KENTRIDGEWING': 'LEFT', 'MAINBUILDING': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6576_frame_0019_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6576_frame_0019_1.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'RIGHT', 'TOILET': 'RIGHT', 'PASSENGERLIFTS': 'RIGHT'}, 'T': {'SOUTHBUONAVISTAROAD': 'RIGHT', \"GENEO/S'PORESCIENCEPARK1\": 'RIGHT', 'LIFTTOPLATFORM': 'RIGHT', 'TOILET': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6417_frame_0017_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6417_frame_0017_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'JURONGCOMMUNITYHOSPITAL': 'LOCATIONAL', 'TOWERCCOMMUNITYHOSPITAL': 'STRAIGHT', '370M': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6430_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6430_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {'MRT': 'RIGHT', 'PASSENGERLIFTS': 'LEFT', 'INFORMATION': 'LEFT', 'CARPICKUP/DROPOFFVIALIFT': 'LEFT'}, 'T': {'EMERGENCY(VIALEVEL1)': 'LEFT', 'ISOLATIONWARD(VIALEVEL1)': 'STRAIGHT', 'RADIOLOGY(TOWERB)': 'LEFT', 'DISCHARGEPHARMACY': 'STRAIGHT', 'PERENNIALBUSINESSCITY': 'STRAIGHT', 'JEM': 'STRAIGHT', 'MRT': 'RIGHT', 'TOWERB': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6579_frame_0016_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6579_frame_0016_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'SUPERMARKET': 'RIGHT', 'A': 'LOCATIONAL', '2': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0074_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0074_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {'MRT': 'LEFT', 'PASSENGERLIFTS': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT'}, 'T': {'MRT': 'LEFT', 'LIFTTOPLATFORM': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6420_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6420_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT', 'EMERGENCY': 'RIGHT'}, 'T': {'TOWERA(CLINICS)': 'STRAIGHT', 'VISITORLIFTLOBBYA': 'STRAIGHT', 'TOWERB(WARDS)': 'RIGHT', 'TOWERC(JCH)': 'RIGHT', 'TOWERA': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0053_frame_0015_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0053_frame_0015_1.jpg"
+        ],
+        "voted response": "{'S': {'INFORMATION': 'STRAIGHT'}, 'T': {'TEL': 'RIGHT', 'NSL': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6546_frame_0019_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6546_frame_0019_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'LAKESIDEMRT': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6538_frame_0028_2.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6538_frame_0028_2.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'RIGHT', 'BABYCAREROOM': 'RIGHT'}, 'T': {'LAKESIDEHOUSE': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6544_frame_0021_2.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6544_frame_0021_2.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'CHINESEGARDEN': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6585_frame_0021_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6585_frame_0021_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILETS': 'LEFT', 'LIFTLOBBYF': 'STRAIGHT', 'ATM': 'STRAIGHT', 'FOODCOURT': 'STRAIGHT'}, 'T': {'TOILETS': 'LEFT', 'LIFTLOBBYF': 'STRAIGHT', 'ATM': 'STRAIGHT', 'FOODCOURT': 'STRAIGHT', 'KENTRIDGEWING': 'STRAIGHT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'STRAIGHT', 'MAINBUILDING': 'STRAIGHT', 'NUHSTOWERBLOCK': 'STRAIGHT', 'NATIONALUNIVERSITYHEARTCENTRE,SINGAPORE': 'STRAIGHT', 'MAINBUILDINGPHARMACY': 'STRAIGHT', 'F01-01': 'RIGHT', 'F01-02TOF01-33': 'STRAIGHT', 'WARDS20TO64': 'STRAIGHT', 'ZONE': 'LOCATIONAL', 'F': 'LOCATIONAL', 'LEVEL': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6573_frame_0023_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6573_frame_0023_0.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'STRAIGHT', 'MRT': 'STRAIGHT'}, 'T': {'NUHMEDICALCTR/KENTRIDGEWING': 'STRAIGHT', 'MRT': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6604_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6604_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LEFT'}, 'T': {'TOILET': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0070_frame_0012_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0070_frame_0012_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LOCATIONAL', 'WHEELCHAIRACCESSIBILITY': 'LOCATIONAL', 'BABYCAREROOM': 'LOCATIONAL', 'PASSENGERLIFTS': 'RIGHT'}, 'T': {'INDULGETHAIRAPY': 'LEFT', 'WATSONS': 'LOCATIONAL', 'YAKSON': 'LOCATIONAL', 'LOBBYA': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6441_frame_0016_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6441_frame_0016_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT', 'BABYCAREROOM': 'STRAIGHT'}, 'T': {'COURTYARD': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6543_frame_0031_3.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6543_frame_0031_3.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'RIGHT'}, 'T': {'LAKESIDEHOUSE': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6614_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6614_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'STRAIGHT-LEFT', 'DOWNESCALATORS': ('STRAIGHT-LEFT', 'STRAIGHT-LEFT', 'STRAIGHT-LEFT', 'STRAIGHT-LEFT'), 'RESTAURANT': 'STRAIGHT-LEFT'}, 'T': {'THEFRONTIER,S16': 'STRAIGHT-LEFT', 'LT26,LT27,LT28': 'STRAIGHT-LEFT', 'MD7,MD9,MD10': 'STRAIGHT-LEFT', 'DSO': 'STRAIGHT-LEFT', 'MD6,MD11(LT35,LT36)': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0040_frame_0023_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0040_frame_0023_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'EXIT': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6591_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6591_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILETS': 'RIGHT', 'DROP-OFF': 'RIGHT', 'FOODCOURT': 'RIGHT'}, 'T': {'TOILETS': 'RIGHT', 'DROP-OFF': 'RIGHT', 'FOODCOURT': 'RIGHT', 'WARDS20TO64': 'RIGHT', 'ACUTEMEDICALUNIT1(AMU1)': 'LEFT', 'F01-11TOF01-14': 'LEFT', 'ACUTEMEDICALUNIT2(AMU2)': 'RIGHT', 'F01-16TOF01-33': 'RIGHT', 'ZONEF': 'LOCATIONAL', 'LEVEL1': 'LOCATIONAL', 'MAINBUILDING': 'RIGHT', 'NATIONALUNIVERSITYCENTREFORORALHEALTH,SINGAPORE': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0064_frame_0003_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0064_frame_0003_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'CIRCLELINE': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6525_frame_0025_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6525_frame_0025_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'ZONEA': 'LOCATIONAL', 'MEDICALCENTRE': 'LEFT', 'NATIONALUNIVERSITYCANCERINSTITUTE,SINGAPORE': 'LOCATIONAL', 'PHARMACY@B03-01': 'LOCATIONAL', 'KENTRIDGEWING': 'LEFT', 'WARDS2ATO9B': 'LOCATIONAL', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'LEFT', 'MAINBUILDING': 'STRAIGHT', \"EMERGENCY/CHILDREN'SEMERGENCY\": 'LOCATIONAL', 'WARDS20TO64': 'LOCATIONAL', 'NATIONALUNIVERSITYHEARTCENTRE,SINGAPORE': 'LOCATIONAL', 'NATIONALUNIVERSITYCENTREFORORALHEALTH,SINGAPORE': 'STRAIGHT', 'LEVEL1': 'LOCATIONAL', 'ZONEB': 'LEFT', 'ZONEC': 'LEFT', 'ZONED': 'LEFT', 'ZONEE': 'LEFT', 'ZONEF': 'STRAIGHT', 'ZONEG': 'STRAIGHT', 'ZONEH': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6540_frame_0021_2.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6540_frame_0021_2.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT'}, 'T': {'FUSIONSPOON': 'LEFT', 'TOILET': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6432_frame_0018_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6432_frame_0018_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT'}, 'T': {'TOWERA(CLINICS)': 'STRAIGHT', 'TOWERC(JCH)': 'RIGHT', 'WARDS': 'RIGHT', 'VISITORSELF-REGISTRATION': 'RIGHT', 'EMERGENCY': 'STRAIGHT', 'KIDNEYUNIT': 'RIGHT', 'TOWERB': 'LOCATIONAL', 'VISITORLIFTS': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6544_frame_0021_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6544_frame_0021_0.jpg"
+        ],
+        "voted response": "{'S': {'PARKING': 'LOCATIONAL', 'INFORMATION': 'LOCATIONAL', 'CARPICKUP/DROPOFFVIALIFT': 'LOCATIONAL', 'TOILET': 'LOCATIONAL'}, 'T': {'ENTRANCEPAVILION': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6594_frame_0016_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6594_frame_0016_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'EMERGENCY': 'RIGHT', \"CHILDREN'SEMERGENCY\": 'RIGHT', 'MEDICALCENTRE': 'RIGHT', 'MAINBUILDING': 'LEFT', 'WARDS20TO64': 'LEFT', 'NATIONALUNIVERSITYHEARTCENTRE,SINGAPORE': 'RIGHT', 'NATIONALUNIVERSITYCENTREFORORALHEALTH,SINGAPORE': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6415_frame_0015_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6415_frame_0015_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'EXIT': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0059_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0059_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {'EASTWESTLINE': 'STRAIGHT-LEFT', 'CIRCLELINE': 'STRAIGHT-LEFT'}, 'T': {'EASTWESTLINE': 'STRAIGHT-LEFT', 'CIRCLELINE': 'STRAIGHT-LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6561_frame_0023_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6561_frame_0023_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'RIGHT'}, 'T': {'MORESHOPS': 'STRAIGHT', '3': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6610_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6610_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {'FOODCOURT': 'LEFT', 'TOILET': 'LEFT'}, 'T': {'FOODCOURT': 'LEFT', 'TOILETS': 'LEFT', 'WARDS20TO64': 'LEFT', 'G01-01TOG01-05': 'LEFT', 'MAINBUILDING': 'LEFT', 'NUSYONGLOOLINSCHOOLOFMEDICINE': 'STRAIGHT', 'ZONEG': 'LOCATIONAL', 'LEVEL1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6556_frame_0021_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6556_frame_0021_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT', 'BABYCAREROOM': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'RIGHT'}, 'T': {'MORESHOPS': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6619_frame_0020_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6619_frame_0020_0.jpg"
+        ],
+        "voted response": "{'S': {'MRT': 'STRAIGHT'}, 'T': {'NUH': 'STRAIGHT', 'MRT': 'STRAIGHT', 'MD3': 'STRAIGHT', 'MD6': 'STRAIGHT', 'LT35': 'STRAIGHT', 'LT36': 'STRAIGHT', 'MD11': 'STRAIGHT', 'MD4': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6588_frame_0023_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6588_frame_0023_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'KENTRIDGEWING': 'LEFT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'LEFT', 'NUHSTOWERBLOCK': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6586_frame_0022_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6586_frame_0022_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILETS': 'LEFT', 'ATM': 'STRAIGHT', 'FOODCOURT': 'STRAIGHT'}, 'T': {'TOILETS': 'LEFT', 'ATM': 'STRAIGHT', 'FOODCOURT': 'STRAIGHT', 'KENTRIDGEWING': 'STRAIGHT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'STRAIGHT', 'MAINBUILDING': ('STRAIGHT', 'STRAIGHT'), 'NUHSTOWERBLOCK': 'STRAIGHT', 'MAINBUILDINGPHARMACY': 'STRAIGHT', 'ACUTEMEDICALUNIT1(AMU1)': 'STRAIGHT', 'ACUTEMEDICALUNIT2(AMU2)': 'STRAIGHT', 'F01-03TOF01-33': 'STRAIGHT', 'WARDS20TO64': 'STRAIGHT', 'ZONE': 'LOCATIONAL', 'LEVEL': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6593_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6593_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'KENTRIDGEWING': 'RIGHT', 'WARDS2ATO9B': 'RIGHT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6442_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6442_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'COURTYARD': 'RIGHT', '#03-01': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6584_frame_0019_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6584_frame_0019_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'NATIONALUNIVERSITYHEARTCENTRE,SINGAPORE': 'LOCATIONAL', \"EMERGENCY/CHILDREN'SEMERGENCY\": 'RIGHT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'LOCATIONAL', 'KENTRIDGEWING': 'RIGHT', 'MAINBUILDING': 'RIGHT', 'NUSYONGLOOLINSCHOOLOFMEDICINE': 'LOCATIONAL', 'MEDICALCENTRE': 'LEFT', 'NATIONALUNIVERSITYCANCERINSTITUTE,SINGAPORE': 'LEFT', 'ONE@KENTRIDGE': 'LEFT', 'NATIONALUNIVERSITYCENTREFORORALHEALTH,SINGAPORE': 'LOCATIONAL', 'ZONEF': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6569_frame_0018_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6569_frame_0018_0.jpg"
+        ],
+        "voted response": "{'S': {'RESTAURANT': 'STRAIGHT'}, 'T': {'MORESHOPS': 'STRAIGHT', 'B1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0068_frame_0007_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0068_frame_0007_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'ONE-NORTHPARK:ROCHESTEREAST': 'LEFT', 'ONE-NORTHPARK:ROCHESTERWEST': 'LEFT', 'THEROCHESTERRESIDENCES': 'LEFT', 'ROCHESTERMALL': 'LEFT', 'PARKAVENUEROCHESTER': 'LEFT', 'THESTARVISTA': 'STRAIGHT', 'GSKASIAHOUSE': 'STRAIGHT', 'VISTA': 'LOCATIONAL', 'ONE-NORTH': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6543_frame_0031_2.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6543_frame_0031_2.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'LOCATIONAL', 'CARPICKUP/DROPOFFVIALIFT': 'LOCATIONAL', 'TAXISTAND': 'LOCATIONAL', 'PARKING': 'LOCATIONAL'}, 'T': {'CHINESEGARDEN': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6445_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6445_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'RIGHT', 'BABYCAREROOM': 'RIGHT'}, 'T': {'COURTYARD': 'RIGHT', '#03-02TO#03-03COURTYARD': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6566_frame_0022_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6566_frame_0022_0.jpg"
+        ],
+        "voted response": "{'S': {'UPESCALATORS': 'STRAIGHT', 'BABYCAREROOM': 'LOCATIONAL', 'WHEELCHAIRACCESSIBILITY': 'LOCATIONAL'}, 'T': {'TRAVELATOR': 'STRAIGHT', 'B1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6567_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6567_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'UPESCALATORS': 'STRAIGHT', 'BABYCAREROOM': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT'}, 'T': {'TRAVELATOR': 'STRAIGHT', 'B1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6613_frame_0022_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6613_frame_0022_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'MD1TAHIRFOUNDATIONBUILDING': 'LEFT', 'MD2': 'LEFT', 'MD3': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6572_frame_0019_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6572_frame_0019_1.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'RIGHT', 'CARPICKUP/DROPOFFVIALIFT': 'RIGHT'}, 'T': {'LOWERKENTRIDGEROAD': 'RIGHT', 'PICK-UPPOINT': 'RIGHT', 'BUSSTOP': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0037_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0037_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'BREASTFEEDINGROOM': 'STRAIGHT', 'BABYCAREROOM': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT', 'TAXISTAND': 'STRAIGHT-RIGHT', 'PASSENGERLIFTS': 'RIGHT', 'CARPICKUP/DROPOFFVIALIFT': 'STRAIGHT-RIGHT', 'UPESCALATORS': 'STRAIGHT', 'AED': 'STRAIGHT'}, 'T': {'B4': 'STRAIGHT', 'AED': 'STRAIGHT', 'ORCHARDMRT@B1/B2': 'LOCATIONAL', 'LOBBYA': 'RIGHT', 'TAXI@L2': 'STRAIGHT-RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6578_frame_0020_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6578_frame_0020_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'LEFT', 'TOILET': 'LEFT'}, 'T': {'LIFTLOBBYA': 'LEFT', 'TOILETS': 'LEFT', 'ZONEB': 'RIGHT', 'ZONEC': 'RIGHT', 'ZONED': 'RIGHT', 'ZONEE': 'RIGHT', 'ZONET': 'RIGHT', 'ZONEA': 'LOCATIONAL', 'LEVEL1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0079_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0079_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'BUS': 'STRAIGHT', 'MRT': 'RIGHT'}, 'T': {'NORTHBUONAVISTARD/THEMETROPOLIS': 'STRAIGHT', 'MINISTRYOFEDUCATION/BIOPOLIS': 'STRAIGHT', 'COMMONWEALTHAVE': 'STRAIGHT', 'BUSSTOP': 'STRAIGHT', 'MRT': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6544_frame_0021_3.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6544_frame_0021_3.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'LAKESIDEMRT200M': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6620_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6620_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {'MRT': 'STRAIGHT'}, 'T': {'MD11': 'LEFT', 'MD6': 'RIGHT', 'NUH': 'STRAIGHT', 'MRT': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0057_frame_0016_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0057_frame_0016_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'NORTHSOUTHLINE': 'LOCATIONAL', 'EASTWESTLINE': 'LOCATIONAL', 'JURONGEASTVIAWOODLANDS': 'RIGHT', 'TUASLINK': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6433_frame_0025_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6433_frame_0025_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT'}, 'T': {'TOWERA(CLINICS)': 'STRAIGHT', 'WARDS': 'RIGHT', 'VISITORSELF-REGISTRATION': 'RIGHT', 'EMERGENCY': 'STRAIGHT', 'KIDNEYUNIT': 'RIGHT', 'TOWERC(JCH)': 'RIGHT', 'TOWERB': 'LOCATIONAL', 'A\u697c(\u8bca\u6240)MENARAA(KLINIK)': 'STRAIGHT', '\u0b9f\u0bb5\u0bb0\u0bcdA(\u0b95\u0bbf\u0bb3\u0bbf\u0ba9\u0bbf\u0b95\u0bcd)': 'STRAIGHT', 'C\u697c(\u88d5\u5eca\u793e\u533a\u533b\u9662)MENARAC(JCH)': 'RIGHT', '\u0b9f\u0bb5\u0bb0\u0bcdC(JCH)': 'RIGHT', '\u75c5\u623fWAD': 'RIGHT', '\u8bbf\u5ba2\u81ea\u52a9\u767b\u8bb0\u5904PENDAFTARANSENDIRIUNTUKPELAWAT': 'RIGHT', '\u0baa\u0bbe\u0bb0\u0bcd\u0bb5\u0bc8\u0baf\u0bbe\u0bb3\u0bb0\u0bcd\u0ba4\u0bbe\u0ba9\u0bc7\u0baa\u0ba4\u0bbf\u0bb5\u0bc1\u0b9a\u0bc6\u0baf\u0bcd\u0ba4\u0bb2\u0bcd': 'RIGHT', '\u6025\u8bca\u5ba4KECEMASAN': 'STRAIGHT', '\u80be\u810f\u90e8\u95e8UNITBUAHPINGGANG': 'RIGHT', '\u0b9a\u0bbf\u0bb1\u0bc1\u0ba8\u0bc0\u0bb0\u0b95\u0baa\u0bbf\u0bb0\u0bbf\u0bb5\u0bc1': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6437_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6437_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'DEVANNAIRINSTITUTEFOREMPLOYMENTANDEMPLOYABILITY': 'LOCATIONAL', 'J-WALK': 'STRAIGHT-RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6548_frame_0019_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6548_frame_0019_1.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'RIGHT', 'RESTAURANT': 'RIGHT'}, 'T': {'RAINFORESTPAVILION': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0072_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0072_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'TAXISTAND': 'STRAIGHT', 'COACH': 'STRAIGHT', 'BABYCAREROOM': 'STRAIGHT', 'TOILET': 'STRAIGHT'}, 'T': {'TAXI': 'STRAIGHT', 'COACH': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6415_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6415_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'RIGHT', 'TOILET': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'RIGHT'}, 'T': {'L2': 'LOCATIONAL', 'LOBBYB': 'RIGHT', 'WESTGATETOWER': 'RIGHT', 'TOILET': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0042_frame_0022_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0042_frame_0022_0.jpg"
+        ],
+        "voted response": "{'S': {'CARPICKUP/DROPOFFVIALIFT': 'LOCATIONAL', 'PASSENGERLIFTS': 'RIGHT', 'DEFIBRILLATOR': 'LOCATIONAL'}, 'T': {'CONCIERGE@B1/L4': 'STRAIGHT', 'ORCHARDMRT@B1': 'LOCATIONAL', 'LOBBY': 'RIGHT', 'B2': 'LOCATIONAL', 'AED': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0048_frame_0026_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0048_frame_0026_0.jpg"
+        ],
+        "voted response": "{'S': {'DOWNESCALATORS': 'STRAIGHT', 'TOILET': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT', 'BABYCAREROOM': 'LEFT', 'BREASTFEEDINGROOM': 'LEFT', 'UPESCALATORS': 'RIGHT'}, 'T': {'IONSTATION(EVENTHALL)@B4': 'STRAIGHT', 'ION\u00b2@L1': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0076_frame_0016_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0076_frame_0016_0.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'RIGHT', 'PASSENGERLIFTS': 'RIGHT'}, 'T': {'NORTHBUONAVISTARD/THEMETROPOLIS': 'RIGHT', 'MINISTRYOFEDUCATION/BIOPOLIS': 'RIGHT', 'CIVILSERVICECOLLEGE': 'RIGHT', 'LIFTTOSTREET': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6609_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6609_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'ZONEG': 'LOCATIONAL', 'LEVEL1': 'LOCATIONAL', 'VISITORREGISTRATION': 'STRAIGHT', 'WARDS20-64': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0060_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0060_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {'BUSSTOP': 'RIGHT'}, 'T': {'PASIRRIS': 'LEFT', 'TUASLINK': 'LEFT', 'BUSSERVICES': 'LOCATIONAL', 'BUSSTOP': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6576_frame_0019_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6576_frame_0019_0.jpg"
+        ],
+        "voted response": "{'S': {'A': 'LEFT', 'B': 'RIGHT'}, 'T': {'A': 'LOCATIONAL', 'B': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6627_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6627_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'RIGHT', 'PASSENGERLIFTS': 'RIGHT'}, 'T': {'LIFTTOPLATFORM': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6416_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6416_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {'EMERGENCY': 'STRAIGHT-RIGHT'}, 'T': {'NGTENGFONGGENERALHOSPITAL': 'LOCATIONAL', 'J-WALK': 'LOCATIONAL', 'TOWERA': 'STRAIGHT', 'CLINICS': 'STRAIGHT-RIGHT', 'TOWERB': 'STRAIGHT-RIGHT', 'WARDS': 'STRAIGHT-RIGHT', 'EMERGENCY': 'STRAIGHT-RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0073_frame_0016_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0073_frame_0016_0.jpg"
+        ],
+        "voted response": "{'S': {'MRT': 'STRAIGHT', 'PASSENGERLIFTS': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT'}, 'T': {'MRT': 'STRAIGHT', 'LIFTTOPLATFORM': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0065_frame_0018_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0065_frame_0018_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT'}, 'T': {'VISTAEXCHANGEGREEN': 'STRAIGHT', 'LIFTTOCIRCLELINE': 'STRAIGHT', 'CIRCLELINE': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0066_frame_0010_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0066_frame_0010_0.jpg"
+        ],
+        "voted response": "{'S': {'TAXISTAND': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT', 'CARPICKUP/DROPOFFVIALIFT': 'STRAIGHT'}, 'T': {'TAXI': 'STRAIGHT', 'PICK-UPPOINT': 'STRAIGHT', 'BUSSTOP': 'STRAIGHT', 'PARKAVENUE': 'STRAIGHT', 'ROCHESTER': 'STRAIGHT', 'THEROCHESTERMALL': 'STRAIGHT', 'THESTARVISTA': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6419_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6419_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'EMERGENCY': 'LOCATIONAL'}, 'T': {'TOWERB': 'STRAIGHT-RIGHT', 'WARDS': 'LOCATIONAL', 'EMERGENCY': 'LOCATIONAL', 'TOWERC': 'STRAIGHT-RIGHT', 'COMMUNITYHOSPITAL': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6434_frame_0023_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6434_frame_0023_0.jpg"
+        ],
+        "voted response": "{'S': {'VISITORLIFTS': 'LOCATIONAL'}, 'T': {'TOWERA(CLINICS)': 'STRAIGHT', 'WARDS': 'RIGHT', 'VISITORSELF-REGISTRATION': 'RIGHT', 'EMERGENCY': 'STRAIGHT', 'KIDNEYUNIT': 'RIGHT', 'TOWERC(JCH)': 'RIGHT', 'TOWERB': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6616_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6616_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {'CAF\u00c9': 'LEFT', 'MEDICALLIBRARY': 'LEFT'}, 'T': {'MD6(LT35,LT36),MD11': 'LEFT', 'MEDICALLIBRARY(MD6)': 'LEFT', 'CAF\u00c9': 'LEFT', 'MD3,MD4': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6540_frame_0021_3.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6540_frame_0021_3.jpg"
+        ],
+        "voted response": "{'S': {'INFORMATION': 'LEFT', 'TAXISTAND': 'LEFT', 'PARKING': 'LEFT', 'CARPICKUP/DROPOFFVIALIFT': 'LEFT'}, 'T': {'ENTRANCEPAVILION': 'LEFT', 'LAKESIDEFIELD': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6413_frame_0022_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6413_frame_0022_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT', 'PASSENGERLIFTS': 'STRAIGHT'}, 'T': {'L2': 'LOCATIONAL', 'MRT': 'STRAIGHT', 'LOBBYB': 'STRAIGHT', 'TOILET': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0067_frame_0007_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0067_frame_0007_0.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'RIGHT', 'TOILET': 'RIGHT'}, 'T': {'ROCHESTERDRIVE': 'STRAIGHT', 'THESTARVISTA': 'STRAIGHT', 'SHOP': 'RIGHT', 'TOILET': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6424_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6424_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'PERENNIALBUSINESSCITY': 'STRAIGHT', 'JEM': 'STRAIGHT', 'J-WALK': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6425_frame_0020_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6425_frame_0020_1.jpg"
+        ],
+        "voted response": "{'S': {'EMERGENCY': 'STRAIGHT'}, 'T': {'TOWERB': 'STRAIGHT', 'WARDS': 'STRAIGHT', 'EMERGENCY': 'STRAIGHT', 'TOWERC': 'STRAIGHT', 'COMMUNITYHOSPITAL': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6538_frame_0028_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6538_frame_0028_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'LAKESIDEMRT': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6539_frame_0021_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6539_frame_0021_0.jpg"
+        ],
+        "voted response": "{'S': {'MRT': 'LEFT'}, 'T': {'LAKESIDEMRT': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6562_frame_0024_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6562_frame_0024_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'RIGHT'}, 'T': {'PLAY@ROOFGARDEN': 'STRAIGHT', 'PASSENGERLIFTS': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6428_frame_0019_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6428_frame_0019_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT'}, 'T': {'EMERGENCY': 'STRAIGHT', 'TOWERC(JCH)': 'LEFT', 'WARDS': 'STRAIGHT', 'DISCHARGEPHARMACY': 'STRAIGHT', 'PERENNIALBUSINESSCITY': 'STRAIGHT', 'ADMISSIONS&BUSINESSOFFICE': 'STRAIGHT', 'TOWER': 'LOCATIONAL', 'B': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6546_frame_0019_2.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6546_frame_0019_2.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT', 'RESTAURANT': 'LEFT'}, 'T': {'LAKESIDEHOUSE': 'LEFT', 'TOILET': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6623_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6623_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {'BUS': 'STRAIGHT', 'TAXI': 'RIGHT'}, 'T': {'BUS': 'STRAIGHT', 'TAXI': 'RIGHT', 'ZONEA': 'RIGHT', 'ZONEB': 'RIGHT', 'ZONEC': 'RIGHT', 'ZONED': 'RIGHT', 'ZONEE': 'RIGHT', 'ZONEF': 'RIGHT', 'NATIONALUNIVERSITYCANCERINSTITUTE,SINGAPORE': 'RIGHT', 'NATIONALUNIVERSITYHEARTCENTRE,SINGAPORE': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6608_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6608_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {'MRT': 'RIGHT', 'TAXISTAND': 'RIGHT'}, 'T': {'EMERGENCY': 'RIGHT', \"CHILDREN'SEMERGENCY\": 'RIGHT', 'MRT': 'RIGHT', 'TAXI': 'RIGHT', 'ZONE': 'LOCATIONAL', 'LEVEL': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6599_frame_0016_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6599_frame_0016_0.jpg"
+        ],
+        "voted response": "{'S': {'FOODCOURT': 'LEFT'}, 'T': {'FOODCOURT': 'LEFT', 'MAINBUILDING': 'LEFT', 'WARDS20TO64': 'LEFT', 'NATIONALUNIVERSITYCENTREFORORALHEALTH,SINGAPORE': 'LEFT', 'ACUTEMEDICALUNIT2(AMU2)': 'LEFT', 'F01-16TOF01-33': 'LEFT', 'F': 'LOCATIONAL', '1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6527_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6527_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {'BUSSTOP': 'STRAIGHT', 'CARPARK13': 'STRAIGHT', 'SECURITYPOST@COM2': 'STRAIGHT'}, 'T': {'COM1&COM2': 'STRAIGHT', 'SECURITYPOST@COM2': 'STRAIGHT', 'BUSSTOP': 'STRAIGHT', 'CARPARK13': 'STRAIGHT', 'BIZ2': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6552_frame_0020_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6552_frame_0020_0.jpg"
+        ],
+        "voted response": "{'S': {'LRT': 'STRAIGHT', 'TOILET': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'RIGHT'}, 'T': {'LRT': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0041_frame_0018_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0041_frame_0018_0.jpg"
+        ],
+        "voted response": "{'S': {'BREASTFEEDINGROOM': 'STRAIGHT', 'BABYCAREROOM': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT', 'TAXISTAND': 'STRAIGHT', 'CARPICKUP/DROPOFFVIALIFT': 'STRAIGHT', 'PASSENGERLIFTS': 'STRAIGHT', 'UPESCALATORS': 'STRAIGHT', 'TOILET': 'STRAIGHT', 'DEFIBRILLATOR': 'STRAIGHT'}, 'T': {'AED': 'STRAIGHT', 'LOBBYA': 'STRAIGHT', 'ORCHARDMRT@B1/B2': 'STRAIGHT-LEFT', 'B4': 'LOCATIONAL', 'TAXI@L2VIALIFT': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6572_frame_0019_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6572_frame_0019_0.jpg"
+        ],
+        "voted response": "{'S': {'CARPICKUP/DROPOFFVIALIFT': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT', 'BUSSTOP': 'LEFT'}, 'T': {'LOWERKENTRIDGEROAD': 'LEFT', 'PICK-UPPOINT': 'LEFT', 'BUSSTOP': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6625_frame_0012_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6625_frame_0012_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'ZONEA': 'STRAIGHT', 'ZONEBMEDICALCENTRE': 'STRAIGHT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'STRAIGHT', 'ZONEC': 'STRAIGHT', 'ZONEDKENTRIDGEWING': 'STRAIGHT', 'ZONEFMAINBUILDING': 'STRAIGHT', 'ZONEE': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6626_frame_0020_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6626_frame_0020_0.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'LOCATIONAL', 'PASSENGERLIFTS': 'RIGHT'}, 'T': {'SOUTHBUONAVISTAROAD': 'STRAIGHT-LEFT', \"GENEO/S'PORESCIENCEPARK1\": 'STRAIGHT-LEFT', 'BUSSTOP': 'STRAIGHT-LEFT', 'LIFTTOPLATFORM': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6611_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6611_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'STAFFCARPARK': 'LOCATIONAL', 'CARPARKS3': 'RIGHT', 'CARPARKS4': 'RIGHT', 'CARPARKS5': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6412_frame_0020_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6412_frame_0020_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT', 'TOILET': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'RIGHT'}, 'T': {'LOBBYA': 'STRAIGHT', 'WESTGATETOWER': 'LEFT', 'TOILET': 'RIGHT', 'L2': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6540_frame_0021_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6540_frame_0021_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT'}, 'T': {'CHINESEGARDEN': 'LEFT', 'CLUSIACOVE': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6618_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6618_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'FRONTIERCANTEEN,S16': 'STRAIGHT-RIGHT', 'MD1(LT37),MD4': 'LEFT', 'S4,S5,S6,S9': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0046_frame_0018_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0046_frame_0018_0.jpg"
+        ],
+        "voted response": "{'S': {'UPESCALATORS': 'STRAIGHT'}, 'T': {'ATM': 'STRAIGHT', 'B1': 'LOCATIONAL', 'CONCIERGE@B1': 'STRAIGHT', 'ION@L1': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6436_frame_0021_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6436_frame_0021_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'TOWERA(CLINICS)': 'STRAIGHT', 'TOWERC(JCH)': 'STRAIGHT', 'WARDS': 'STRAIGHT', 'VISITORLIFTS': 'STRAIGHT', 'ADMISSIONS&BUSINESSOFFICE': 'STRAIGHT-RIGHT', 'EMERGENCY': 'STRAIGHT', 'KIDNEYUNIT': 'STRAIGHT', 'TOWERB': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0063_frame_0014_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0063_frame_0014_1.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT'}, 'T': {'WAYOUT/LIFTTOSTREET': 'LEFT', 'THESTARVISTA': 'LEFT', 'THESTARPERFORMINGARTSCENTRE': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6424_frame_0015_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6424_frame_0015_1.jpg"
+        ],
+        "voted response": "{'S': {'EMERGENCY': 'LOCATIONAL'}, 'T': {'TOWERB': 'STRAIGHT', 'WARDS': 'LOCATIONAL', 'EMERGENCY': 'LOCATIONAL', 'TOWERC': 'STRAIGHT', 'COMMUNITYHOSPITAL': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6606_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6606_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'MORESTALLS': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6452_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6452_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'#03-02': 'LOCATIONAL', 'COURTYARD': ('RIGHT', 'STRAIGHT')}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6600_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6600_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'STRAIGHT': 'STRAIGHT'}, 'T': {'VISITORREGISTRATION': 'LOCATIONAL', 'WARDS20TO64': 'LOCATIONAL', 'ZONEFLEVEL1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6427_frame_0018_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6427_frame_0018_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT', 'MRT': 'STRAIGHT'}, 'T': {'TOWERB': 'LOCATIONAL', 'EMERGENCY': 'STRAIGHT', 'TOWERC(JCH)': 'LEFT', 'WARDS': 'STRAIGHT', 'DISCHARGEPHARMACY': 'STRAIGHT', 'PERENNIALBUSINESSCITY': 'STRAIGHT', 'JEM': 'STRAIGHT', 'ADMISSIONS&BUSINESSOFFICE': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6526_frame_0021_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6526_frame_0021_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'GRADUATESTUDENTSLOUNGE': 'RIGHT', 'MEETINGROOM4': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6565_frame_0018_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6565_frame_0018_0.jpg"
+        ],
+        "voted response": "{'S': {'TAXISTAND': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'LEFT', 'TOILET': 'LEFT'}, 'T': {'DROPOFF': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0056_frame_0011_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0056_frame_0011_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'NORTHSOUTHLINE': 'LOCATIONAL', 'TOMARINASOUTHPIER': 'STRAIGHT', 'EASTWESTLINE': 'LOCATIONAL', 'TOPASIRRIS': 'STRAIGHT', 'TOCHANGIAIRPORT': 'STRAIGHT', 'TRANSFERATTANAHMERAHINTERCHANGE': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6409_frame_0016_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6409_frame_0016_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'RIGHT', 'TOILET': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'RIGHT'}, 'T': {'L2': 'STRAIGHT', 'LOBBYB': 'STRAIGHT', 'WESTGATETOWER': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6597_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6597_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'F01-11': 'RIGHT', 'F01-13': 'LEFT', 'ZONEF': 'LOCATIONAL', 'LEVEL1': 'LOCATIONAL', 'ACUTEMEDICALUNIT1(AMU1)': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6628_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6628_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'LEFT', 'TOILET': 'RIGHT'}, 'T': {'SOUTHBUONAVISTAROAD': 'STRAIGHT', \"GENEO/S'PORESCIENCEPARK1\": 'STRAIGHT', 'BUSSTOP': 'STRAIGHT', 'NUHMEDICALCENTRE': 'LEFT', 'TOILET': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0062_frame_0022_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0062_frame_0022_0.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': ('LEFT', 'RIGHT'), 'TAXISTAND': 'RIGHT', 'PASSENGERLIFTS': 'LEFT'}, 'T': {'CIRCLELINE': 'STRAIGHT-RIGHT', 'WAYOUT': ('LEFT', 'RIGHT'), 'LIFT': ('LEFT', 'RIGHT')}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0045_frame_0012_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0045_frame_0012_1.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'LEFT', 'CARPICKUP/DROPOFFVIALIFT': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT', 'BABYCAREROOM': 'LEFT', 'DEFIBRILLATOR': 'LEFT', 'TOILET': 'LEFT', 'BREASTFEEDINGROOM': 'LEFT'}, 'T': {'ORCHARDMRT': 'STRAIGHT', 'B1': 'LOCATIONAL', 'LOBBYA': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0064_frame_0003_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0064_frame_0003_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'EASTWESTLINE': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6422_frame_0012_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6422_frame_0012_0.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'RIGHT', 'PASSENGERLIFTS': 'RIGHT'}, 'T': {'DEVANNAIRINSTITUTE': 'STRAIGHT', 'IMM': 'STRAIGHT', 'PUBLICLIFTLOBBY(OPEN24HOURS)': 'RIGHT', 'TOWERB(WARDS)': 'STRAIGHT', 'TOWERC(JCH)': 'STRAIGHT', 'EMERGENCY': 'LOCATIONAL', 'TOWERA': 'LOCATIONAL', 'MENARAB(WARDS)': 'STRAIGHT', 'MENARAC(JCH)': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6443_frame_0023_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6443_frame_0023_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'COURTYARD': 'STRAIGHT-RIGHT', '#03-01': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6559_frame_0021_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6559_frame_0021_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT', 'BABYCAREROOM': 'STRAIGHT', 'TOILET': 'STRAIGHT'}, 'T': {}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0052_frame_0018_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0052_frame_0018_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT', 'TOILET': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT', 'BREASTFEEDINGROOM': 'STRAIGHT', 'UPESCALATORS': 'STRAIGHT-RIGHT', 'BABYCAREROOM': 'STRAIGHT', 'DOWNESCALATORS': 'STRAIGHT-RIGHT'}, 'T': {'ORCHARDMRT@B1': 'LOCATIONAL', 'B2': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6541_frame_0023_2.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6541_frame_0023_2.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LOCATIONAL', 'WHEELCHAIRACCESSIBILITY': 'LOCATIONAL'}, 'T': {'PASSIONWAVE': 'LOCATIONAL', 'CHINESEGARDEN': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6621_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6621_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'MEDICALCENTRE': 'STRAIGHT', 'KENTRIDGEWING': 'STRAIGHT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'STRAIGHT', 'MRT': 'STRAIGHT', 'TAXI': 'STRAIGHT', 'DROP-OFF': 'STRAIGHT', 'EMERGENCY(AMBULANCE)': 'RIGHT', 'EMERGENCY(WALK-IN)': 'STRAIGHT', \"CHILDREN'SEMERGENCY(WALK-IN)\": 'STRAIGHT', 'NATIONALUNIVERSITYHEARTCENTRE,SINGAPORE': 'STRAIGHT', 'F01-01TOF01-18': 'STRAIGHT', 'ZONE': 'LOCATIONAL', 'LEVEL': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6416_frame_0013_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6416_frame_0013_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'JURONGCOMMUNITYHOSPITAL': 'LOCATIONAL', 'TOWERCCOMMUNITYHOSPITAL': 'STRAIGHT-RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0075_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0075_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'CARPICKUP/DROPOFFVIALIFT': 'STRAIGHT', 'BUSSTOP': 'STRAIGHT', 'TAXISTAND': 'STRAIGHT', 'PASSENGERLIFTS': 'STRAIGHT', 'UPESCALATORS': 'STRAIGHT'}, 'T': {'NORTHBUONAVISTARD': 'STRAIGHT', 'COMMONWEALTHAVEWEST': 'STRAIGHT', 'BUSSTOP': 'STRAIGHT', 'THESTARVISTA': 'STRAIGHT', 'TAXI': 'STRAIGHT', 'PICK-UPPOINT': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6546_frame_0019_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6546_frame_0019_1.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'RIGHT', 'BREASTFEEDINGROOM': 'RIGHT'}, 'T': {'RAINFORESTPAVILION': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6451_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6451_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'#03-02': 'STRAIGHT', 'COURTYARD': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6435_frame_0018_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6435_frame_0018_0.jpg"
+        ],
+        "voted response": "{'S': {'VISITORLIFTS': 'STRAIGHT'}, 'T': {'TOWERA(CLINICS)': 'STRAIGHT', 'WARDS': 'STRAIGHT', 'ADMISSIONS&BUSINESSOFFICE': 'STRAIGHT-RIGHT', 'TOWERC(JCH)': 'STRAIGHT', 'EMERGENCY': 'STRAIGHT', 'KIDNEYUNIT': 'STRAIGHT', 'TOWERB': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6538_frame_0028_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6538_frame_0028_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'LAKESIDEGREEN': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6617_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6617_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'MD2,MD3,MD4': 'STRAIGHT', 'FRONTIERCANTEEN,S16': 'RIGHT', 'MD1(LT37),MD9': 'RIGHT', 'S4,S5,S6,S9': 'RIGHT', 'MD6(LT35,LT36),MD11': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6554_frame_0021_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6554_frame_0021_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT', 'PASSENGERLIFTS': 'LEFT', 'BABYCAREROOM': 'STRAIGHT'}, 'T': {}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6417_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6417_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'J-WALK': 'LOCATIONAL', 'EMERGENCY': 'STRAIGHT-RIGHT'}, 'T': {'NGTENGFONGGENERALHOSPITAL': 'LOCATIONAL', 'J-WALK': 'LOCATIONAL', 'TOWERA': 'STRAIGHT', 'CLINICS': 'STRAIGHT-RIGHT', 'TOWERB': 'STRAIGHT-RIGHT', 'WARDS': 'STRAIGHT-RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6550_frame_0020_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6550_frame_0020_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT', 'TOILET': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT'}, 'T': {}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6542_frame_0026_2.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6542_frame_0026_2.jpg"
+        ],
+        "voted response": "{'S': {'INFORMATION': 'LOCATIONAL', 'PARKING': 'LOCATIONAL'}, 'T': {'ENTRANCEPAVILION': 'RIGHT', 'LAKESIDEFIELD': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6447_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6447_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT', 'BABYCAREROOM': 'LEFT'}, 'T': {'#04-01TO#04-02': 'RIGHT', '#04-03ATO#04-03D': 'RIGHT', '#04-04': 'RIGHT', '#04-05TO#04-10': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0063_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0063_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'CIRCLELINE': 'STRAIGHT-RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6575_frame_0018_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6575_frame_0018_0.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'STRAIGHT'}, 'T': {'SOUTHBUONAVISTAROAD': 'STRAIGHT', \"GENEO/S'PORESCIENCEPARK1\": 'STRAIGHT', 'BUSSTOP': 'STRAIGHT', 'LIFTTOPLATFORM': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6578_frame_0020_2.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6578_frame_0020_2.jpg"
+        ],
+        "voted response": "{'S': {'FIREEXIT': 'LEFT'}, 'T': {'FIREEXIT': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0040_frame_0023_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0040_frame_0023_1.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT', 'BABYCAREROOM': 'LEFT', 'BREASTFEEDINGROOM': 'LEFT'}, 'T': {'IONSTATION(EVENTHALL)': 'STRAIGHT', 'B4': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6607_frame_0011_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6607_frame_0011_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'NATIONALUNIVERSITYCENTREFORORALHEALTH,SINGAPORE': 'LEFT', 'ZONEH': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6602_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6602_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILETS': 'RIGHT'}, 'T': {'MEDICALCENTRE': 'RIGHT', 'KENTRIDGEWING': 'RIGHT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'RIGHT', 'MAINBUILDING': 'RIGHT', \"EMERGENCY/CHILDREN'SEMERGENCY\": 'STRAIGHT', 'NATIONALUNIVERSITYCENTREFORORALHEALTH,SINGAPORE': 'STRAIGHT', 'NATIONALUNIVERSITYHEARTCENTRE,SINGAPORE': 'RIGHT', 'ACUTEMEDICALUNIT1(AMU1)': 'RIGHT', 'ACUTEMEDICALUNIT2(AMU2)': 'RIGHT', 'MAINBUILDINGPHARMACY': 'RIGHT', 'G01-01': 'RIGHT', 'G01-11': 'STRAIGHT', 'DROP-OFF': 'STRAIGHT', 'TOILETS': 'RIGHT', 'MRT': 'RIGHT', 'TAXI': 'RIGHT', 'ATM': 'RIGHT', 'ZONE': 'LOCATIONAL', 'G': 'LOCATIONAL', 'LEVEL': 'LOCATIONAL', '1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6541_frame_0023_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6541_frame_0023_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'VIEWINGDECKS': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6622_frame_0015_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6622_frame_0015_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'MEDICALCENTRE': 'STRAIGHT', 'KENTRIDGEWING': 'STRAIGHT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'STRAIGHT', 'EMERGENCY(WALK-IN)': 'RIGHT', \"CHILDREN'SEMERGENCY(WALK-IN)\": 'RIGHT', 'NATIONALUNIVERSITYHEARTCENTRE,SINGAPORE': 'STRAIGHT', 'F01-01TOF01-18': 'STRAIGHT', 'MRT': 'STRAIGHT', 'TAXI': 'STRAIGHT', 'DROP-OFF': 'STRAIGHT', 'ZONEF': 'LOCATIONAL', 'LEVEL1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6446_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6446_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'RIGHT', 'BABYCAREROOM': 'RIGHT'}, 'T': {'#03-02TO#03-03': 'RIGHT', 'BREAKOUTAREA': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0055_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0055_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'TRAIN': ('LOCATIONAL', 'LOCATIONAL')}, 'T': {'NORTHSOUTHLINE': 'LOCATIONAL', 'JURONGEASTVIAWOODLANDS': 'LEFT', 'EASTWESTLINE': 'LOCATIONAL', 'TUASLINK': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6541_frame_0023_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6541_frame_0023_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LOCATIONAL', 'WHEELCHAIRACCESSIBILITY': 'LOCATIONAL'}, 'T': {'FUSIONSPOON': 'LEFT', 'TOILET': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6612_frame_0020_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6612_frame_0020_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'STAFFCARPARK': 'LOCATIONAL', 'CARPARK': ('LEFT', 'STRAIGHT'), 'CARPARKS4': 'LEFT', 'CARPARKS5': 'STRAIGHT', 'CARPARKS3': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6571_frame_0020_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6571_frame_0020_0.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'LEFT', 'CARPICKUP/DROPOFFVIALIFT': 'LEFT', 'BUSSTOP': 'LEFT'}, 'T': {'BUSSTOP4': 'LEFT', 'LOWERKENTRIDGERD': 'LEFT', 'PICK-UPPOINT': 'LEFT', 'BUSSERVICES': 'LOCATIONAL', 'EXITA': 'LOCATIONAL', 'TOWARDSDHOBYGHAUT8': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6542_frame_0026_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6542_frame_0026_0.jpg"
+        ],
+        "voted response": "{'S': {'LAKESIDEMRT': 'LEFT'}, 'T': {'LAKESIDEMRT': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6572_frame_0019_3.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6572_frame_0019_3.jpg"
+        ],
+        "voted response": "{'S': {'BUSSTOP': 'LEFT'}, 'T': {'BUSSERVICESTOWARDSHARBOURFRONT': 'LEFT', 'EXITA': 'LEFT', 'BUSSTOP3': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6563_frame_0034_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6563_frame_0034_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'LEFT'}, 'T': {'MORESHOPS': 'STRAIGHT', '4': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6524_frame_0022_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6524_frame_0022_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILETS': 'STRAIGHT', 'LIFTLOBBYA': 'STRAIGHT'}, 'T': {'TOILETS': 'STRAIGHT', 'LIFTLOBBYA': 'STRAIGHT', 'MEDICALCENTRE': 'RIGHT', 'PHARMACY@B03-01': 'LOCATIONAL', 'KENTRIDGEWING': 'RIGHT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'RIGHT', 'NUHSTOWERBLOCK': 'RIGHT', 'ZONEA': 'LOCATIONAL', 'LEVEL1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6539_frame_0021_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6539_frame_0021_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'LAKESIDEGREEN': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6425_frame_0020_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6425_frame_0020_0.jpg"
+        ],
+        "voted response": "{'S': {'J-WALK': 'RIGHT'}, 'T': {'PERENNIALBUSINESSCITY': 'STRAIGHT', 'JEM': 'STRAIGHT', 'J-WALK': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6560_frame_0027_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6560_frame_0027_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LEFT', 'BABYCAREROOM': 'LEFT', 'WHEELCHAIRACCESSIBILITY': 'LEFT'}, 'T': {'TOILETS': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6421_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6421_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'TOWERA(CLINICS)': 'STRAIGHT', 'VISITORLIFTLOBBYA': 'STRAIGHT', 'TOWERB(WARDS)': 'RIGHT', 'TOWERC(JCH)': 'RIGHT', 'EMERGENCY': 'LOCATIONAL', 'TOWERA': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6548_frame_0019_2.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6548_frame_0019_2.jpg"
+        ],
+        "voted response": "{'S': {'TRASH': 'RIGHT'}, 'T': {'SKATEPARK@LAKESIDEGARDEN': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0062_frame_0022_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0062_frame_0022_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'PASIRRIS': 'STRAIGHT-RIGHT', 'TUASLINK': 'STRAIGHT-RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6577_frame_0021_2.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6577_frame_0021_2.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': ('STRAIGHT', 'STRAIGHT', 'STRAIGHT', 'STRAIGHT'), 'HOSPITAL': ('RIGHT', 'STRAIGHT'), 'BUS': 'STRAIGHT'}, 'T': {'NUHMAINBLDG/NUS': 'STRAIGHT', 'LOWERKENTRIDGEROAD': 'STRAIGHT', 'PICK-UPPOINT': 'STRAIGHT', 'BUSSTOP3': 'STRAIGHT', '4': 'STRAIGHT', 'NUHMEDICALCTR/KENTRIDGEWING': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6544_frame_0021_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6544_frame_0021_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'LAKESIDEGREEN': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6439_frame_0021_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6439_frame_0021_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'NTUCLEARNINGHUB': 'LEFT', 'TAFEPTRAININGROOMS': 'LEFT', 'E2IROOM': 'LEFT', '02-02A': 'LOCATIONAL', '02-02B': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0044_frame_0011_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0044_frame_0011_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'LOCATIONAL'}, 'T': {'B1': 'LOCATIONAL', 'TE14': 'LOCATIONAL', 'ORCHARDMRT': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6598_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6598_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'MRT': 'RIGHT', 'TAXI': 'RIGHT', 'DROP-OFF': 'RIGHT', 'FOODCOURT': 'STRAIGHT'}, 'T': {'MRT': 'RIGHT', 'TAXI': 'RIGHT', 'DROP-OFF': 'RIGHT', 'WARDS20TO64': 'LOCATIONAL', 'FOODCOURT': 'STRAIGHT', 'ZONEF': 'LOCATIONAL', 'LEVEL1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6580_frame_0019_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6580_frame_0019_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'EMERGENCY': 'RIGHT', \"CHILDREN'SEMERGENCY\": 'RIGHT', 'NATIONALUNIVERSITYCENTREFORORALHEALTH,SINGAPORE': 'RIGHT', 'NUSYLLSOM': 'RIGHT', 'MEDICALCENTRE': 'LEFT', 'NATIONALUNIVERSITYCANCERINSTITUTE,SINGAPORE': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6543_frame_0031_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6543_frame_0031_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'LAKESIDEMRT': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6577_frame_0021_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6577_frame_0021_1.jpg"
+        ],
+        "voted response": "{'S': {'BUSSTOP': 'RIGHT'}, 'T': {'BUSSERVICESTOWARDSDHOBYGHAUT': 'RIGHT', 'EXITA': 'RIGHT', 'BUSSTOP4': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6592_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6592_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'LEFT', 'TAXISTAND': 'LEFT'}, 'T': {'TOILETS': 'LEFT', 'MRT': 'LEFT', 'TAXI': 'LEFT', 'DROP-OFF': 'LEFT', 'FOODCOURT': 'RIGHT', 'MEDICALCENTRE': 'LOCATIONAL', 'KENTRIDGEWING': 'STRAIGHT', 'WARDS2ATO9B': 'STRAIGHT', \"KHOOTECKPUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE\": 'STRAIGHT', 'NUHSTOWERBLOCK': 'STRAIGHT', 'MAINBUILDINGPHARMACY': 'LEFT', 'F01-01TOF01-04': 'LEFT', 'ZONE': 'LOCATIONAL', 'LEVEL': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6540_frame_0021_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6540_frame_0021_1.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'LAKESIDEMRT': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6548_frame_0019_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6548_frame_0019_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'LAKESIDEMRT': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6570_frame_0019_1.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6570_frame_0019_1.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'LEFT', 'MORESHOPS': 'STRAIGHT'}, 'T': {'MORESHOPS': 'STRAIGHT', 'B1': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6449_frame_0014_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6449_frame_0014_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'STRAIGHT', 'WHEELCHAIRACCESSIBILITY': 'STRAIGHT', 'BABYCAREROOM': 'STRAIGHT', 'PASSENGERLIFTS': 'LEFT'}, 'T': {'#04-01': 'RIGHT', '#04-02TO#04-04': 'STRAIGHT', '#04-03ATO#04-03D': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6555_frame_0022_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6555_frame_0022_0.jpg"
+        ],
+        "voted response": "{'S': {'WHEELCHAIRACCESSIBILITY': 'LEFT', 'BABYCAREROOM': 'LEFT', 'TOILET': 'LEFT', 'MORESHOPS': 'STRAIGHT'}, 'T': {'MORESHOPS': 'STRAIGHT', 'TOILETS': 'LEFT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6528_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6528_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILETS': 'LEFT', 'THETERRACE': 'STRAIGHT', 'LIFTS': 'STRAIGHT-RIGHT'}, 'T': {'COM3': 'STRAIGHT', 'THETERRACE': 'STRAIGHT', 'INNOVATION4.0': 'STRAIGHT', 'BIZ2': 'RIGHT', 'TOILETS': 'LEFT', 'LIFTS': 'STRAIGHT-RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6605_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6605_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'MORESTALLS': 'STRAIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6613_frame_0022_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6613_frame_0022_0.jpg"
+        ],
+        "voted response": "{'S': {}, 'T': {'MD1': 'LEFT', 'MD2': 'LEFT', 'CELS': 'LEFT', 'MD4': 'RIGHT', 'MD7': 'RIGHT', 'MD11': 'RIGHT', 'MD3': 'RIGHT'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6557_frame_0017_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_6557_frame_0017_0.jpg"
+        ],
+        "voted response": "{'S': {'TOILET': 'RIGHT', 'BABYCAREROOM': 'RIGHT', 'WHEELCHAIRACCESSIBILITY': 'RIGHT', 'PASSENGERLIFTS': 'RIGHT'}, 'T': {}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    },
+    {
+        "frame_path": "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0071_frame_0013_0.jpg",
+        "prompt_imgs": [
+            "/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset/IMG_0071_frame_0013_0.jpg"
+        ],
+        "voted response": "{'S': {'PASSENGERLIFTS': 'STRAIGHT', 'SUPERMARKET': 'LOCATIONAL', 'BABYCAREROOM': 'LOCATIONAL', 'TOILET': 'LOCATIONAL', 'WHEELCHAIRACCESSIBILITY': 'LOCATIONAL'}, 'T': {'LOBBYB': 'STRAIGHT', 'SUPERMARKET': 'LOCATIONAL'}}",
+        "vlm_approval": true,
+        "last_frame_prompted": false
+    }
+]

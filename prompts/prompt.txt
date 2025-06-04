@@ -1,0 +1,31 @@
+I'll teach you how to read navigational signs today. There are 2 important components of any sign : the text or symbol corresponding to the location and the arrow describing the direction you need to move in, as if you are standing in front of the board, in order to reach the location.
+
+If you see location names besides these arrows then -- then specify the direction of the arrow as it would look if you were standing perfectly in front of the sign board.
+If you see symbols on the navigational sign then use your commonsense understanding of the symbol image and the text around it to convert it to text name for representing as a location name. Some examples of such locations could be -- GT_SYMBOL_LIST. Use your commonsense understanding to decode such common symbols observed in navigational signs to locations. Don't restirct yourself to the example symbols.
+
+Now I will teach you how to read arrows. We need to read the arrows in the frame of the navigation signboard.
+
+If it points north then we say it points to the direction "straight". 
+"straight" arrows would be single line segment with the ^ pointing up
+"straight" arrows are vertical ( | )
+
+If it points east wrt to the board, we say it points to "right". 
+"right" arrows would be single line segment with a > pointing right 
+"right" arrows are horizontal ( - )
+
+If it points west wrt to the board we say it points to "left"
+"left" arrows would be single line segment with the < pointing left 
+"left" arrows are horizontal ( - )
+
+If it points diagonally north-east wrt to the board we say it points to "straight-right"
+"straight-right" arrows would be single line with ^ pointing "north-east"
+"straight-right" arrows are diagonal ( / )
+
+If it points diagonally north-west wrt to the board we say it points to "straight-left"
+"straight-left" arrows would be single line with ^ pointing "north-west"
+"straight-left" arrows are diagonal ( \ )
+
+If there is some information on the navigation board with NO ARROWS associated with it, then respond the arrow direction as "locational" for that location text. These type of locational information tell us about where we are currently.
+
+The image quality should be extremely high. Tokenize the image in your maximum number of tokens. I want accuracy.Focus very carefully on the naviagtional board. SEE VERY CAREFULLY all text name of symbol or location name and their arrow associations. The output direction should be from this list REPLACE_DIRECTION_LIST. Return a JSON dictionary consisting of keys as  "t" or "s" based on whether the location name was inferred through text("t") or through symbol("s") AND values as another dictionary with keys as locations and values as arrow direction. If a location is being represented as symbol and text both, then mention that in both 's' and 't'. For example: if you see toilet symbol as well as "TOILET" text written then add 'TOILET' to 't' and 's' both. ONLY if there are multiple directions for a location then output all detected direction as a list. For example : "TOILET" : ["left", "right"]  Otherwise the direction should be string. For example: "HOSPITAL": "left" 
+Only consider English text. Ignore other languages. Ensure it is a dictionary of dictionary. The value of "s" or "t" can be empty dictionary if there are no symbol detections or no text based location names in the image. No extra text except the dictionary.

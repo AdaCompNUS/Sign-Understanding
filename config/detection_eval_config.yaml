@@ -1,0 +1,39 @@
+# gemini or g-dino
+name: detection-eval
+mode: detection
+root: /home/ayush/arxiv
+
+exp: 
+  model_name: gemini
+  model_version: gemini-2.0-flash
+  api_key_path: keys/openai_api_key.yaml
+  gemini_api_key_path: keys/gemini_api_key.yaml
+  dataset_dir: gt/fullpipeline_dataset
+  detcn_gt: gt/gt_annotation.json
+  recg_pred: recognition_results/recognition_results.json
+  
+sam:
+  model_name: mobile-sam
+  box_thresh: 0.1
+  text_thresh: 0.1
+  nms_thresh: 0.45
+  device: cuda
+  caption: navigational sign boards
+  save_box: True
+  save_binary_masks: False
+  save_crops: False
+  nms_process: True
+  save_max_conf_box: False
+  remove_inner_box: False
+  remove_inner_box_margin: 20
+  output_ann_box_folder: detection_results/frames/selected_annotated
+  output_binary_mask_folder: detectionresults/frames/selected_binary
+  output_crop_folder: detection_results/frames/selected_crops
+  output_rotated_crop_folder: detection_results/frames/selected_crops_rotated
+  nms_process: True
+
+
+checkpoints:
+  grounding_dino_config_path: /home/ayush/sign-gpt/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py
+  grounding_dino_checkpoint_path: /home/ayush/models/groundingdino_swint_ogc.pth
+  mobile_sam_checkpoint: /home/ayush/models/mobile_sam.pt
