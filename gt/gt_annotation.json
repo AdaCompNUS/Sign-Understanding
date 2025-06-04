@@ -1,0 +1,6046 @@
+[
+    {
+        "imagePath": "IMG_0037_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1070,
+                    400,
+                    967,
+                    278
+                ],
+                "text labels": {
+                    "ORCHARD MRT@B1/B2": "straight",
+                    "B4": "locational",
+                    "LOBBY A": "right"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "right",
+                    "TOILET": "right",
+                    "WHEELCHAIR ACCESSIBILITY": "right",
+                    "BREASTFEEDING ROOM": "right",
+                    "BABYCARE ROOM": "right",
+                    "UP ESCALATOR": "straight",
+                    "MRT":"straight"
+                },
+                "mixed":{"TAXI STAND": "right",
+                "CAR PICKUP/DROPOFF VIA LIFT": "right",
+                "DEFIBRILLATOR": "right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0039_frame_0012.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    976,
+                    372,
+                    1077,
+                    212
+                ],
+                "text labels": {
+                    "ORCHARD MRT@B1/B2": "straight",
+                    "B4": "locational",
+                    "DROP OFF@L2": "straight",
+                    "ION PATERSON LINK@L2": "straight"
+                },
+                "symbol labels": {
+                    "MRT": "straight",
+                    "UP ESCALATOR": "straight"
+                },
+                "mixed":{"TAXI STAND": "straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0040_frame_0023.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    315,
+                    273,
+                    233,
+                    104
+                ],
+                "text labels": {
+                    "EXIT": "left"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    862,
+                    436,
+                    792,
+                    209
+                ],
+                "text labels": {
+                    "B4": "locational",
+                    "ION STATION(EVENT HALL)": "straight"
+                },
+                "symbol labels": {
+                    "TOILET": "left",
+                    "WHEELCHAIR ACCESSIBILITY": "left",
+                    "BREASTFEEDING ROOM": "left",
+                    "BABYCARE ROOM": "left"
+                }
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1326,
+                    651,
+                    77,
+                    35
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0041_frame_0018.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    965,
+                    461,
+                    1220,
+                    256
+                ],
+                "text labels": {
+                    "B4": "locational",
+                    "ORCHARD MRT@B1/B2": "straight",
+                    "LOBBY A": "straight"
+                    
+                },
+                "symbol labels": {
+                    "UP ESCALATOR": "straight",
+                    "PASSENGER LIFTS": "straight",
+                    "TOILET": "straight",
+                    "WHEELCHAIR ACCESSIBILITY": "straight",
+                    "BREASTFEEDING ROOM": "straight",
+                    "BABYCARE ROOM": "straight",
+                    "MRT": "straight"
+                },
+                "mixed":{"TAXI STAND": "straight",
+                "CAR PICKUP/DROPOFF VIA LIFT": "straight",
+                "DEFIBRILLATOR": "straight"
+            }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0042_frame_0022.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    847,
+                    368,
+                    842,
+                    185
+                ],
+                "text labels": {
+                    "B2": "locational",
+                    "TE14": "right",
+                    "ORCHARD MRT@B1": "right",
+                    "CONCIERGE@B1/L4": "straight",
+                    "LOBBY A": "right"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "right",
+                    "MRT": "right"
+                },
+                "mixed": {
+                    "DEFIBRILLATOR": "right",
+                    "CAR PICKUP/DROPOFF VIA LIFT": "right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0043_frame_0016.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    530,
+                    268,
+                    195,
+                    87
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1001,
+                    436,
+                    970,
+                    223
+                ],
+                "text labels": {
+                    "B2": "locational",
+                    "TE14": "straight",
+                    "ORCHARD MRT@B1": "straight",
+                    "LOBBY A": "left"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "left",
+                    "MRT": "straight",
+                    "UP ESCALATOR": "straight"
+                    
+                    
+                },
+                "mixed":{
+                    "DEFIBRILLATOR": "left",
+                "TAXI STAND": "left",
+                "CAR PICKUP/DROPOFF VIA LIFT": "left"
+            }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0044_frame_0011.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    859,
+                    401,
+                    1121,
+                    267
+                ],
+                "text labels": {
+                    "B1": "locational",
+                    "TE14": "straight",
+                    "ORCHARD MRT": "straight"
+                    
+                },
+                "symbol labels": {
+                    "MRT": "straight"
+                    },
+                "mixed": {"WHEELCHAIR ACCESSIBILITY": "straight"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    628,
+                    799,
+                    44,
+                    17
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0045_frame_0012.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    497,
+                    274,
+                    197,
+                    91
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1008,
+                    348,
+                    742,
+                    209
+                ],
+                "text labels": {
+                    "B1": "locational",
+                    "TE14": "straight",
+                    "ORCHARD MRT": "straight",
+                    "LOBBY A": "left"
+                    
+                    
+                },
+                "symbol labels": {
+                    "MRT": "straight",
+                    "PASSENGER LIFTS": "left",
+                    "TOILET": "left",
+                    "WHEELCHAIR ACCESSIBILITY": "left",
+                    "BREASTFEEDING ROOM": "left",
+                    "BABYCARE ROOM": "left"
+                    },
+                "mixed": {"DEFIBRILLATOR": "left",
+                "CAR PICKUP/DROPOFF VIA LIFT": "left"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0046_frame_0018.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    782,
+                    292,
+                    898,
+                    239
+                ],
+                "text labels": {
+                    "ION2@L1": "straight",
+                    "B1": "locational",
+                    "ATM": "straight",
+                    "CONCIERGE@B1": "straight"
+                },
+                "symbol labels": {
+                    "UP ESCALATOR": "straight"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0048_frame_0026.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    976,
+                    319,
+                    670,
+                    152
+                ],
+                "text labels": {
+                    "B1": "locational",
+                    "ION2@L1": "right",
+                    "ION STATION (EVENT HALL)@B4": "straight"
+                },
+                "symbol labels": {
+                    "UP ESCALATOR": "right",
+                    "DOWN ESCALATOR": "straight",
+                    "TOILET": "left",
+                    "WHEELCHAIR ACCESSIBILITY": "left",
+                    "BREASTFEEDING ROOM": "left",
+                    "BABYCARE ROOM": "left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0049_frame_0003.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    630,
+                    399,
+                    81,
+                    34
+                ],
+                "text labels": {
+                    "EXIT": "left"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    878,
+                    464,
+                    326,
+                    81
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0050_frame_0008.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    918,
+                    380,
+                    1051,
+                    301
+                ],
+                "text labels": {
+                    "ION STATION (EVENT HALL)@B4": "straight",
+                    "B2": "locational",
+                    "ION PATERSON LINK": "straight"
+                },
+                "symbol labels": {
+                    "DOWN ESCALATOR": "straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    174,
+                    225,
+                    201,
+                    94
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0051_frame_0005.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1030,
+                    363,
+                    1096,
+                    252
+                ],
+                "text labels": {
+                    "ION PATERSON LINK": "straight",
+                    "B2": "locational",
+                    "LOBBY A": "right",
+                    "ORCHARD MRT@B1/B2": "right"
+                },
+                "symbol labels": {
+                    "MRT": "right",
+                    "PASSENGER LIFTS": "right"
+                },
+                "mixed":{"TAXI STAND": "right",
+                "CAR PICKUP/DROPOFF VIA LIFT": "right"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0052_frame_0018.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    936,
+                    431,
+                    559,
+                    205
+                ],
+                "text labels": {
+                    "B2": "locational",
+                    "ORCHARD MRT@B1": "straight",
+                    "TE14": "straight",
+                    "@B1/B3/B4": "straight"
+                },
+                "symbol labels": {
+                    "MRT": "straight",
+                    "UP ESCALATOR": "straight",
+                    "ESCALATOR": "straight",
+                    "TOILET": "straight",
+                    "WHEELCHAIR ACCESSIBILITY": "straight",
+                    "BREASTFEEDING ROOM": "straight",
+                    "BABYCARE ROOM": "straight"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0053_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1232,
+                    152,
+                    178,
+                    83
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    933,
+                    371,
+                    997,
+                    144
+                ],
+                "text labels": {
+                    "TEL": "right",
+                    "NSL": "right"
+                },
+                "symbol labels": {
+                    "CUSTOMER SERVICE": "straight",
+                    "LOST AND FOUND": "straight"
+                }
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1250,
+                    604,
+                    71,
+                    28
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    1798,
+                    395,
+                    44,
+                    55
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0055_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    990,
+                    262,
+                    829,
+                    382
+                ],
+                "text labels": {
+                    "NORTH SOUTH LINE": "left",
+                    "TO JURONG EAST VIA WOODLANDS": "left",
+                    "Platform 4": "left",
+                    "EAST WEST LINE": "right",
+                    "TO TUAS LINK": "right",
+                    "Platform 2": "right"
+                },
+                "symbol labels": {
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1164,
+                    618,
+                    300,
+                    131
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1566,
+                    622,
+                    291,
+                    128
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    575,
+                    852,
+                    135,
+                    274
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0056_frame_0011.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    903,
+                    356,
+                    589,
+                    254
+                ],
+                "text labels": {
+                    "NORTH SOUTH LINE": "down",
+                    "EAST WEST LINE": "down",
+                    "TO MARINA SOUTH PIER": "down",
+                    "TO PASIR RIS": "down",
+                    "TO CHANGI AIRPORT": "down",
+                    "PLATFORM 1":"down",
+                    "PLATFORM 5": "down",
+                    "PLATFORM 3": "down"
+
+                },
+                "symbol labels": {
+                    }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1341,
+                    379,
+                    152,
+                    54
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    630,
+                    663,
+                    109,
+                    324
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0057_frame_0016.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    942,
+                    287,
+                    579,
+                    296
+                ],
+                "text labels": {
+                    "NORTH SOUTH LINE": "right",
+                    "TO JURONG EAST VIA WOODLANDS": "right",
+                    "PLATFORM 4": "right",
+                    "EAST WEST LINE": "left",
+                    "TO TUAS LINK": "left",
+                    "PLATFORM 2": "left"
+                },
+                "symbol labels": {
+                    }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    311,
+                    744,
+                    131,
+                    374
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    728,
+                    875,
+                    206,
+                    412
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0058_frame_0011.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1631,
+                    269,
+                    532,
+                    316
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    340,
+                    561,
+                    352,
+                    171
+                ],
+                "text labels": {
+                    "WAY OUT": "straight-right"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0059_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    836,
+                    225,
+                    800,
+                    344
+                ],
+                "text labels": {
+                    "EAST WEST LINE": "straight-left",
+                    "CIRCLE LINE": "down-left"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1176,
+                    480,
+                    81,
+                    112
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    119,
+                    646,
+                    106,
+                    90
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0060_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    923,
+                    472,
+                    574,
+                    274
+                ],
+                "text labels": {
+                    "BUS SERVICES TOWARDS": "left",
+                    "PASIR RIS": "left",
+                    "PLATFORM 1": "left",
+                    "PLATFORM 2": "left",
+                    "TUAS LINK": "left",
+                    "BUS STOP 3": "left",
+                    "BUS STOP 2": "left"
+                },
+                "symbol labels": {
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0062_frame_0022.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    470,
+                    450,
+                    478,
+                    194
+                ],
+                "text labels": {
+                    "LIFT/WAY OUT": "straight-left",
+                    "WAY OUT/LIFT": "straight-right",
+                    "EXIT A": "straight-left",
+                    "EXIT C": "straight-right",
+                    "CIRCLE LINE": "down-right"},
+                "symbol labels": {
+                    "PASSENGER LIFTS": ["straight-right","straight-left"],
+                    "WHEELCHAIR ACCESSIBILITY": ["straight-right","straight-left"]
+                    }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1651,
+                    478,
+                    316,
+                    135
+                ],
+                "text labels": {
+                    "BUS STOP 2": "down-right",
+                    "BUS STOP 3": "down-right",
+                    "PASIR RIS": "down-right",
+                    "PLATFORM 1": "down-right",
+                    "PLATFORM 2": "down-right",
+                    "TUAS LINK": "down-right"},
+                "symbol labels": {
+                }
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    864,
+                    816,
+                    113,
+                    43
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0063_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    163,
+                    290,
+                    240,
+                    86
+                ],
+                "text labels": {
+                    "CIRCLE LINE": "down-right"
+                },
+                "symbol labels": {
+                    }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    994,
+                    424,
+                    797,
+                    281
+                ],
+                "text labels": {
+                    "WAY OUT/LIFT TO STREET": "left",
+                    "THE STAR VISTA": "left",
+                    "THE STAR PERFORMING ARTS CENTRE": "left",
+                    "EXIT A": "left"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "left",
+                    "WHEELCHAIR ACCESSIBILITY": "left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0064_frame_0003.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    422,
+                    335,
+                    751,
+                    195
+                ],
+                "text labels": {
+                    "CIRCLE LINE": "straight"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1299,
+                    385,
+                    536,
+                    158
+                ],
+                "text labels": {
+                    "EAST WEST LINE": "right"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    976,
+                    657,
+                    201,
+                    60
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    909,
+                    705,
+                    112,
+                    32
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0065_frame_0018.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1020,
+                    351,
+                    865,
+                    235
+                ],
+                "text labels": {
+                    "VISTA EXCHANGE GREEN": "straight",
+                    "LIFT TO CIRCLE LINE": "straight",
+                    "CIRCLE LINE": "left"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "straight",
+                    "WHEELCHAIR ACCESSIBILITY": "straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    770,
+                    671,
+                    195,
+                    60
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1730,
+                    663,
+                    117,
+                    41
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0066_frame_0010.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1384,
+                    469,
+                    301,
+                    316
+                ],
+                "text labels": {
+                    "TAXI": "straight",
+                    "PICK-UP POINT": "straight",
+                    "BUS STOP 2": "straight",
+                    "PARK AVENUE ROCHESTER": "straight",
+                    "THE ROCHESTER MALL": "straight",
+                    "THE STAR VISTA": "right"
+                },
+                "symbol labels": {
+                    "WHEELCHAIR ACCESSIBILITY": "straight",
+                    "CAR PICKUP/DROPOFF": "straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    698,
+                    363,
+                    521,
+                    152
+                ],
+                "text labels": {
+                    "NORTH BUONA VISTA RD": "straight",
+                    "VISTA EXCHANGE GREEN": "straight",
+                    "LIFT TO CIRCLE LINE": "straight"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "straight",
+                    "WHEELCHAIR ACCESSIBILITY": "straight"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0067_frame_0007.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    894,
+                    414,
+                    770,
+                    128
+                ],
+                "text labels": {
+                    "ROCHESTER DRIVE": "straight",
+                    "THE STAR VISTA": "straight",
+                    "SHOP": "right"
+                    },
+                "symbol labels": {
+                    "WHEELCHAIR ACCESSIBILITY": "right"
+                },
+                "mixed": {"TOILET": "right"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0068_frame_0007.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    895,
+                    379,
+                    659,
+                    681
+                ],
+                "text labels": {
+                    "ONE-NORTH PARK: ROCHESTER EAST": "straight-left",
+                    "ONE-NORTH PARK: ROCHESTER WEST": "straight-left",
+                    "THE ROCHESTER RESIDENCES": "straight-left",
+                    "ROCHESTER MALL": "straight-left",
+                    "PARK AVENUE ROCHESTER": "straight-left",
+                    "THE STAR VISTA": "straight",
+                    "GSK ASIA HOUSE": "straight"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0069_frame_0011.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1060,
+                    247,
+                    186,
+                    148
+                ],
+                "text labels": {
+                    "B1 SHOPS": "down-right"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0070_frame_0012.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1001,
+                    373,
+                    1166,
+                    151
+                ],
+                "text labels": {
+                    "INDULGE THAIRAPY": "left",
+                    "WATSONS": "left",
+                    "YAKSON": "left",
+                    "LOBBY A": "right"
+                },
+                "symbol labels": {
+                    "TOILET": "right",
+                    "WHEELCHAIR ACCESSIBILITY": "right",
+                    "BABYCARE ROOM": "right",
+                    "PASSENGER LIFTS": "right",
+                    "INFORMATION DESK": "right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0071_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    999,
+                    456,
+                    648,
+                    179
+                ],
+                "text labels": {
+                    "LOBBY B": "straight"
+                },
+                "symbol labels": {
+                    "BABYCARE ROOM": "straight",
+                    "WHEELCHAIR ACCESSIBILITY": "straight",
+                    "TOILET": "straight",
+                    "PASSENGER LIFTS": "straight"
+                },
+                "mixed": {"SUPERMARKET": "straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0072_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1017,
+                    315,
+                    521,
+                    190
+                ],
+                "text labels": {
+                },
+                "symbol labels": {
+                    "BABYCARE ROOM": "straight",
+                    "TOILET": "straight"
+                },
+                "mixed":{
+                    "TAXI STAND": "straight",
+                    "COACH": "straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1370,
+                    358,
+                    143,
+                    71
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0073_frame_0016.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    935,
+                    423,
+                    520,
+                    227
+                ],
+                "text labels": {
+                    "LIFT TO PLATFORM": "straight"
+                },
+                "symbol labels": {
+                    "WHEELCHAIR ACCESSIBILITY": "straight",
+                    "PASSENGER LIFTS": "straight"
+                },
+                "mixed": {"MRT": "straight"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    771,
+                    678,
+                    105,
+                    45
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0074_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    912,
+                    436,
+                    420,
+                    175
+                ],
+                "text labels": {
+                    "LIFT TO PLATFORM": "left"
+                },
+                "symbol labels": {
+                    "WHEELCHAIR ACCESSIBILITY": "left",
+                    "PASSENGER LIFTS": "left"
+                },
+                "mixed": {"MRT": "left"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1623,
+                    537,
+                    77,
+                    85
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1706,
+                    521,
+                    91,
+                    108
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    1078,
+                    649,
+                    93,
+                    39
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0075_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    934,
+                    312,
+                    756,
+                    310
+                ],
+                "text labels": {
+                    "NORTH BUONA VISTA RD": "straight",
+                    "COMMONWEALTH AVE WEST": "straight",
+                    "BUS STOP 1": "straight",
+                    "BUS STOP 2": "straight",
+                    "TAXI / PICK-UP POINT": "straight",
+                    "THE STAR VISTA": "straight",
+                    "EXIT C": "straight"
+                },
+                "symbol labels": {
+                    "UP ESCALATOR": "straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    775,
+                    711,
+                    97,
+                    48
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    879,
+                    710,
+                    108,
+                    47
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0076_frame_0016.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    843,
+                    254,
+                    917,
+                    331
+                ],
+                "text labels": {
+                    "NORTH BUONA VISTA RD/THE METROPOLIS": "right",
+                    "MINISTRY OF EDUCATION/BIOPOLIS": "right",
+                    "EXIT D": "right",
+                    "CIVIL SERVICE COLLEGE": "right",
+                    "LIFT TO STREET": "right"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "right",
+                    "WHEELCHAIR ACCESSIBILITY": "right"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1651,
+                    286,
+                    532,
+                    300
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_0079_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    909,
+                    463,
+                    788,
+                    325
+                ],
+                "text labels": {
+                    "EXIT D": "straight",
+                    "NORTH BUONA VISTA RD/THE METROPOLIS": "straight",
+                    "MINISTRY OF EDUCATION/BIOPOLIS": "straight",
+                    "COMMONWEALTH AVE": "straight",
+                    "BUS STOP 3": "straight",
+                    "BUS STOP 5": "straight",
+                    "BUS STOP 6": "straight",
+                    "MRT": "right"
+                },
+                "symbol labels": {
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1078,
+                    853,
+                    106,
+                    48
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    393,
+                    734,
+                    71,
+                    112
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    288,
+                    706,
+                    129,
+                    155
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 4,
+                "boundingBox": [
+                    944,
+                    881,
+                    62,
+                    29
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 5,
+                "boundingBox": [
+                    1013,
+                    860,
+                    24,
+                    14
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6409_frame_0016.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    873,
+                    73,
+                    1639,
+                    173
+                ],
+                "text labels": {
+                    "LOBBY B":"straight", 
+                    "L2":"locational", 
+                    "WESTGATE TOWER":"right"},
+                "symbol labels": {
+                    "PASSENGER LIFTS":"straight",  
+                    "TOILET":"right", 
+                    "WHEELCHAIR ACCESSIBILITY":"right", 
+                    "FREIGHT LIFTS":"right"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1078,
+                    291,
+                    264,
+                    123
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1018,
+                    892,
+                    35,
+                    20
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6411_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1041,
+                    123,
+                    943,
+                    232
+                ],
+                "text labels": {
+                    "L2":"locational",  
+                    "LOBBY B":"straight-left"},
+                "symbol labels": {
+                    "ESCALATOR":"straight-left", 
+                    "PASSENGER LIFTS":"straight-left"},
+                "mixed": {"MRT":"straight-left"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6412_frame_0020.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    961,
+                    102,
+                    1158,
+                    178
+                ],
+                "text labels": {
+                    "L2":"locational", 
+                    "LOBBY A":"straight", 
+                    "WESTGATE TOWER":"straight-left"},
+                "symbol labels": {
+                    "PASSENGER LIFTS":"straight", 
+                    "TOILET":"right", 
+                    "WHEELCHAIR ACCESSIBILITY":"right"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6413_frame_0022.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1059,
+                    156,
+                    1024,
+                    137
+                ],
+                "text labels": {
+                    "L2":"locational", 
+                    "LOBBY B":"straight"},
+                "symbol labels": {
+                    "PASSENGER LIFTS":"straight", 
+                    "TOILET":"left", 
+                    "WHEELCHAIR ACCESSIBILITY":"left"
+                    },
+                "mixed": {"MRT":"straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6414_frame_0005.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1017,
+                    196,
+                    635,
+                    390
+                ],
+                "text labels": {
+                    "L2":"locational", 
+                    "MRT":"straight", 
+                    "LOBBY B":"straight"},
+                "symbol labels": {
+                    "PASSENGER LIFTS":"straight", 
+                    "TOILET":"left", 
+                    "WHEELCHAIR ACCESSIBILITY":"left", 
+                    "MRT":"straight"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1058,
+                    508,
+                    127,
+                    105
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6415_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    766,
+                    177,
+                    1150,
+                    324
+                ],
+                "text labels": {
+                    "L2":"locational", 
+                    "LOBBY B":"right", 
+                    "WESTGATE TOWER":"right"},
+                "symbol labels": {
+                    "PASSENGER LIFTS":"straight",
+                    "FREIGHT LIFTS":"right", 
+                    "TOILET":"right", 
+                    "WHEELCHAIR ACCESSIBILITY":"right"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    997,
+                    388,
+                    179,
+                    91
+                ],
+                "text labels": {"EXIT":"right"},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    331,
+                    781,
+                    36,
+                    16
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6416_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    588,
+                    490,
+                    1113,
+                    183
+                ],
+                "text labels": {
+                    "NG TENG FONG GENRAL HOSPITAL":"straight",
+                    "TOWER A":"straight", "CLINICS":"straight", 
+                    "TOWER B":"straight-right", 
+                    "WARDS":"straight-right" 
+                    },
+                "symbol labels": {},
+                "mixed": {
+                    "J-WALK":"straight",
+                    "EMERGENCY":"straight-right"
+            }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1553,
+                    498,
+                    728,
+                    186
+                ],
+                "text labels": {
+                    "JURONG COMMUNITY HOSPITAL":"straight-right", 
+                    "TOWER C":"straight-right", 
+                    "COMMUNITY HOSPITAL":"straight-right"},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    952,
+                    682,
+                    467,
+                    78
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    628,
+                    736,
+                    323,
+                    50
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6417_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    728,
+                    156,
+                    1001,
+                    323
+                ],
+                "text labels": {
+                    "NG TENG FONG GENRAL HOSPITAL":"straight",
+                    "TOWER A":"straight", 
+                    "CLINICS":"straight", 
+                    "TOWER B":"straight-right", 
+                    "WARDS":"straight-right"},
+                "symbol labels": {},
+                "mixed": {
+                    "EMERGENCY":"straight-right",
+                    "J-WALK":"straight" }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1434,
+                    242,
+                    363,
+                    194
+                ],
+                "text labels": {
+                    "JURONG COMMUNITY HOSPITAL":"straight-right", 
+                    "TOWER C":"straight-right", 
+                    "COMMUNITY HOSPITAL":"straight-right"},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    419,
+                    415,
+                    514,
+                    94
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    1366,
+                    440,
+                    168,
+                    55
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6418_frame_0018.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    932,
+                    235,
+                    828,
+                    394
+                ],
+                "text labels": {
+                    "TOWER C":"straight-right", 
+                    "COMMUNITY HOSPITAL":"straight-right", 
+                    "TOWER B":"straight-right", 
+                    "WARDS":"straight-right", 
+                    "EMERGENCY":"straight-right"},
+                "symbol labels": {
+                    "EMERGENCY":"straight-right"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    928,
+                    509,
+                    412,
+                    124
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6419_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    900,
+                    281,
+                    1720,
+                    277
+                ],
+                 "text labels": {
+                    "TOWER C":"straight-right", 
+                    "COMMUNITY HOSPITAL":"straight-right", 
+                    "TOWER B":"straight-right", 
+                    "WARDS":"straight-right", 
+                    "EMERGENCY":"straight-right"
+                    },
+                "symbol labels": {
+                    },
+                "mixed": {"EMERGENCY":"straight-right"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6420_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    974,
+                    221,
+                    1651,
+                    243
+                ],
+               "text labels": {
+                        "TOWER A":"locational",
+                        "TOWER A(CLINICS)":"straight", 
+                        "TOWER B(WARDS)":"right", 
+                        "TOWER C(JCH)":"right", 
+                        "VISITOR LIFT LOBBY A":"straight"},
+                "symbol labels": {
+                    "PASSENGER LIFTS":"straight"},
+                "mixed": {"EMERGENCY":"right"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    693,
+                    690,
+                    150,
+                    54
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    954,
+                    613,
+                    217,
+                    33
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6421_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    958,
+                    230,
+                    1399,
+                    469
+                ],
+                "text labels": {
+                    "TOWER A":"locational",
+                    "TOWER A(CLINICS)":"straight", 
+                    "TOWER B(WARDS)":"right", 
+                    "TOWER C(JCH)":"right", 
+                    "VISITOR LIFT LOBBY A":"straight"
+                },
+                "symbol labels": {
+                    "EMERGENCY":"right", 
+                    "PASSENGER LIFTS":"straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1349,
+                    790,
+                    152,
+                    66
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1787,
+                    720,
+                    137,
+                    45
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6422_frame_0012.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    951,
+                    298,
+                    1888,
+                    286
+                ],
+                "text labels": {
+                    "TOWER A":"locational",
+                    "TOWER B(WARDS)": "straight",
+                    "TOWER C(JCH)": "straight",
+                    "DEVAN NAIR INSTITUTE":"straight",
+                    "IMM":"straight",
+                    "PUBLIC LIFT LOBBY(OPEN 24 HOURS)":"straight"
+                },
+                "symbol labels": {
+                    "TOILET":"right",
+                    "WHEELCHAIR ACCESSIBILITY":"right",
+                    "PASSENGER LIFTS":"right"
+                },
+                "mixed": {"EMERGENCY":"straight"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    590,
+                    765,
+                    201,
+                    35
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6423_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    960,
+                    256,
+                    1922,
+                    321
+                ],
+                "text labels": {
+                    "TOWER A":"locational",
+                    "DEVAN NAIR INSTITUTE": "straight-right",
+                    "VISITOR LIFT LOBBY A": "left",
+                    "TOWER B(WARDS)": "right",
+                    "TOWER C(JCH)": "right"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "left"
+                },
+                "mixed": {"EMERGENCY":"right"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1815,
+                    689,
+                    177,
+                    48
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6424_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    388,
+                    390,
+                    762,
+                    193
+                ],
+                "text labels": {
+                    "PERENNIAL BUSINESS CITY": "straight",
+                    "JEM": "straight",
+                    "J-WALK": "straight"
+                },
+                "symbol labels": {},
+                "mixed": {"J-WALK": "straight"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1364,
+                    362,
+                    1115,
+                    205
+                ],
+                "text labels": {
+                    "TOWER B": "straight",
+                    "WARDS": "straight",
+                    "TOWER C": "straight",
+                    "COMMUNITY HOSPITAL" : "straight"
+                },
+                "symbol labels": {},
+                "mixed": {"EMERGENCY": "straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6425_frame_0020.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    612,
+                    405,
+                    352,
+                    164
+                ],
+                "text labels": {
+                    "PERENNIAL BUSINESS CITY": "straight",
+                    "JEM": "straight",
+                    "J-WALK": "straight"
+                },
+                "symbol labels": {
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1280,
+                    308,
+                    952,
+                    293
+                ],
+                "text labels": {
+                    "TOWER B": "straight",
+                    "WARDS": "straight",
+                    "TOWER C": "straight",
+                    "COMMUNITY HOSPITAL": "straight"
+                },
+                "symbol labels": {
+                     "EMERGENCY": "straight"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6426_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1019,
+                    606,
+                    552,
+                    74
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    961,
+                    679,
+                    179,
+                    25
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    705,
+                    620,
+                    51,
+                    24
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6427_frame_0018.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    934,
+                    247,
+                    1870,
+                    210
+                ],
+                "text labels": {
+                    "TOWER B" : "locational",
+                    "ADMISSIONS & BUSINESS OFFICE": "straight",
+                    "PERENNIAL BUSINESS CITY": "straight",
+                    "JEM": "straight", 
+                    "MRT": "straight",
+                    "WARDS": "straight",
+                    "DISCHARGE PHARMACY" : "straight",
+                    "EMERGENCY" : "straight",
+                    "TOWER C(JCH)":"left"
+                },
+                "symbol labels": {
+                    "MRT": "straight",
+                    "PHARMACY" : "straight",
+                    "EMERGENCY" : "straight"
+                },
+                "mixed": {"VISITOR LIFTS": "straight",
+            "MRT": "straight"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    960,
+                    590,
+                    236,
+                    31
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6428_frame_0019.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    778,
+                    241,
+                    1499,
+                    458
+                ],
+                "text labels": {
+                    "TOWER B" : "locational",
+                    "ADMISSIONS & BUSINESS OFFICE": "straight",
+                    "PERENNIAL BUSINESS CITY": "straight",
+                    "JEM": "straight", 
+                    "MRT": "straight",
+                    "WARDS": "straight",
+                    "DISCHARGE PHARMACY" : "straight",
+                    "EMERGENCY" : "straight",
+                    "TOWER C(JCH)":"left"
+                },
+                "symbol labels": {
+                    "MRT": "straight",
+                    "PASSENGER LIFTS": "straight", 
+                    "PHARMACY" : "straight",
+                    "EMERGENCY" : "straight"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6429_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    959,
+                    257,
+                    1919,
+                    236
+                ],
+                "text labels": {
+                    "TOWER B":"locational",
+                    "EMERGENCY": "left",
+                    "PERENNIAL BUSINESS CITY":"straight-right",
+                    "JEM":"straight-right",
+                    "ISOLATION WARD":"left",
+                    "RADIOLOGY (TOWER B)":"left",
+                    "DISCHARGE PHARMACY":"straight-right"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "left",
+                    "ESCALATOR": "left",
+                    "INFORMATION DESK": "left",
+                    "CAR PICKUP/DROPOFF VIA LIFT": "left", 
+                    "PHARMACY":"straight-right"
+                    },
+                "mixed": {"MRT":"straight",
+                "TAXI STAND": "left"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    825,
+                    558,
+                    62,
+                    27
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    991,
+                    605,
+                    313,
+                    40
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6430_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1080,
+                    281,
+                    1258,
+                    477
+                ],
+                "text labels": {
+                    "TOWER B":"locational",
+                    "EMERGENCY": "left",
+                    "PERENNIAL BUSINESS CITY":"straight-right",
+                    "JEM":"straight-right",
+                    "ISOLATION WARD":"left",
+                    "RADIOLOGY (TOWER B)":"left",
+                    "DISCHARGE PHARMACY":"straight-right"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "left",
+                    "ESCALATOR": "left",
+                    "INFORMATION DESK": "left",
+                    "TAXI STAND": "left",
+                    "CAR PICKUP/DROPOFF VIA LIFT": "left", 
+                    "PHARMACY":"straight-right",
+                    "MRT":"straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1666,
+                    598,
+                    72,
+                    37
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6431_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    959,
+                    262,
+                    1919,
+                    244
+                ],
+                "text labels": {
+                    "TOWER B": "locational",
+                    "WARDS": "left",
+                    "VISITOR SELF-REGISTRATION": "left",
+                    "KIDNEY UNIT": "left",
+                    "EMERGENCY VISITOR LOUNGE(VIA LEVEL1)": "right",
+                    "PERENNIAL BUSINESS CITY": "right",
+                    "JEM":"right",
+                    "MRT":"right"
+                },
+                "symbol labels": {
+                    "TOILET": "right",
+                    "WHEELCHAIR ACCESSIBILITY":"right"
+                    
+                },
+                "mixed": {"PASSENGER LIFTS": "left",
+                "MRT":"right"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1694,
+                    493,
+                    56,
+                    62
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6432_frame_0018.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    958,
+                    263,
+                    1920,
+                    237
+                ],
+                "text labels": {
+                    "TOWER B": "locational",
+                    "TOWER A(CLINICS)": "straight",
+                    "TOWER C(JCH)": "right",
+                    "WARDS": "right",
+                    "VISITOR SELF-REGISTRATION": "right",
+                    "KIDNEY UNIT": "right",
+                    "EMERGENCY": "straight"
+                },
+                "symbol labels": {},
+                "mixed": {"PASSENGER LIFTS": "right"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    944,
+                    586,
+                    308,
+                    37
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1053,
+                    570,
+                    43,
+                    18
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    960,
+                    620,
+                    147,
+                    16
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6433_frame_0025.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    744,
+                    224,
+                    1427,
+                    459
+                ],
+                "text labels": {
+                    "TOWER B": "locational",
+                    "TOWER A(CLINICS)": "straight",
+                    "TOWER C(JCH)": "right",
+                    "WARDS": "right",
+                    "VISITOR SELF-REGISTRATION": "right",
+                    "KIDNEY UNIT": "right",
+                    "EMERGENCY": "straight"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6434_frame_0023.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1058,
+                    219,
+                    1713,
+                    385
+                ],
+                "text labels": {
+                    "TOWER B": "locational",
+                    "TOWER A(CLINICS)": "straight",
+                    "TOWER C(JCH)": "right",
+                    "WARDS": "right",
+                    "VISITOR SELF-REGISTRATION": "right",
+                    "KIDNEY UNIT": "right",
+                    "EMERGENCY": "straight"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "right"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1823,
+                    605,
+                    54,
+                    21
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1752,
+                    626,
+                    332,
+                    47
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6435_frame_0018.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    958,
+                    289,
+                    1918,
+                    237
+                ],
+                "text labels": {
+                    "TOWER B": "locational",
+                    "TOWER A(CLINICS)": "straight",
+                    "TOWER C(JCH)": "straight",
+                    "WARDS": "straight",
+                    "ADMISSIONS & BUSINESS OFFICE": "straight-right",
+                    "EMERGENCY": "straight",
+                    "KIDNEY UNIT": "straight"
+                },
+                "symbol labels": {
+                    
+                },
+                "mixed": {"PASSENGER LIFTS": "straight"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1074,
+                    627,
+                    33,
+                    17
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6436_frame_0021.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    802,
+                    284,
+                    1578,
+                    547
+                ],
+                "text labels": {
+                    "TOWER B": "locational",
+                    "TOWER A(CLINICS)": "straight",
+                    "TOWER C(JCH)": "straight",
+                    "WARDS": "straight",
+                    "ADMISSIONS & BUSINESS OFFICE": "straight-right",
+                    "EMERGENCY": "straight",
+                    "KIDNEY UNIT": "straight"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1509,
+                    653,
+                    102,
+                    58
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1788,
+                    652,
+                    47,
+                    24
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6437_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    920,
+                    246,
+                    1835,
+                    408
+                ],
+                "text labels": {
+                    "DEVAN NAIR INSTITUTE FOR EMPLOYMENT AND EMPLOYABILITY": "straight"
+                },
+                "symbol labels": {},
+                "mixed": {"J-WALK": "straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6439_frame_0021.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    893,
+                    253,
+                    383,
+                    439
+                ],
+                "text labels": {
+                    "NTUC LEARNIN GHUB": "left",
+                    "TAFEP TRAININ GROOMS": "left",
+                    "E2I ROOM": "left",
+                    "02-02A":"left",
+                    "02-02B":"left"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    128,
+                    491,
+                    148,
+                    60
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6440_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    945,
+                    323,
+                    675,
+                    348
+                ],
+                "text labels": {
+                    "COURTYARD": "left",
+                    "#03-02 TO #03-03": "straight"
+                },
+                "symbol labels": {
+                    "TOILET": "straight",
+                    "BABYCARE ROOM": "straight", 
+                    "WHEELCHAIR ACCESSIBILITY":"straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    66,
+                    821,
+                    98,
+                    74
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6441_frame_0016.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    939,
+                    241,
+                    435,
+                    412
+                ],
+                "text labels": {
+                    "COURTYARD": "left",
+                    "#03-02 TO #03-03": "straight"
+                },
+                "symbol labels": {
+                    "TOILET": "straight",
+                    "BABYCARE ROOM": "straight",
+                    "WHEELCHAIR ACCESSIBILITY": "straight"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6442_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    906,
+                    217,
+                    586,
+                    332
+                ],
+                "text labels": {
+                    "COURTYARD": "right",
+                    "#03-01": "straight"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6443_frame_0023.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1261,
+                    198,
+                    533,
+                    337
+                ],
+                "text labels": {
+                    "COURTYARD": "right",
+                    "#03-01": "straight"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6444_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    993,
+                    208,
+                    861,
+                    414
+                ],
+                "text labels": {
+                    "#03-01": "right",
+                    "#03-02 TO #03-03": "left",
+                    "COURTYARD": "left"
+                },
+                "symbol labels": {
+                    "TOILET": "right",
+                    "BABYCARE ROOM": "right",
+                    "WHEELCHAIR ACCESSIBILITY": "right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6445_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    873,
+                    298,
+                    585,
+                    592
+                ],
+                "text labels": {
+                    "#03-01": "right",
+                    "#03-02 TO #03-03": "right",
+                    "COURTYARD": "left"
+                },
+                "symbol labels": {
+                    "TOILET": "right",
+                    "BABYCARE ROOM": "right",
+                    "WHEELCHAIR ACCESSIBILITY":"right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6446_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    933,
+                    227,
+                    721,
+                    378
+                ],
+                "text labels": {
+                    "#03-02 TO #03-03": "left",
+                    "BREAKOUT AREA": "right"
+                },
+                "symbol labels": {
+                    "TOILET": "left",
+                    "BABYCARE ROOM": "left",
+                    "WHEELCHAIR ACCESSIBILITY": "left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6447_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    905,
+                    255,
+                    578,
+                    300
+                ],
+                "text labels": {
+                    "#04-01 TO #04-02": "right",
+                    "#04-03A TO #04-03D": "right",
+                    "#04-04": "right",
+                    "#04-05 TO #04-10": "left"
+                },
+                "symbol labels": {
+                    "TOILET": "left",
+                    "BABYCARE ROOM": "left",
+                    "WHEELCHAIR ACCESSIBILITY": "left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6448_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    958,
+                    310,
+                    577,
+                    493
+                ],
+                "text labels": {
+                    "#04-01 TO #04-02": "right",
+                    "#04-03A TO #04-03D": "right",
+                    "#04-04": "right",
+                    "#04-05 TO #04-10": "left"
+                },
+                "symbol labels": {
+                    "TOILET": "left",
+                    "BABYCARE ROOM": "left",
+                    "WHEELCHAIR ACCESSIBILITY": "left"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    972,
+                    786,
+                    129,
+                    120
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1643,
+                    580,
+                    66,
+                    106
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6449_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    914,
+                    260,
+                    700,
+                    433
+                ],
+                "text labels": {
+                    "#04-01": "right",
+                    "#04-02 TO #04-04": "straight",
+                    "#04-03A TO #04-03D": "straight"
+                },
+                "symbol labels": {
+                    "TOILET": "straight",
+                    "BABYCARE ROOM": "straight",
+                    "WHEELCHAIR ACCESSIBILITY":"straight",
+                    "PASSENGER LIFTS": "left"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    990,
+                    738,
+                    54,
+                    27
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6450_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    755,
+                    278,
+                    506,
+                    548
+                ],
+                "text labels": {
+                    "#04-01": "right",
+                    "#04-02 TO #04-04": "straight",
+                    "#04-03A TO #04-03D": "straight"
+                },
+                "symbol labels": {
+                    "TOILET": "straight",
+                    "BABYCARE ROOM": "straight",
+                    "PASSENGER LIFTS": "left",
+                    "WHEELCHAIR ACCESSIBILITY": "straight"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6451_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    989,
+                    242,
+                    639,
+                    364
+                ],
+                "text labels": {
+                    "#03-02":"straight",
+                    "COURTYARD":"right"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    951,
+                    683,
+                    54,
+                    25
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6452_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    791,
+                    249,
+                    481,
+                    374
+                ],
+                "text labels": {
+                    "#03-02": "straight",
+                    "COURTYARD": "right"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    988,
+                    648,
+                    87,
+                    68
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6524_frame_0022.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    912,
+                    416,
+                    1720,
+                    378
+                ],
+                "text labels": {
+                    "KENT RIDGE WING": "right",
+                    "NUHS TOWER BLOCK": "right",
+                    "MEDICAL CENTRE": "right",
+                    "ZONE A": "locational",
+                    "NATIONAL UNIVERSITY CANCER INSTITUTE, SINGAPORE":"right",
+                    "PHARMACY@B03-01":"right",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE":"right",
+                    "ZONE B": "right",
+                    "ZONE C": "right",
+                    "ZONE D": "right",
+                    "ZONE E": "right",
+                    "ZONE T": "right"
+                },
+                "symbol labels": {
+                    "TOILET": "straight",
+                    "PASSENGER LIFTS": "straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    796,
+                    931,
+                    204,
+                    40
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6525_frame_0025.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    959,
+                    300,
+                    1348,
+                    355
+                ],
+                "text labels": {
+                    "ZONE A": "locational",
+                    "ZONE B": "left",
+                    "ZONE C": "left",
+                    "ZONE D": "left",
+                    "ZONE E": "left",
+                    "ZONE F": "straight",
+                    "ZONE G": "straight",
+                    "ZONE H": "straight",
+                    "MEDICAL CENTRE": "left",
+                    "KENT RIDGE WING": "left",
+                    "MAIN BUILDING" :"straight",
+                    "NATIONAL UNIVERSITY CANCER INSTITUTE, SINGAPORE":"left",
+                    "PHARMACY@B03-01":"left",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE":"left",
+                    "NATIONAL UNIVERSITY HEART CENTRE, SINGAPORE":"straight",
+                    "EMERGENCY/CHILDREN'S EMERGENCY":"straight",
+                    "NATIONAL UNIVERSITY CENTRE FOR ORAL HEALTH, SINGAPORE":"straight"
+
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6526_frame_0021.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1116,
+                    300,
+                    632,
+                    506
+                ],
+                "text labels": {
+                    "GRADUATE STUDENTS LOUNGE": "right",
+                    "MEETING ROOM 4": "right"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6527_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    923,
+                    260,
+                    1290,
+                    285
+                ],
+                "text labels": {
+                    "COM1 & COM2": "straight",
+                    "BIZ2": "left"
+                },
+                "symbol labels": {},
+                "mixed": {
+                    "BUS STOP": "straight",
+                    "CAR PARK 13": "straight",
+                    "SECURITY POST@COM2": "straight"
+                    
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6528_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    878,
+                    316,
+                    1313,
+                    318
+                ],
+                "text labels": {
+                    "COM3": "straight",
+                    "INNOVATION 4.0": "straight",
+                    "BIZ2": "right"
+                },
+                "symbol labels": {},
+                "mixed": {"TOILETS":"left",
+                "LIFTS": "right",
+                "THE TERRACE RESTAURANT": "straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6538_frame_0028.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    740,
+                    229,
+                    413,
+                    94
+                ],
+                "text labels": {
+                    "LAKESIDE GREEN": "left"
+                },
+                "symbol labels": {
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1295,
+                    184,
+                    575,
+                    117
+                ],
+                "text labels": {},
+                "symbol labels": {},
+                "mixed": {"LAKESIDE MRT": "right"}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1296,
+                    297,
+                    577,
+                    116
+                ],
+                "text labels": {
+                    "LAKESIDE HOUSE": "right"
+                },
+                "symbol labels": {
+                    "BABYCARE ROOM": "right",
+                    "TOILET": "right",
+                    "RESTAURANT":"right",
+                    "WHEELCHAIR ACCESSIBILITY":"right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6539_frame_0021.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    638,
+                    195,
+                    597,
+                    147
+                ],
+                "text labels": {},
+                "symbol labels": {},
+                "mixed": {"LAKESIDE MRT": "left"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1312,
+                    230,
+                    587,
+                    152
+                ],
+                "text labels": {
+                    "LAKESIDE GREEN":"right"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    630,
+                    301,
+                    612,
+                    127
+                ],
+                "text labels": {
+                    "LAKESIDE HOUSE": "left"
+                },
+                "symbol labels": {
+                    "BABYCARE ROOM": "left",
+                    "WHEELCHAIR ACCESSIBILITY": "left",
+                    "TOILET": "left",
+                    "RESTAURANT":"left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6540_frame_0021.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    576,
+                    217,
+                    531,
+                    91
+                ],
+                "text labels": {
+                   "CHINESE GARDEN":"left",
+                   "CLUSIA COVE":"left"
+                },
+                "symbol labels": {
+                    "TOILET":"left",
+                    "WHEELCHAIR ACCESSIBILITY":"left",
+                    "BABYCARE ROOM":"left"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1177,
+                    237,
+                    474,
+                    94
+                ],
+                 "text labels": {},
+                "symbol labels": {},
+                "mixed": {"LAKESIDE MRT": "right"}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    574,
+                    321,
+                    525,
+                    87
+                ],
+                "text labels": {},
+                "symbol labels": {
+                    "TOILET":"left",
+                    "WHEELCHAIR ACCESSIBILITY":"left"
+                },
+                "mixed": {"FUSION SPOON RESTAURANT":"left"}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    574,
+                    410,
+                    529,
+                    87
+                ],
+                "text labels": {
+                    "ENTRANCE PAVILION":"left",
+                    "LAKESIDE FIELD":"left"
+                },
+                "symbol labels": {
+                    "INFORMATION DESK":"left",
+                    "CAR PICKUP/DROPOFF":"left",
+                    "PARKING":"left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6541_frame_0023.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    826,
+                    258,
+                    305,
+                    55
+                ],
+                "text labels": {},
+                "symbol labels": {
+                    "TOILET":"left",
+                    "WHEELCHAIR ACCESSIBILITY":"left"
+                },
+                "mixed": {"FUSION SPOON RESTAURANT":"left"
+            }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    827,
+                    323,
+                    301,
+                    50
+                ],
+                "text labels": {
+                    "VIEWING DECKS":"left"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    826,
+                    390,
+                    301,
+                    56
+                ],
+                "text labels": {
+                    "PASSION WAVE":"left",
+                    "CHINESE GARDEN":"left"
+                },
+                "symbol labels": {
+                    "TOILET":"left",
+                    "WHEELCHAIR ACCESSIBILITY":"left",
+                    "RESTAURANT":"left",
+                    "BABYCARE ROOM":"left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6542_frame_0026.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    787,
+                    345,
+                    448,
+                    95
+                ],
+                "text labels": {},
+                "symbol labels":{},
+                "mixed": {"LAKESIDE MRT":"left"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1287,
+                    363,
+                    410,
+                    89
+                ],
+                "text labels": {
+                    "CLUSIA COVE":"right"
+                },
+                "symbol labels": {
+                    "TOILET":"right",
+                    "WHEELCHAIR ACCESSIBILITY":"right",
+                    "BABYCARE ROOM":"right"
+                }
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1288,
+                    439,
+                    409,
+                    75
+                ],
+                "text labels": {
+                    "ENTRANCE PAVILION": "right",
+                    "LAKESIDE FIELD": "right"
+                },
+                "symbol labels": {
+                    "INFORMATION DESK":"right",
+                    "CAR PICKUP/DROPOFF":"right",
+                    "PARKING":"right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6543_frame_0031.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    793,
+                    195,
+                    520,
+                    209
+                ],
+                "text labels": {
+                    "ENTRANCE PAVILION": "left"
+                },
+                "symbol labels": {
+                    "PARKING": "left",
+                    "CAR PICKUP/DROPOFF": "left",
+                    "INFORMATION DESK": "left",
+                    "DRINKING WATER":"left"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1288,
+                    294,
+                    344,
+                    143
+                ],
+                "text labels": {
+                },
+                "symbol labels": {
+                },
+                "mixed": {"LAKESIDE MRT": "right"}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    791,
+                    305,
+                    529,
+                    148
+                ],
+                "text labels": {
+                    "CHINESE GARDEN": "left"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    1284,
+                    387,
+                    355,
+                    123
+                ],
+                "text labels": {
+                    "LAKESIDE HOUSE": "right"
+                },
+                "symbol labels": {
+                    "BABYCARE ROOM": "right",
+                    "TOILET": "right",
+                    "WHEELCHAIR ACCESSIBILITY":"right",
+                    "RESTAURANT":"right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6544_frame_0021.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    683,
+                    313,
+                    440,
+                    89
+                ],
+                "text labels": {
+                    "ENTRANCEPAVILION": "left"
+                    
+                },
+                "symbol labels": {
+                    "PARKING": "left",
+                    "INFORMATION DESK": "left",
+                    "CAR PICKUP/DROPOFF": "left",
+                    "DRINKING WATER": "left"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1152,
+                    338,
+                    373,
+                    93
+                ],
+                "text labels": {
+                     "LAKESIDE GREEN": "right"
+                },
+                "symbol labels": {}
+               
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    681,
+                    391,
+                    439,
+                    68
+                ],
+                "text labels": {
+                     "CHINESEGARDEN": "left"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    1153,
+                    423,
+                    382,
+                    77
+                ],
+                "text labels": {
+                    
+                    
+                },
+                "symbol labels": {
+                
+                },
+                "mixed": {"LAKESIDE MRT": "right"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6546_frame_0019.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    593,
+                    272,
+                    478,
+                    85
+                ],
+                "text labels": { 
+                },
+                "symbol labels": {
+                   
+                },
+                "mixed" : { "LAKESIDE MRT": "left"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1171,
+                    244,
+                    519,
+                    93
+                ],
+                "text labels": {
+                    "RAINFOREST PAVILION": "right"
+                },
+                "symbol labels": {
+                    "BABYCARE ROOM": "right",
+                    "TOILET": "right",
+                    "RESTAURANT":"right"
+                }
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    592,
+                    355,
+                    474,
+                    78
+                ],
+                "text labels": {
+                    "LAKESIDE HOUSE": "left"
+                },
+                "symbol labels": {
+                    "BABYCARE ROOM": "left",
+                    "TOILET": "left",
+                    "WHEELCHAIR ACCESSIBILITY":"left",
+                    "RESTAURANT":"left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6548_frame_0019.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    549,
+                    108,
+                    650,
+                    173
+                ],
+                "text labels": {
+                   
+                },
+                "symbol labels": {
+                                  },
+                "mixed": { "LAKESIDE MRT": "left"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1202,
+                    183,
+                    478,
+                    141
+                ],
+                "text labels": {
+                    "RAINFOREST PAVILION": "right"
+                },
+                "symbol labels": {
+                    "BABYCARE ROOM": "right",
+                    "TOILET": "right",
+                    "RESTAURANT":"right"
+                }
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1210,
+                    293,
+                    502,
+                    127
+                ],
+                "text labels": {
+                    "SKATEPARK@LAKESIDE GARDEN": "right"
+                },
+                "symbol labels": {"DRINKING WATER": "right"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6550_frame_0020.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1016,
+                    215,
+                    777,
+                    228
+                ],
+                "text labels": {"1": "locational"},
+                "symbol labels": {
+                    "TOILET": "straight",
+                    "WHEELCHAIR ACCESSIBILITY": "straight",
+                    "PASSENGER LIFTS": "straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1026,
+                    807,
+                    64,
+                    27
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1504,
+                    855,
+                    41,
+                    24
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6551_frame_0019.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1007,
+                    192,
+                    642,
+                    187
+                ],
+                "text labels": {
+                    "MORE SHOPS": "straight",
+                    "1": "locational"
+                },
+                "symbol labels": {
+                    "RESTAURANT": "straight"
+                    
+                },
+                "mixed": {"LRT":"straight"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    697,
+                    682,
+                    37,
+                    24
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6552_frame_0020.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    874,
+                    254,
+                    600,
+                    243
+                ],
+                "text labels": {"1": "locational"
+                },
+                "symbol labels": {
+                    "TOILET": "right",
+                    "WHEELCHAIR ACCESSIBILITY": "right"
+                },
+                "mixed": {"LRT": "straight"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1245,
+                    611,
+                    50,
+                    60
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1124,
+                    709,
+                    32,
+                    32
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6554_frame_0021.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1004,
+                    260,
+                    604,
+                    170
+                ],
+                "text labels": {
+                    "2": "locational"
+                },
+                "symbol labels": {
+                    "TOILET": "straight",
+                    "BABYCARE ROOM": "straight",
+                    "WHEELCHAIR ACCESSIBILITY": "straight",
+                    "PASSENGER LIFTS": "left"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    980,
+                    714,
+                    108,
+                    31
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    980,
+                    684,
+                    60,
+                    25
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6555_frame_0022.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    965,
+                    213,
+                    709,
+                    197
+                ],
+                "text labels": {
+                    "MORE SHOPS": "straight",
+                    "TOILETS": "left",
+                    "2": "locational"
+                },
+                "symbol labels": {
+                    "BABYCARE ROOM": "left",
+                    "TOILET": "left",
+                    "WHEELCHAIR ACCESSIBILITY":"left",
+                    "RESTAURANT":"straight"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6556_frame_0021.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    999,
+                    195,
+                    619,
+                    187
+                ],
+                "text labels": {
+                    "2": "locational",
+                    "MORE SHOPS": "straight"
+                },
+                "symbol labels": {
+                    "TOILET": "right",
+                    "BABYCARE ROOM": "right",
+                    "PASSENGER LIFTS": "straight",
+                    "WHEELCHAIR ACCESSIBILITY": "right"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    809,
+                    600,
+                    71,
+                    35
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    753,
+                    664,
+                    112,
+                    33
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6557_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    976,
+                    313,
+                    421,
+                    123
+                ],
+                "text labels": {
+                    "3": "locational"
+                },
+                "symbol labels": {
+                    "TOILET": "right",
+                    "BABYCARE ROOM": "right",
+                    "PASSENGER LIFTS": "right",
+                    "WHEELCHAIR ACCESSIBILITY": "right"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    933,
+                    609,
+                    48,
+                    20
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6558_frame_0016.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    915,
+                    226,
+                    477,
+                    144
+                ],
+                "text labels": {
+                    "MORE SHOPS": "straight",
+                    "3": "locational"
+                },
+                "symbol labels": {
+                    "RESTAURANT":"straight"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6559_frame_0021.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    920,
+                    171,
+                    467,
+                    141
+                ],
+                "text labels": {
+                    "3": "locational"
+                },
+                "symbol labels": {
+                    "BABYCARE ROOM": "straight",
+                    "WHEELCHAIR ACCESSIBILITY": "straight",
+                    "TOILET": "straight",
+                    "PASSENGER LIFTS":"left"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1211,
+                    527,
+                    41,
+                    18
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6560_frame_0027.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1064,
+                    119,
+                    656,
+                    213
+                ],
+                "text labels": {
+                    "3":"locational"
+                },
+                "symbol labels": {
+                    "WHEELCHAIR ACCESSIBILITY":"left",
+                    "BABYCARE ROOM":"left"
+                },
+                "mixed": {"TOILETS": "left"
+            }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6561_frame_0023.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    939,
+                    177,
+                    675,
+                    191
+                ],
+                "text labels": {
+                    "MORE SHOPS": "straight",
+                    "3":"locational"
+                },
+                "symbol labels": {
+                    "RESTAURANT": "straight",
+                    "PASSENGER LIFTS": "right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6562_frame_0024.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    930,
+                    90,
+                    571,
+                    173
+                ],
+                "text labels": {
+                    "PLAY@ROOF GARDEN": "straight",
+                    "4":"locational"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS":"right"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    934,
+                    498,
+                    64,
+                    27
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6563_frame_0034.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    959,
+                    268,
+                    370,
+                    101
+                ],
+                "text labels": {
+                    "MORE SHOPS": "straight",
+                    "4":"locational"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6564_frame_0022.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    991,
+                    189,
+                    670,
+                    189
+                ],
+                "text labels": {
+                    "MORE SHOPS": "straight",
+                    "2":"locational"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS":"right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6565_frame_0018.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    982,
+                    159,
+                    779,
+                    232
+                ],
+                "text labels": {
+                    "1": "locational"
+                },
+                "symbol labels": {
+                    "TOILET": "left",
+                    "WHEELCHAIR ACCESSIBILITY": "left"
+                    
+                },
+                "mixed": {"TAXI DROP OFF": "straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6566_frame_0022.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    978,
+                    185,
+                    708,
+                    204
+                ],
+                "text labels": {
+                    
+                    "B1":"locational"
+                },
+                "symbol labels": {
+                    "TOILET": "straight",
+                    "BABYCARE ROOM": "straight",
+                    "WHEELCHAIR ACCESSIBILITY": "straight"
+                },
+                "mixed": {"TRAVELATOR": "straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6567_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1012,
+                    226,
+                    470,
+                    139
+                ],
+                "text labels": {
+                    
+                    "B1":"locational"
+                },
+                "symbol labels": {
+                    "BABYCARE ROOM": "left",
+                    "TOILET": "left",
+                    "WHEELCHAIR ACCESSIBILITY": "left"
+                },
+                "mixed": {"TRAVELATOR": "straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6569_frame_0018.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    991,
+                    235,
+                    513,
+                    150
+                ],
+                "text labels": {
+                    "MORE SHOPS": "straight",
+                    "B1":"locational"
+                },
+                "symbol labels": {
+                    "RESTAURANT": "straight"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6570_frame_0019.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1005,
+                    449,
+                    147,
+                    58
+                ],
+                "text labels": {
+                },
+                "symbol labels": {
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1041,
+                    172,
+                    624,
+                    177
+                ],
+                "text labels": {
+                    "MORE SHOPS": "straight",
+                    "B1":"locational"
+                },
+                "symbol labels": {
+                    "RESTAURANT": "straight",
+                    "PASSENGER LIFTS": "left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6571_frame_0020.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    815,
+                    360,
+                    804,
+                    608
+                ],
+                "text labels": {
+                    "LOWER KENT RIDGE RD": "left",
+                    "PICK-UPPOINT": "left",
+                    "BUS STOP 4": "left",
+                    "BUS SERVICES TOWARDS DHOBY GHAUT": "left",
+                    "EXIT A": "left",
+                    "PLATFORM 8": "left"
+                },
+                "symbol labels": {
+                    "BUS STOP 4": "left",
+                    "CAR PICKUP/DROPOFF": "left",
+                    "WHEELCHAIR ACCESSIBILITY":"left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6572_frame_0019.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    443,
+                    321,
+                    798,
+                    204
+                ],
+                "text labels": {
+                    "LOWER KENT RIDGE ROAD": "left"
+                },
+                "symbol labels": {
+                    
+                    "WHEELCHAIR ACCESSIBILITY": "left"
+                },
+                "mixed": {"BUS STOP 3": "left", 
+                "PICK-UP POINT": "left"
+            }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1370,
+                    321,
+                    843,
+                    205
+                ],
+                "text labels": {
+                    "LOWER KENT RIDGE ROAD": "right"
+                    },
+                "symbol labels": {        
+                    "WHEELCHAIR ACCESSIBILITY": "right"
+                },
+                "mixed": {"BUS STOP 4": "right",
+                "PICK-UP POINT": "right"
+            }
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1471,
+                    564,
+                    637,
+                    274
+                ],
+                "text labels": {
+                    "BUS SERVICES TOWARDS DHOBY GHAUT": "right",
+                    "BUS STOP 4": "right",
+                    "EXIT A": "right",
+                    "PLATFORM 8": "right"
+
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    338,
+                    556,
+                    598,
+                    256
+                ],
+                "text labels": {
+                    "BUS SERVICES TOWARDS HARBOUR FRONT": "left",
+                    "BUS STOP 3": "left",
+                    "EXIT A": "left",
+                    "PLATFORM 9": "left"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6573_frame_0023.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    855,
+                    242,
+                    1098,
+                    167
+                ],
+                "text labels": {
+                    "NUH MEDICAL CTR/KENT RIDGE WING": "straight"
+                    
+                },
+                "symbol labels": {
+                    "WHEELCHAIR ACCESSIBILITY":"straight"
+                },
+                "mixed": {"MRT": "straight"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1053,
+                    728,
+                    94,
+                    43
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6574_frame_0027.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1002,
+                    235,
+                    754,
+                    320
+                ],
+                "text labels": {
+                    "MRT": "straight",
+                    "SOUTH BUONA VISTA ROAD": "straight-left",
+                    "NUH MEDICAL CENTRE": "left",
+                    "LIFT TO PLATFORM": "straight-left",
+                    "GENEO/S'PORE SCIENCE PARK 1": "straight-left",
+                    "EXIT B": "straight-left",
+                    "EXIT C": "left",
+                    "EXIT E": "straight-left"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "straight-left",
+                    "WHEELCHAIR ACCESSIBILITY": ["straight-left","left"],
+                    "MRT": "straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    116,
+                    571,
+                    147,
+                    47
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6575_frame_0018.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    887,
+                    200,
+                    828,
+                    294
+                ],
+                "text labels": {
+                    "SOUTH BUONA VISTA ROAD": "straight",
+                    "BUS STOP": "straight",
+                    "LIFT TO PLATFORM": "straight",
+                    "GENEO/S'PORE SCIENCE PARK 1": "straight",
+                    "EXIT B": "straight",
+                    "EXIT E": "straight"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS":"straight",
+                    "WHEELCHAIR ACCESSIBILITY":"straight"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6576_frame_0019.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    317,
+                    160,
+                    639,
+                    171
+                ],
+                "text labels": {
+                    "A":"left",
+                    "B":"right"
+            },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1269,
+                    123,
+                    879,
+                    212
+                ],
+                "text labels": {
+                    "SOUTH BUONA VISTA ROAD":"right",
+                    "LIFT TO PLATFORM": "right",
+                    "GENEO/S'PORE SCIENCE PARK 1": "right",
+                    "TOILET":"right",
+                    "EXIT B": "right",
+                    "EXIT E": "right",
+                    "EXIT D": "right"
+
+                },
+                "symbol labels": {
+                    "TOILET":"right",
+                    "WHEELCHAIR ACCESSIBILITY":"right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6577_frame_0021.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    184,
+                    388,
+                    370,
+                    163
+                ],
+                "text labels": {
+                  
+                },
+                "symbol labels": {
+                   
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    572,
+                    398,
+                    375,
+                    168
+                ],
+                "text labels": {
+                    "BUS SERVICES TOWARDS DHOBY GHAUT":"right", 
+                    "PLATFORM 8": "right",
+                    "EXIT A": "right",
+                    "BUS STOP 4": "right"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1648,
+                    355,
+                    536,
+                    218
+                ],
+                "text labels": {
+                    "NUH MAIN BLDG/NUS": "straight",
+                    "LOWER KENT RIDGE ROAD": "straight",
+                    "PICK-UP POINT": "straight",
+                    "BUS STOP 3": "straight",
+                    "BUS STOP 4": "straight",
+                    "NUH MEDICAL CTR/KENT RIDGE WING": "right",
+                    "EXIT A": "straight",
+                    "EXIT C": "right"
+                },
+                "symbol labels": {
+                    "MEDICAL FACILITY":["right", "straight"],
+                    "WHEELCHAIR ACCESSIBILITY":"straight",
+                    "CAR PICK-UP POINT":"straight"
+                }
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    1656,
+                    547,
+                    150,
+                    27
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 4,
+                "boundingBox": [
+                    1567,
+                    609,
+                    43,
+                    17
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 5,
+                "boundingBox": [
+                    1615,
+                    609,
+                    50,
+                    17
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6578_frame_0020.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    908,
+                    194,
+                    1818,
+                    209
+                ],
+                "text labels": {
+                    "ZONE A": "locational",
+                    "LEVEL 1": "locational",
+                    "ZONE B": "right",
+                    "ZONE C": "right",
+                    "ZONE D": "right",
+                    "ZONE E": "right",
+                    "ZONE T": "right",
+                    "LIFT LOBBY A":"left",
+                    "TOILETS": "left"
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS": "left"
+                    
+                },
+                "mixed": {"TOILET": "left"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    991,
+                    510,
+                    178,
+                    79
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    828,
+                    933,
+                    213,
+                    79
+                ],
+                "text labels": {
+                   
+                },
+                "symbol labels": {},
+                "mixed": { "FIRE EXIT":"left"}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    340,
+                    934,
+                    204,
+                    85
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6579_frame_0016.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1024,
+                    120,
+                    816,
+                    159
+                ],
+                "text labels": {
+                    "SUPERMARKET": "right",
+                    "ZONE A": "locational",
+                    "LEVEL 2": "locational"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    827,
+                    569,
+                    63,
+                    33
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6580_frame_0019.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    979,
+                    404,
+                    754,
+                    731
+                ],
+                "text labels": {
+                    "EMERGENCY": "right",
+                    "CHILDREN'S EMERGENCY": "right",
+                    "NATIONAL UNIVERSITY CENTRE FOR ORAL HEALTH,SINGAPORE": "right",
+                    "MEDICAL CENTRE": "left",
+                    "NATIONAL UNIVERSITY CANCER INSTITUTE,SINGAPORE": "left",
+                    "NUS YLLSOM": "right",
+                    "ZONE H":"right",
+                    "ZONE A":"left",
+                    "ZONE B":"left"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1518,
+                    279,
+                    325,
+                    66
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6581_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    927,
+                    471,
+                    917,
+                    882
+                ],
+                "text labels": {
+                    "KENT RIDGE WING": "left",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "left",
+                    "NATIONAL UNIVERSITY HEART CENTRE,SINGAPORE": "left",
+                    "WARDS 20 TO 64": "left",
+                    "ZONE E":"left",
+                    "ZONE C":"left",
+                    "ZONE D":"left"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6582_frame_0020.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1014,
+                    427,
+                    838,
+                    802
+                ],
+                "text labels": {
+                    "EMERGENCY": "left",
+                    "CHILDREN'S EMERGENCY": "left",
+                    "MEDICAL CENTRE": "straight-right",
+                    "NATIONAL UNIVERSITY CANCER INSTITUTE,SINGAPORE": "straight-right",
+                    "ZONE A":"straight-right",
+                    "ZONE B":"straight-right"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6583_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    893,
+                    416,
+                    846,
+                    808
+                ],
+                "text labels": {
+                    "KENT RIDGE WING": "right",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "right",
+                    "MAIN BUILDING": "right",
+                    "NATIONAL UNIVERSITY HEART CENTRE,SINGAPORE": "right",
+                    "WARDS 20 TO 64": "right",
+                    "ZONE E":"right",
+                    "ZONE G":"right",
+                    "ZONE C":"right",
+                    "ZONE D":"right"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6584_frame_0019.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    901,
+                    461,
+                    1517,
+                    723
+                ],
+                "text labels": {
+                    "ZONE F":"locational",
+                    "EMERGENCY/CHILDREN'S EMERGENCY": "right",
+                    "KENT RIDGE WING": "right",
+                    "MAIN BUILDING": "right",
+                    "NUS YONG LOO LIN SCHOOL OF MEDICINE": "right",
+                    "MEDICAL CENTRE": "left",
+                    "NATIONAL UNIVERSITY CANCER INSTITUTE,SINGAPORE": "left",
+                    "ONE@KENT RIDGE": "left",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "right",
+                    "NATIONAL UNIVERSITY HEART CENTRE,SINGAPORE": "right",
+                    "NATIONAL UNIVERSITY CENTRE FOR ORAL HEALTH,SINGAPORE": "right",
+                    "ZONE A":"left",
+                    "ZONE B":"left",
+                    "ZONE E":"right",
+                    "ZONE G":"right",
+                    "ZONE C":"right",
+                    "ZONE D":"right",
+                    "ZONE H":"right"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6585_frame_0021.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1031,
+                    175,
+                    1777,
+                    232
+                ],
+                "text labels": {
+                    "LIFT LOBBY F": "straight",
+                    "KENT RIDGE WING": "straight",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "straight",
+                    "MAIN BUILDING": "straight",
+                    "NUHS TOWER BLOCK": "straight",
+                    "NATIONAL UNIVERSITY HEART CENTRE,SINGAPORE": "straight",
+                    "MAIN BUILDING PHARMACY": "straight",
+                    "F01-01": "right",
+                    "F01-02 TO F01-33": "straight",
+                    "WARDS 20 TO 64": "straight",
+                    "ATM": "straight",
+                    "ZONE G":"straight",
+                    "ZONE C":"straight",
+                    "ZONE D":"straight",
+                    "ZONE E":"straight",
+                    "ZONE T":"straight",
+                    "ZONE F": "locational",
+                    "LEVEL 1": "locational"
+                    
+                   
+                },
+                "symbol labels": {
+                    "PASSENGER LIFTS":"straight"
+                },
+                "mixed": {"TOILETS": "left",
+                "ATM": "straight",
+                "FOOD COURT":"straight"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    999,
+                    613,
+                    606,
+                    66
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    451,
+                    684,
+                    121,
+                    87
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6586_frame_0022.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1083,
+                    208,
+                    1680,
+                    205
+                ],
+                "text labels": {
+                    "KENT RIDGE WING": "straight",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "straight",
+                    "MAIN BUILDING": "straight",
+                    "NUHS TOWER BLOCK": "straight",
+                    "MAIN BUILDING PHARMACY": "straight",
+                    "F01-03 TO F01-33": "straight",
+                    "WARDS 20 TO 64": "straight",
+                    "ZONE G":"straight",
+                    "ZONE C":"straight",
+                    "ZONE D":"straight",
+                    "ZONE E":"straight",
+                    "ZONE T":"straight",
+                    "ACUTE MEDICAL UNIT1 (AMU1)": "straight",
+                    "ACUTE MEDICAL UNIT2 (AMU2)": "straight",
+                    "LEVEL 1": "locational",
+                    "ZONE F": "locational"
+                },
+                "symbol labels": {
+                },
+                "mixed": {"ATM": "straight",
+                "FOODCOURT": "straight",
+                "TOILETS":"left"
+            }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    724,
+                    655,
+                    243,
+                    54
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6588_frame_0023.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    486,
+                    254,
+                    967,
+                    216
+                ],
+                "text labels": {
+                   
+                    "KENT RIDGE WING": "left",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "left",
+                    "NUHS TOWER BLOCK": "left",
+                    "ZONE C":"left",
+                    "ZONE D":"left",
+                    "ZONE E":"left",
+                    "ZONE T":"left"
+                },
+                "symbol labels": {
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1039,
+                    588,
+                    159,
+                    154
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1661,
+                    423,
+                    514,
+                    59
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    1593,
+                    483,
+                    513,
+                    47
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6589_frame_0021.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1714,
+                    93,
+                    412,
+                    124
+                ],
+                "text labels": {
+                    "KENT RIDGE WING": "left",
+                    "WARDS 2A TO 9B": "left",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "left",
+                    "ZONE C":"left",
+                    "ZONE D":"left",
+                    "ZONE E":"left",
+                    "ZONE F":"locational",
+                    "ZONE T":"left",
+                    "LEVEL 1": "locational"
+                },
+                "symbol labels": {}, 
+                "mixed": {"TOILETS": "straight", 
+            "FOOD COURT": "straight"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1756,
+                    205,
+                    60,
+                    54
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    1489,
+                    269,
+                    571,
+                    55
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    948,
+                    398,
+                    470,
+                    458
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6590_frame_0019.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    969,
+                    550,
+                    831,
+                    85
+                ],
+                "text labels": {
+                },
+                "symbol labels": {
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    937,
+                    222,
+                    1601,
+                    209
+                ],
+                "text labels": {
+                    "KENT RIDGE WING": "left",
+                    "WARDS 2A TO 9B": "left",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "left",
+                    "NUHS TOWER BLOCK": "left",
+                    "MAIN BUILDING": "straight",
+                    "NATIONAL UNIVERSITY CENTRE FOR ORAL HEALTH,SINGAPORE": "straight",
+                    "F01-11 TO F01-33": "straight",
+                    "WARDS 20 TO 64": "straight",
+                    "ZONE H":"straight",
+                    "ZONE G":"straight",
+                    "ZONE C":"left",
+                    "ZONE D":"left",
+                    "ZONE E":"left",
+                    "ZONE T":"left",
+                    "LEVEL 1": "locational",
+                    "ZONE F": "locational"
+                },
+                "symbol labels": {
+                },
+                "mixed": {"FOODCOURT": "straight",
+                "TOILET": "straight"
+            }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6591_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    916,
+                    223,
+                    1746,
+                    171
+                ],
+                "text labels": {
+                    "F01-11 TO F01-14": "left",
+                    "F01-16 TO F01-33": "right",
+                    "MAIN BUILDING": "right",
+                    "NATIONAL UNIVERSITY CENTRE FOR ORAL HEALTH,SINGAPORE": "right",
+                    "WARDS 20 TO 64": "right",
+                    "DROP-OFF": "right",
+                    "ACUTE MEDICAL UNIT 1(AMU 1)":"left",
+                    "ACUTE MEDICAL UNIT 2(AMU 2)":"right",
+                    "ZONE H":"right",
+                    "ZONE G":"right",
+                    "ZONE F": "locational",
+                    "LEVEL 1": "locational"
+                },
+                "symbol labels": {},
+                "mixed": {"FOODCOURT": "right",
+                "TOILETS": "right",
+                "CAR PICKUP/DROPOFF":"right"
+                
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6592_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    952,
+                    192,
+                    1635,
+                    254
+                ],
+                "text labels": {
+                    "MEDICAL CENTRE": "left",
+                    "KENT RIDGE WING": "straight",
+                    "ZONE A":"left",
+                    "ZONE B":"left",
+                    "ZONE C":"straight",
+                    "ZONE D":"straight",
+                    "ZONE E":"straight",
+                    "ZONE T":"straight",
+                    "WARDS 2A TO 9B": "straight",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "straight",
+                    "MAIN BUILDING PHARMACY": "left",
+                    "F01-01 TO F01-04": "left",
+                    "NUHS TOWER BLOCK": "straight",
+                    "ZONE F": "locational",
+                    "LEVEL 1": "locational"
+                },
+                "symbol labels": {
+                    
+                },
+                "mixed": {
+                    "FOODCOURT": "right",
+                    "TOILETS": "left",
+                    "DROP-OFF":"left",
+                    "MRT": "left",
+                    "TAXI": "left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6593_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    889,
+                    525,
+                    1089,
+                    1062
+                ],
+                "text labels": {
+                    "KENT RIDGE WING": "right",
+                    "WARDS 2A TO 9B": "right",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "right",
+                    "ZONE C":"right",
+                    "ZONE D":"right",
+                    "ZONE E":"right"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6594_frame_0016.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1112,
+                    414,
+                    492,
+                    469
+                ],
+                "text labels": {
+                    "EMERGENCY": "right",
+                    "CHILDREN'SE MERGENCY": "right",
+                    "MEDICAL CENTRE": "right",
+                    "NATIONAL UNIVERSITY HEART CENTRE,SINGAPORE": "right",
+                    "MAIN BUILDING": "straight-left",
+                    "WARDS 20 TO 64": "straight-left",
+                    "NATIONAL UNIVERSITY CENTRE FOR ORAL HEALTH,SINGAPORE": "straight-left",
+                    "ZONE G":"straight-left",
+                    "ZONE H":"straight-left",
+                    "ZONE A":"right",
+                    "ZONE B":"right"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    404,
+                    139,
+                    171,
+                    251
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    127,
+                    208,
+                    114,
+                    52
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6596_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    991,
+                    254,
+                    381,
+                    200
+                ],
+                "text labels": {
+                    "F01-11 TO F01-14": "straight",
+                    "ACUTE MEDICAL UNIT 1(AMU1)": "straight",
+                    "ZONE F":"locational",
+                    "LEVEL 1": "locational"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    990,
+                    692,
+                    62,
+                    37
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6597_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    978,
+                    198,
+                    420,
+                    206
+                ],
+                "text labels": {
+                    "F01-11": "right",
+                    "ACUTE MEDICAL UNIT 1(AMU1)": "straight",
+                    "F01-13": "left",
+                    "ZONE F":"locational",
+                    "LEVEL 1": "locational"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6598_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1084,
+                    232,
+                    374,
+                    183
+                ],
+                "text labels": {
+                    "ZONE F":"locational",
+                    "WARDS 20 TO 64": "straight",
+                    "LEVEL 1": "locational"
+                    },
+                "symbol labels": {
+                },
+                "mixed": {"MRT": "left",
+                "TAXI": "left",
+                "DROP-OFF": "left",
+                "FOODCOURT": "straight"
+            }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6599_frame_0016.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    912,
+                    204,
+                    1174,
+                    259
+                ],
+                "text labels": {
+                    "ZONE F":"locational",
+                    "LEVEL 1": "locational",
+                    "MAIN BUILDING": "left",
+                    "ZONE G":"left",
+                    "WARDS 20 TO 64": "left",
+                    "ACUTEMEDICALUNIT2(AMU2)": "left",
+                    "ZONE H": "left",
+                    "F01-16 TO F01-33": "left",
+                    "NATIONAL UNIVERSITY CENTRE FOR ORAL HEALTH, SINGAPORE": "left"
+                },
+                "symbol labels": {
+                },
+                "mixed": {"FOOD COURT": "left"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    931,
+                    552,
+                    412,
+                    72
+                ],
+                "text labels": {
+                    "ZONE F":"locational",
+                    "LEVEL 1": "locational",
+                    "VISITOR REGISTRATION":"straight",
+                    "WARDS 20 TO 64":"straight"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6600_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    888,
+                    175,
+                    1258,
+                    225
+                ],
+                "text labels": {
+                    "ZONE F":"locational",
+                    "LEVEL 1": "locational",
+                    "VISITORREGISTRATION": "straight",
+                    "WARDS20TO64": "straight"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    899,
+                    467,
+                    109,
+                    55
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    922,
+                    324,
+                    409,
+                    67
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6601_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    935,
+                    210,
+                    412,
+                    177
+                ],
+                "text labels": {
+                    "VISITOR REGISTRATION": "left",
+                    "WARDS 20-64": "left"
+                    
+                },
+                "symbol labels": {
+                },
+                "mixed": {"FOODCOURT": "left"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6602_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    974,
+                    275,
+                    1889,
+                    235
+                ],
+                "text labels": {
+                    "ZONE G":"locational",
+                    "LEVEL 1": "locational",
+                    "MEDICAL CENTRE": "right",
+                    "KENT RIDGE WING": "right",
+                    "MAIN BUILDING": "right",
+                    "ZONE A":"right",
+                    "ZONE B":"right",
+                    "ZONE C":"right",
+                    "ZONE D":"right",
+                    "ZONE E":"right",
+                    "ZONE F":"right",
+                    "EMERGENCY/CHILDREN'S EMERGENCY": "straight",
+                    "ZONE H":"straight",
+                    "NATIONAL UNIVERSITY HEART CENTRE, SINGAPORE": "right",
+                    "ACUTE MEDICAL UNIT 1(AMU1)": "right",
+                    "ACUTE MEDICAL UNIT 2(AMU2)": "right",
+                    "MAIN BUILDING PHARMACY": "right",
+                    "G01-01": "right",
+                    "G01-11": "straight",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "right",
+                    "NATIONAL UNIVERSITY CENTRE FOR ORAL HEALTH, SINGAPORE": "straight"
+                },
+                "symbol labels": {
+                },
+                "mixed": {
+                    "DROP-OFF": "straight",
+                "ATM": "right",
+                "MRT": "right",
+                "TOILETS":"right",
+                "TAXI": "right"
+            }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6603_frame_0016.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1070,
+                    183,
+                    444,
+                    195
+                ],
+                "text labels": {
+                    "ZONE G":"locational",
+                    "LEVEL 1": "locational",
+                    "VISITOR REGISTRATION": "straight",
+                    "WARDS 20-64": "straight"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    933,
+                    715,
+                    267,
+                    35
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6604_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1119,
+                    254,
+                    236,
+                    151
+                ],
+                "text labels": {
+                    
+                },
+                "symbol labels": {},
+                "mixed":{"TOILET": "left"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6605_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1012,
+                    214,
+                    558,
+                    198
+                ],
+                "text labels": {
+                    "MORE STALLS": "straight"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6606_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1027,
+                    198,
+                    550,
+                    190
+                ],
+                "text labels": {
+                    "MORE STALLS": "right"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6607_frame_0011.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    949,
+                    198,
+                    712,
+                    164
+                ],
+                "text labels": {
+                    "NATIONAL UNIVERSITY CENTRE FOR ORAL HEALTH, SINGAPORE": "left",
+                    "ZONE H":"left"
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    960,
+                    627,
+                    63,
+                    33
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6608_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    957,
+                    436,
+                    631,
+                    689
+                ],
+                "text labels": {
+                    "ZONE G":"locational",
+                    "LEVEL 1": "locational",
+                    "EMERGENCY": "right",
+                    "CHILDREN'S EMERGENCY": "right"
+                    },
+                "symbol labels": {
+                },
+                "mixed": {"TAXI": "right",
+                "MRT": "right"
+            }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6609_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    920,
+                    244,
+                    575,
+                    414
+                ],
+                "text labels": {
+                    "VISITOR REGISTRATION": "straight",
+                    "WARDS 20-64": "straight",
+                    "ZONE G":"locational",
+                    "LEVEL 1": "locational"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6610_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1144,
+                    183,
+                    502,
+                    241
+                ],
+                "text labels": {
+                    "ZONE G":"locational",
+                    "LEVEL 1": "locational",
+                    "ZONE F":"left",
+                    "WARDS 20 TO 64": "left",
+                    "G01-01 TO G01-05": "left",
+                    "MAIN BUILDING": "left",
+                    "NUS YONG LOO LIN SCHOOL OF MEDICINE": "straight"
+                    },
+                "symbol labels": {
+                },
+                "mixed": {"FOODCOURT": "left",
+                "TOILETS": "left"
+            }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6611_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1143,
+                    355,
+                    882,
+                    765
+                ],
+                "text labels": {
+                    "CAR PARK S3": "right",
+                    "CAR PARK S4": "right",
+                    "CAR PARK S5": "right",
+                    "STAFF CAR PARK": "locational"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6612_frame_0020.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1009,
+                    442,
+                    713,
+                    527
+                ],
+                "text labels": {
+                    "CAR PARK S4": "left",
+                    "CAR PARK S3": "left",
+                    "CAR PARK S5": "straight"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6613_frame_0022.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    171,
+                    408,
+                    221,
+                    205
+                ],
+                "text labels": {
+                    "MD3":"right",
+                    "MD11":"right",
+                    "MD7":"right",
+                    "MD4":"right",
+                    "MD1":"left",
+                    "MD2": "left",
+                    "CELS": "left"
+
+                },
+                "symbol labels": {}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1529,
+                    319,
+                    631,
+                    314
+                ],
+                "text labels": {
+                    "MD1 TAHIR FOUNDATION BUILDING": "left",
+                    "MD2": "left",
+                    "MD3":"locational"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6614_frame_0017.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    915,
+                    187,
+                    831,
+                    259
+                ],
+                "text labels": {
+                    "LT26,LT27,LT28": "down-right",
+                    "MD7,MD9,MD10": "down-right",
+                    "DSO": "down-right",
+                    "THE FRONTIER, S16": "down-right",
+                    "MD6, MD11 (LT35, LT36)":"right"
+                },
+                "symbol labels": {
+                    "FOOD COURT": "down-right"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6616_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    923,
+                    182,
+                    1050,
+                    259
+                ],
+                "text labels": {
+                    "MD6 (LT35,LT36),MD11": "left",
+                    "MD3, MD4": "straight"
+                },
+                "symbol labels": {
+
+                },
+                "mixed": {"MEDICAL LIBRARY(MD6)": "left",
+                "CAFE": "left"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6617_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1030,
+                    200,
+                    871,
+                    385
+                ],
+                "text labels": {
+                    "MD2,MD3,MD4": "straight",
+                    "FRONTIER CANTEEN,S16": "right",
+                    "MD1(LT37),MD9": "right",
+                    "S4,S5,S6,S9": "right",
+                    "MD6(LT35,LT36),MD11": "left"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6618_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1018,
+                    208,
+                    694,
+                    313
+                ],
+                "text labels": {
+                    "FRONTIER CANTEEN, S16": "straight-right",
+                    "MD1(LT37), MD4": "left",
+                    "S4, S5, S6, S9": "left"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6619_frame_0020.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1012,
+                    153,
+                    494,
+                    244
+                ],
+                "text labels": {
+                    "NUH": "straight",
+                    "MD3,MD6(LT35,LT36),MD11": "straight",
+                    "MD4": "right"
+                },
+                "symbol labels": {
+                    
+                },
+                "mixed": {"MRT": "straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6620_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1002,
+                    137,
+                    705,
+                    186
+                ],
+                "text labels": {
+                    "MD11": "left",
+                    "MD6": "right",
+                    "NUH": "straight"
+                },
+                "symbol labels": {
+                    
+                },
+                "mixed": {"MRT": "straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6621_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    966,
+                    147,
+                    1148,
+                    270
+                ],
+                "text labels": {
+                    "ZONE F":"locational",
+                    "LEVEL 1": "locational",
+                    "ZONE A":"straight",
+                    "ZONE B":"straight",
+                    "ZONE C":"straight",
+                    "ZONE D":"straight",
+                    "ZONE E":"straight",
+                    "MEDICAL CENTRE": "straight",
+                    "KENT RIDGE WING": "straight",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "straight",
+                    "EMERGENCY(AMBULANCE)": "right",
+                    "NATIONAL UNIVERSITY HEART CENTRE, SINGAPORE": "straight",
+                    "F01-01 TO F01-18": "straight",
+                    "EMERGENCY(WALK-IN)": "straight",
+                    "CHILDREN'SEMERGENCY(WALK-IN)":"straight"
+                    },
+                "symbol labels": {
+                },
+                "mixed": {"MRT": "straight",
+                "TAXI": "straight",
+                "DROP-OFF": "straight"
+            }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6622_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    917,
+                    194,
+                    1300,
+                    327
+                ],
+                "text labels": {
+                    "ZONE F":"locational",
+                    "LEVEL 1": "locational",
+                    "ZONE A":"straight",
+                    "ZONE B":"straight",
+                    "ZONE C":"straight",
+                    "ZONE D":"straight",
+                    "ZONE E":"straight",
+                    "MEDICAL CENTRE": "straight",
+                    "KENT RIDGE WING": "straight",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE": "straight",
+                    "NATIONAL UNIVERSITY HEART CENTRE, SINGAPORE": "straight",
+                    "F01-01 TO F01-18": "straight",
+                    "EMERGENCY(WALK-IN)": "right",
+                    "CHILDREN'S EMERGENCY(WALK-IN)": "right"
+                    
+                },
+                "symbol labels": {
+                    "MRT": "straight",
+                    "TAXI STAND": "straight",
+                    "CAR PICKUP/DROPOFF VIA LIFT": "straight"
+                },
+                "mixed": {"MRT": "straight",
+                "TAXI": "straight",
+                "DROP-OFF": "straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6623_frame_0015.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    991,
+                    493,
+                    450,
+                    921
+                ],
+                "text labels": {
+                    "ZONE A": "right",
+                    "ZONE B": "right",
+                    "ZONE C": "right",
+                    "ZONE D": "right",
+                    "ZONE E": "right",
+                    "ZONE F": "right",
+                    "NATIONAL UNIVERSITY CANCER INSTITUTE, SINGAPORE": "right",
+                    "NATIONAL UNIVERSITY HEART CENTRE, SINGAPORE": "right"
+                    
+                },
+                "symbol labels": {
+                    "MRT":"right"
+                },
+                "mixed": {"TAXI": "right",
+                "BUS": "straight"}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6624_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1016,
+                    537,
+                    551,
+                    1080
+                ],
+                "text labels": {
+                    "ZONE A": "left",
+                    "ZONE B": "left",
+                    "ZONE C": "left",
+                    "ZONE D": "left",
+                    "ZONE E": "left",
+                    "ZONE F": "left",
+                    "ZONE G": "right",
+                    "ZONE H": "right",
+                    "WARDS 2A TO 9B": "right",
+                    "NATIONAL UNIVERSITY CANCER INSTITUTE, SINGAPORE": "left",
+                    "KENT RIDGE WING": "left",
+                    "MAIN BUILDING":"right",
+                    "KHOO TECK PUAT-NATIONALUNIVERSITYCHILDREN'SMEDICALINSTITUTE": "left",
+                    "NATIONAL UNIVERSITY HEART CENTRE,SINGAPORE": "left",
+                    "NATIONAL UNIVERSITY CENTRE FOR ORAL HEALTH, SINGAPORE": "right",
+                    "WARDS 20 TO 64": "right"
+                    },
+                "symbol labels": {
+                    }, 
+                    "mixed": {"TAXI": "left",
+                    "FOODCOURT": "left",
+                    "DROP-OFF": "left",
+                    "MRT": "left"
+                }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6625_frame_0012.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    947,
+                    212,
+                    1098,
+                    281
+                ],
+                "text labels": {
+                    "MEDICAL CENTRE": "straight",
+                    "KENT RIDGE WING": "straight",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICALI NSTITUTE": "straight",
+                    "MAIN BUILDING": "straight",
+                    "ZONE A": "straight",
+                    "ZONE B": "straight",
+                    "ZONE C": "straight",
+                    "ZONE D": "straight",
+                    "ZONE E": "straight",
+                    "ZONE F": "straight"
+                },
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6626_frame_0020.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    864,
+                    169,
+                    975,
+                    321
+                ],
+                "text labels": {
+                    "SOUTH BUONA VISTA ROAD": "straight-left",
+                    "GENEO/S'PORE SCIENCE PARK1": "straight-left",
+                    "BUS STOP 1": "straight-left",
+                    "BUS STOP 2": "straight-left",
+                    "EXIT B": "straight-left",
+                    "EXIT E": "straight-left"
+                },
+                "symbol labels": {
+                    "WHEELCHAIR ACCESSIBILITY":"right"
+                    },
+                "mixed": {"LIFT TO PLATFORM": "right"}
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    1241,
+                    704,
+                    121,
+                    33
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 2,
+                "boundingBox": [
+                    135,
+                    682,
+                    177,
+                    78
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            },
+            {
+                "objectID": 3,
+                "boundingBox": [
+                    718,
+                    702,
+                    35,
+                    45
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6627_frame_0014.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1062,
+                    189,
+                    698,
+                    274
+                ],
+                "text labels": {
+                },
+                "symbol labels": {
+                    "WHEELCHAIR ACCESSIBILITY":"right"
+                    },
+                "mixed": {"LIFT TO PLATFORM": "right"
+            }
+            }
+        ]
+    },
+    {
+        "imagePath": "IMG_6628_frame_0013.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    1032,
+                    268,
+                    758,
+                    366
+                ],
+                "text labels": {
+                    "SOUTH BUONA VISTA ROAD": "straight",
+                    "GENEO/S'PORE SCIENCE PARK 1": "straight",
+                    "BUS STOP 1": "straight",
+                    "BUS STOP 2": "straight",
+                    "NUH MEDICAL CENTRE": "left",
+                    "TOILET": "right",
+                    "EXIT B": "straight",
+                    "EXIT E": "straight",
+                    "EXIT D": "left"
+                },
+                "symbol labels": {
+                    "TOILET": "right",
+                    "WHEELCHAIR ACCESSIBILITY":["right","left"]
+                }
+            }
+        ]
+    }
+]
