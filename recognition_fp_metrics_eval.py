@@ -6,7 +6,6 @@ import pandas as pd
 import itertools
 
 def reformat_full_pipeline_results(fullpipelineGtPath, recg_gt):
-    # und_gtPath = '/home/ayush/new-baseline-sign-gpt/sign-gpt/ros-wrkspc/src/smpl_pkg/src/utils/vlm_utils/updated_mix_gt.json'
     recg_gt = file_utils.read_json(recg_gt)
 
     gt = file_utils.read_json(fullpipelineGtPath)
@@ -347,15 +346,15 @@ if __name__ == "__main__":
     while True:
         try:
             print('Please ensure you have changed the path to Sign-Understanding in this script ...\n\n')
-            root = '/home/ayush/arxiv'
+            root = '/home/ayush/arxiv' #UPDATE PATH HERE
             r = input("Recognition or Full-Pipeline Evaluation? R/F")
             if r.upper() == 'R':
-                args.config_file = os.path.join(root, 'config/recognition_eval_config.yaml') #UPDATE PATH HERE
+                args.config_file = os.path.join(root, 'config/recognition_eval_config.yaml') 
                 config = file_utils.load_yaml(args.config_file)
                 args.exp_name = config['name'] #'recognition'
                 args.op_dir = os.path.join(root,config['exp']['result_dir'], 'gemini')
-                args.dataset_dir = os.path.join(root,config['exp']['dataset_dir']) #you need to run the detection script to generate this dataset #'/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/understanding_dataset'
-                args.gt_path = os.path.join(root,config['exp']['groundtruth']) #'/home/ayush/new-baseline-sign-gpt/sign-gpt/ros-wrkspc/src/smpl_pkg/src/utils/vlm_utils/updated_mix_gt.json'
+                args.dataset_dir = os.path.join(root,config['exp']['dataset_dir']) #you need to run the detection script to generate this dataset
+                args.gt_path = os.path.join(root,config['exp']['groundtruth']) 
                 args.excludePath = os.path.join(root,config['exp']['excludePath'])
 
                 file_utils.makeCheck(args.op_dir)
@@ -374,12 +373,12 @@ if __name__ == "__main__":
                     except:
                         print('Please enter valid response... \n')
 
-                args.config_file = os.path.join(root, 'config/full_pipeline_eval_config.yaml') #UPDATE PATH HERE
+                args.config_file = os.path.join(root, 'config/full_pipeline_eval_config.yaml') 
                 config = file_utils.load_yaml(args.config_file)
                 args.exp_name = config['name'] #'full-pipeline'
-                args.op_dir = os.path.join(root,config['exp']['result_dir'], 'g-dino-gemini', 'processed') #'/home/ayush/new-baseline-sign-gpt/fullpipeline_results/dino-gem/iter_3/processed'
-                args.dataset_dir = os.path.join(root,config['exp']['dataset_dir']) #'/home/ayush/sign-gpt/ros-wrkspc/src/smpl_pkg/datasets/sign_recog_frames/sign_videos/fullpipeline_dataset'
-                args.matchresp_path = os.path.join(root,config['exp']['fpmatchResponse']) #'/home/ayush/new-baseline-sign-gpt/fullpipeline_results/dino-gem/iter_3/unprocessedGTResponse.json' # it should be the path of the matched-response of full-pipeline
+                args.op_dir = os.path.join(root,config['exp']['result_dir'], 'g-dino-gemini', 'processed') 
+                args.dataset_dir = os.path.join(root,config['exp']['dataset_dir']) 
+                args.matchresp_path = os.path.join(root,config['exp']['fpmatchResponse']) # it should be the path of the matched-response of full-pipeline
                 args.recg_gt = os.path.join(root,config['exp']['recg_groundtruth'])
                 args.excludePath = os.path.join(root,config['exp']['excludePath'])
 
