@@ -30,10 +30,59 @@ pip install google-ai-generativelanguage google-generativeai pycocotools openai 
 
 ## Dataset
 
-The dataset is available for download [here](https://drive.google.com/file/d/109mdy1gpIEhyd5JCyNGqdBvrfvgU1tS6/view?usp=sharing).
+The dataset is available for download [here](https://drive.google.com/file/d/109mdy1gpIEhyd5JCyNGqdBvrfvgU1tS6/view?usp=sharing). It contained 160 images of scenes that contain at least one navigational sign, and 205 navigational signs for the recognition task. The images were collected at multiple locations in Singapore, including hospitals, malls, transportation hubs, parks and the NUS campus. The dataset captures various degrees of scene complexity, as well as a wide variety of navigational sign designs. 
 
 
 ![dataset](pics/dataset.jpg)
+
+The dataset.zip includes an `images` folder and the ground truth json file. The json includes a list of all images, each annotated with bounding boxes for detection. For selected signs, which are human readable and fully visible, we provide the annotation for the recognition task. 
+
+```
+{
+        "imagePath": "IMG_6524_frame_0022.jpg",
+        "annotation": [
+            {
+                "objectID": 0,
+                "boundingBox": [
+                    912,
+                    416,
+                    1720,
+                    378
+                ],
+                "text labels": {
+                    "KENT RIDGE WING": "right",
+                    "NUHS TOWER BLOCK": "right",
+                    "MEDICAL CENTRE": "right",
+                    "ZONE A": "locational",
+                    "NATIONAL UNIVERSITY CANCER INSTITUTE, SINGAPORE":"right",
+                    "PHARMACY@B03-01":"right",
+                    "KHOO TECK PUAT-NATIONAL UNIVERSITY CHILDREN'S MEDICAL INSTITUTE":"right",
+                    "ZONE B": "right",
+                    "ZONE C": "right",
+                    "ZONE D": "right",
+                    "ZONE E": "right",
+                    "ZONE T": "right"
+                },
+                "symbol labels": {
+                    "TOILET": "straight",
+                    "PASSENGER LIFTS": "straight"
+                }
+            },
+            {
+                "objectID": 1,
+                "boundingBox": [
+                    796,
+                    931,
+                    204,
+                    40
+                ],
+                "text labels": {},
+                "symbol labels": {}
+            }
+        ]
+    }
+```
+
 
 
 ## Evaluation
