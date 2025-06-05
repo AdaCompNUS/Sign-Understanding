@@ -28,9 +28,14 @@ pip install google-ai-generativelanguage google-generativeai pycocotools openai 
 
 
 
-## Dataset
+## The SiGNgapore Dataset
 
-The dataset is available for download [here](https://drive.google.com/file/d/109mdy1gpIEhyd5JCyNGqdBvrfvgU1tS6/view?usp=sharing). It contained 160 images of scenes that contain at least one navigational sign, and 205 navigational signs for the recognition task. The images were collected at multiple locations in Singapore, including hospitals, malls, transportation hubs, parks and the NUS campus. The dataset captures various degrees of scene complexity, as well as a wide variety of navigational sign designs. 
+The dataset is available for download [here](https://drive.google.com/file/d/109mdy1gpIEhyd5JCyNGqdBvrfvgU1tS6/view?usp=sharing). It can also be downloaded from HuggingFace 
+```
+from datasets import load_dataset_builder
+ds_builder = load_dataset_builder("NickyZimmerman/SiGNgapore")
+```
+It contains 160 images of scenes that include at least one navigational sign, and 205 navigational signs for the recognition task. The images were collected at multiple locations in Singapore, including hospitals, malls, transportation hubs, parks and the NUS campus. The dataset captures various degrees of scene complexity, as well as a wide variety of navigational sign designs. 
 
 
 ![dataset](pics/dataset.jpg)
