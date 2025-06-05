@@ -19,7 +19,7 @@ Signage is an ubiquitous element of human environments, playing a critical role 
 
 ![Motivation](pics/Motivation.png)
 
-## Instalation
+## Installation
 
 The baseline requires installing [MobileSAM](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM) and the following packages
 ```
