@@ -93,4 +93,9 @@ The dataset.zip includes an `images` folder and the ground truth json file. The 
 
 ## Evaluation
 
+Edit your root folder, API keys folder and your data folder in the `config/xx.yaml` you intend to use. 
+If you want any of the scripts, you should also change the root folder in the script, such that `root="/your/path/to/Sign-Understanding/`.
+```
+python baseline.py
+```
 
