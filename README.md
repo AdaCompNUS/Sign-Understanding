@@ -23,7 +23,8 @@ Signage is an ubiquitous element of human environments, playing a critical role 
 
 The baseline requires installing [MobileSAM](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM) and the following packages
 ```
-pip install google-ai-generativelanguage google-generativeai pycocotools openai torch openai-clip
+pip install pycocotools openai openai-clip
+pip install google-generativeai google-ai-generativelanguage
 ```
 
 
