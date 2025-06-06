@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from utils import img_proc_utils, mobilesam, file_utils, coco_script
 from google import genai
 from google.genai import types
-import time
+import time, argparse
 from PIL import Image
 from io import BytesIO
 from utils import file_utils
@@ -79,19 +79,20 @@ if __name__ == '__main__':
 	'''
 	you can create the recogntion_dataset from this script
 	'''
-	root = '/home/ayush/arxiv' #UPDATE PATH HERE
-	print('Please ensure you have changed the root path in this script ...\n\n')
-
-	config = file_utils.load_yaml(os.path.join(root, 'config/detection_eval_config.yaml'))
 	
-	detcn_images = os.path.join(root, config['exp']['dataset_dir'])
-	gtJsonPath = os.path.join(root, config['exp']['detcn_gt']) 
-	predJsonPath = os.path.join(root, config['exp']['recg_pred']) 
-	recognition_cropped_gt_dir = os.path.join(root, 'gt/recognition_dataset') 
+	parser = argparse.ArgumentParser(description="detection-eval")
+    parser.add_argument('--root', type=str, help='/path/to/Sign-Understanding')
+    args = parser.parse_args()
+	config = file_utils.load_yaml(os.path.join(args.root, 'config/detection_eval_config.yaml'))
+	
+	detcn_images = os.path.join(args.root, config['exp']['dataset_dir'])
+	gtJsonPath = os.path.join(args.root, config['exp']['detcn_gt']) 
+	predJsonPath = os.path.join(args.root, config['exp']['recg_pred']) 
+	recognition_cropped_gt_dir = os.path.join(args.root, 'gt/recognition_dataset') 
 	file_utils.makeCheck(recognition_cropped_gt_dir)
 
 	mode = config['mode']
-	api_key = file_utils.load_yaml(os.path.join(root,config['exp']['gemini_api_key_path']))['api_key']
+	api_key = file_utils.load_yaml(os.path.join(args.root,config['exp']['gemini_api_key_path']))['api_key']
 	
 	client = genai.Client(api_key = api_key)
 	bounding_box_system_instructions = """
@@ -112,7 +113,7 @@ if __name__ == '__main__':
 	
 	cnt = 0
 	if mode == 'detection':
-		g_sam = mobilesam.GroundedSAM(config)
+		g_sam = mobilesam.GroundedSAM(config, args)
 		g_sam.video_name = 'detection_0000'
 		
 	gt_dict = {}

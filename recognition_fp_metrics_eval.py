@@ -245,20 +245,9 @@ def process_jsons_for_predictions(args):
                                 sym_loc_mapping[loc] = loc
                                 predsym_copy.remove(loc)
                                 gtsym_copy.remove(loc)
-                        
-                        if args.sym != 'hard':
-                            if args.sym == "soft-glove":
-                                sym_loc_mapping = hungarian_local_implementation(metrics.glove_similarity, gtsym_copy, predsym_copy, sym_loc_mapping)
-                        
-                            elif args.sym == "soft-clip":
-                                sym_loc_mapping = hungarian_local_implementation(metrics.clip_similarity, gtsym_copy, predsym_copy, sym_loc_mapping)
-                        
-                            elif args.sym == "soft-word2vec":
-                                sym_loc_mapping = hungarian_local_implementation(metrics.word2vec_similarity, gtsym_copy, predsym_copy, sym_loc_mapping)
-                        
-                            elif args.sym == "soft-bert":
-                                sym_loc_mapping = hungarian_local_implementation(metrics.bert_similarity, gtsym_copy, predsym_copy, sym_loc_mapping)
-                        
+                         
+                        if args.sym == "soft-clip":
+                            sym_loc_mapping = hungarian_local_implementation(metrics.clip_similarity, gtsym_copy, predsym_copy, sym_loc_mapping)
                         
                         txt_match_score, sym_match_score = give_match_score(txt_loc_mapping, sym_loc_mapping, txtpred, txtgt, sympred, symgt)
                         
@@ -338,6 +327,7 @@ def process_jsons_for_predictions(args):
                       
 def parse_arguments():
     parser = argparse.ArgumentParser(description="arguments for evaluations")
+    parser.add_argument('--root', type=str, help='/path/to/Sign-Understanding')
     return parser.parse_args()
 
 if __name__ == "__main__":
@@ -345,17 +335,15 @@ if __name__ == "__main__":
     args = parse_arguments()
     while True:
         try:
-            print('Please ensure you have changed the path to Sign-Understanding in this script ...\n\n')
-            root = '/home/ayush/arxiv' #UPDATE PATH HERE
             r = input("Recognition or Full-Pipeline Evaluation? R/F")
             if r.upper() == 'R':
-                args.config_file = os.path.join(root, 'config/recognition_eval_config.yaml') 
+                args.config_file = os.path.join(args.root, 'config/recognition_eval_config.yaml') 
                 config = file_utils.load_yaml(args.config_file)
                 args.exp_name = config['name'] #'recognition'
-                args.op_dir = os.path.join(root,config['exp']['result_dir'], 'gemini')
-                args.dataset_dir = os.path.join(root,config['exp']['dataset_dir']) #you need to run the detection script to generate this dataset
-                args.gt_path = os.path.join(root,config['exp']['groundtruth']) 
-                args.excludePath = os.path.join(root,config['exp']['excludePath'])
+                args.op_dir = os.path.join(args.root,config['exp']['result_dir'], 'gemini')
+                args.dataset_dir = os.path.join(args.root,config['exp']['dataset_dir']) #you need to run the detection script to generate this dataset
+                args.gt_path = os.path.join(args.root,config['exp']['groundtruth']) 
+                args.excludePath = os.path.join(args.root,config['exp']['excludePath'])
 
                 file_utils.makeCheck(args.op_dir)
                 assert os.path.exists(args.dataset_dir), "please load the dataset in the correct directory"
@@ -373,14 +361,14 @@ if __name__ == "__main__":
                     except:
                         print('Please enter valid response... \n')
 
-                args.config_file = os.path.join(root, 'config/full_pipeline_eval_config.yaml') 
+                args.config_file = os.path.join(args.root, 'config/full_pipeline_eval_config.yaml') 
                 config = file_utils.load_yaml(args.config_file)
                 args.exp_name = config['name'] #'full-pipeline'
-                args.op_dir = os.path.join(root,config['exp']['result_dir'], 'g-dino-gemini', 'processed') 
-                args.dataset_dir = os.path.join(root,config['exp']['dataset_dir']) 
-                args.matchresp_path = os.path.join(root,config['exp']['fpmatchResponse']) # it should be the path of the matched-response of full-pipeline
-                args.recg_gt = os.path.join(root,config['exp']['recg_groundtruth'])
-                args.excludePath = os.path.join(root,config['exp']['excludePath'])
+                args.op_dir = os.path.join(args.root,config['exp']['result_dir'], 'g-dino-gemini', 'processed') 
+                args.dataset_dir = os.path.join(args.root,config['exp']['dataset_dir']) 
+                args.matchresp_path = os.path.join(args.root,config['exp']['fpmatchResponse']) # it should be the path of the matched-response of full-pipeline
+                args.recg_gt = os.path.join(args.root,config['exp']['recg_groundtruth'])
+                args.excludePath = os.path.join(args.root,config['exp']['excludePath'])
 
                 file_utils.makeCheck(args.op_dir)
                 assert os.path.exists(args.dataset_dir), "please load the dataset in the correct directory"

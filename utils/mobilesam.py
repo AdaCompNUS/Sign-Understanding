@@ -9,7 +9,7 @@ from groundingdino.util.inference import Model
 
 class GroundedSAM:
 
-    def __init__(self, config, model ='mobile_sam'):
+    def __init__(self, config, args, model ='mobile_sam'):
         self.config = config
         self.model_name = model
         self.video_name = None
@@ -84,10 +84,10 @@ class GroundedSAM:
         
     def save_binary_annotations(self):
         self.binary_mask = self.detections.mask[0].astype(np.uint8)*255
-        if not os.path.exists(f"{self.config['root']}/{self.config['sam']['output_binary_mask_folder']}/{self.video_name}/"):
-            os.makedirs(f"{self.config['root']}/{self.config['sam']['output_binary_mask_folder']}/{self.video_name}/")
+        if not os.path.exists(f"{args.root}/{self.config['sam']['output_binary_mask_folder']}/{self.video_name}/"):
+            os.makedirs(f"{args.root}/{self.config['sam']['output_binary_mask_folder']}/{self.video_name}/")
         
-        cv2.imwrite(f"{self.config['root']}/{self.config['sam']['output_binary_mask_folder']}/{self.video_name}/{os.path.basename(self.temp_image_path)}", self.binary_mask)
+        cv2.imwrite(f"{args.root}/{self.config['sam']['output_binary_mask_folder']}/{self.video_name}/{os.path.basename(self.temp_image_path)}", self.binary_mask)
 
     def save_rgb_annotations(self, image):
         box_annotator = sv.BoxAnnotator()
@@ -99,10 +99,10 @@ class GroundedSAM:
             in self.detections]
         annotated_frame = box_annotator.annotate(scene=image.copy(), detections=self.detections)
         annotated_frame = label_annotator.annotate(scene=annotated_frame, detections=self.detections, labels=labels)
-        if not os.path.exists(f"{self.config['root']}/{self.config['sam']['output_ann_box_folder']}/{self.video_name}/"):
-            os.makedirs(f"{self.config['root']}/{self.config['sam']['output_ann_box_folder']}/{self.video_name}/")
+        if not os.path.exists(f"{args.root}/{self.config['sam']['output_ann_box_folder']}/{self.video_name}/"):
+            os.makedirs(f"{args.root}/{self.config['sam']['output_ann_box_folder']}/{self.video_name}/")
         
-        cv2.imwrite(f"{self.config['root']}/{self.config['sam']['output_ann_box_folder']}/{self.video_name}/{os.path.basename(self.temp_image_path)}", annotated_frame)
+        cv2.imwrite(f"{args.root}/{self.config['sam']['output_ann_box_folder']}/{self.video_name}/{os.path.basename(self.temp_image_path)}", annotated_frame)
 
     def max_conf_process(self):
         conf = np.array([c for c in self.detections.confidence])

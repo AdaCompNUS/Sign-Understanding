@@ -1,5 +1,4 @@
 name: recognition
-root: /home/ayush/arxiv
 
 exp: 
   directions: ['left','right','straight','straight-right','straight-left','locational']

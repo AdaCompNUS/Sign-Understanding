@@ -1,7 +1,6 @@
 # gemini or g-dino
 name: detection-eval
 mode: detection
-root: /home/ayush/arxiv
 
 exp: 
   model_name: gemini

@@ -1,5 +1,4 @@
 name: full-pipeline
-root: /home/ayush/arxiv
 
 exp: 
   decider_mode: text-intrscn

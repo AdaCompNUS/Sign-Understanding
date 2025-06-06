@@ -13,7 +13,7 @@ from utils import process_utils
 from ast import literal_eval
 from collections import deque
 from tqdm import tqdm
-import ast
+import ast, argparse
 from openai import OpenAI
 from google import genai
 from google.genai import types
@@ -21,7 +21,8 @@ from PIL import Image
 from io import BytesIO
 
 class VLM:
-    def __init__(self, config) -> None:
+    def __init__(self, config, args) -> None:
+        self.root = args.root
         self.config = file_utils.load_yaml(config)
         self.img_queue = deque(maxlen=self.config['exp']['prompt_img_len'])
         self.video_name = None
@@ -30,14 +31,14 @@ class VLM:
         self.prompt_img_quality = self.config['exp']['prompt_img_quality']
         self.retry_count = self.config['exp']['retry_count']
         self.last_message = None
-        self.symbol_list = file_utils.read_gtlabels(os.path.join(self.config['root'], self.config['exp']['symbols']))[:10]
+        self.symbol_list = file_utils.read_gtlabels(os.path.join(self.root, self.config['exp']['symbols']))[:10]
         self.setup_model()
         if self.config['name'] == 'full-pipeline':
             self.setup_crop_model()
 
     def setup_crop_model(self):
         if self.config['exp']['crop_gen_model'] == 'gemini-2.0-flash':
-            self.crop_model = genai.Client(api_key = file_utils.load_yaml(os.path.join(self.config['root'],self.config['exp']['gemini_detection_api_key']))['api_key'])
+            self.crop_model = genai.Client(api_key = file_utils.load_yaml(os.path.join(self.root,self.config['exp']['gemini_detection_api_key']))['api_key'])
             self.crop_safety_settings = [
                 types.SafetySetting(
                     category="HARM_CATEGORY_DANGEROUS_CONTENT",
@@ -50,16 +51,16 @@ class VLM:
         
     def setup_model(self):
         if self.model_name == 'openai':
-            api_key = file_utils.load_yaml(os.path.join(self.config['root'],self.config['exp']['openai_api_key_path']))['api_key']
+            api_key = file_utils.load_yaml(os.path.join(self.root,self.config['exp']['openai_api_key_path']))['api_key']
             self.client = openai
         
         if self.model_name == 'gemini':
-            api_key = file_utils.load_yaml(os.path.join(self.config['root'],self.config['exp']['gemini_api_key_path']))['api_key']
+            api_key = file_utils.load_yaml(os.path.join(self.root,self.config['exp']['gemini_api_key_path']))['api_key']
             self.client = OpenAI(api_key = api_key, base_url = "https://generativelanguage.googleapis.com/v1beta/openai/")
         self.client.api_key = api_key
         
     def create_prompt(self):
-        filedata =  file_utils.read_prompt(os.path.join(self.config['root'],self.config['exp']['prompt_file']))
+        filedata =  file_utils.read_prompt(os.path.join(self.root,self.config['exp']['prompt_file']))
         filedata = filedata.replace('REPLACE_DIRECTION_LIST', f"{self.config['exp']['directions']}")
         filedata = filedata.replace('GT_SYMBOL_LIST', f"{self.symbol_list}")
         self.prompt = filedata
@@ -68,8 +69,8 @@ class VLM:
         '''uses your crop model to create crops of navigational sign boards that are fed to VLM'''
         if self.config['exp']['crop_gen_model'] == 'gemini-2.0-flash':
             if isinstance(img_path, deque) and len(img_path) == 1:
-                file_utils.makeCheck( f"{self.config['root']}/{self.config['exp']['gem_output_rotated_crop_folder']}/{self.video_name}")
-                rot_img_path = f"{self.config['root']}/{self.config['exp']['gem_output_rotated_crop_folder']}/{self.video_name}/{os.path.basename(img_path[0])}"
+                file_utils.makeCheck( f"{self.root}/{self.config['exp']['gem_output_rotated_crop_folder']}/{self.video_name}")
+                rot_img_path = f"{self.root}/{self.config['exp']['gem_output_rotated_crop_folder']}/{self.video_name}/{os.path.basename(img_path[0])}"
                 
                 im = cv2.imread(img_path[0])
                 width, height = im.shape[1], im.shape[0]
@@ -105,9 +106,9 @@ class VLM:
                     
         elif self.config['exp']['crop_gen_model'] == 'g-dino':    
             if isinstance(img_path, str):
-                rot_img_path = f"{self.config['root']}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}/{os.path.basename(img_path)}"
-                if not os.path.exists(f"{self.config['root']}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}"):
-                    os.makedirs(f"{self.config['root']}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}")
+                rot_img_path = f"{self.root}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}/{os.path.basename(img_path)}"
+                if not os.path.exists(f"{self.root}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}"):
+                    os.makedirs(f"{self.root}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}")
                 
                 try:
                     temp_crop_name_list = list()
@@ -129,9 +130,9 @@ class VLM:
                     
             elif isinstance(img_path, deque):
                 for x, img_p in enumerate(img_path):
-                    rot_img_path = f"{self.config['root']}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}/{os.path.basename(img_p)}"
-                    if not os.path.exists(f"{self.config['root']}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}"):
-                        os.makedirs(f"{self.config['root']}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}")
+                    rot_img_path = f"{self.root}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}/{os.path.basename(img_p)}"
+                    if not os.path.exists(f"{self.root}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}"):
+                        os.makedirs(f"{self.root}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}")
                 
                     try:
                         temp_crop_name_list = list()
@@ -270,8 +271,10 @@ class VLM:
         return f"data:image/jpg;base64,{self.encode_image(image_path)}"
               
 if __name__ == "__main__":
-    print('Please ensure you have updated the root in this script and also in config files... \n\n')
-    root = '/home/ayush/arxiv'
+    
+    parser = argparse.ArgumentParser(description="baseline")
+    parser.add_argument('--root', type=str, help='/path/to/Sign-Understanding')
+    args = parser.parse_args()
     while True:
         try:
             r = input("Recognition or Full-Pipeline Evaluation? R/F")
@@ -283,7 +286,7 @@ if __name__ == "__main__":
         except Exception as e:
             print('Please enter valid response....')
 
-    vlm = VLM(config=config)
+    vlm = VLM(config=config, args)
     print(f"You are using this config: {config}")
     print(f"You are using this model: {vlm.config['exp']['model_name']} and version {vlm.config['exp']['model_version']}")
     print(f"You are using this prompt: {vlm.config['exp']['prompt_file']} and symbol_list {vlm.config['exp']['symbols']}")
