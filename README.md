@@ -26,7 +26,7 @@ The baseline requires installing [MobileSAM](https://github.com/IDEA-Research/Gr
 pip install pycocotools openai openai-clip
 pip install google-generativeai google-ai-generativelanguage
 ```
-
+The code was tested on Ubuntu 22.04, with python 3.10, PyTorch 2.5.1 and CUDA 12.1.
 
 
 ## The SiGNgapore Dataset
