@@ -93,14 +93,14 @@ The dataset.zip includes an `images` folder and the ground truth json file. The 
 
 ## Evaluation
 
-Edit your root folder, API keys folder and your data folder in the `config/xx.yaml` you intend to use. 
+Please follow the same repository structure.
 Also make sure to export the packages needed in your path
 ```
 export PYTHONPATH=/your/path/to/Sign-Understanding:/your/path/to/Grounded-Segment-Anything/EfficientSAM:/your/path/to/Grounded-Segment-Anything/segment_anything:/your/path/to/Grounded-Segment-Anything/GroundingDINO
 
 ```
-If you want any of the scripts, you should also change the root folder in the script, such that `root="/your/path/to/Sign-Understanding/`.
+While running any of the scripts, you should pass the root folder path as an argument
 ```
-python baseline.py
+python baseline.py --root "/your/path/to/Sign-Understanding/`
 ```
 
