@@ -34,7 +34,7 @@ The code was tested on Ubuntu 22.04, with python 3.10, PyTorch 2.5.1 and CUDA 12
 The dataset is available for download [here](https://drive.google.com/file/d/109mdy1gpIEhyd5JCyNGqdBvrfvgU1tS6/view?usp=sharing). It can also be downloaded from HuggingFace 
 ```
 from datasets import load_dataset_builder
-ds_builder = load_dataset_builder("NickyZimmerman/SiGNgapore")
+ds_builder = load_dataset_builder("NickyZimmerman/SiGNgapore2D")
 ```
 It contains 160 images of scenes that include at least one navigational sign, and 205 navigational signs for the recognition task. The images were collected at multiple locations in Singapore, including hospitals, malls, transportation hubs, parks and the NUS campus. The dataset captures various degrees of scene complexity, as well as a wide variety of navigational sign designs. 
 
