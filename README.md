@@ -29,7 +29,7 @@ pip install google-generativeai google-ai-generativelanguage google-genai
 The code was tested on Ubuntu 22.04, with python 3.10, PyTorch 2.5.1 and CUDA 12.1.
 
 
-## The SiGNgapore Dataset
+## The SiGNgapore2D Dataset
 
 The dataset is available for download [here](https://drive.google.com/file/d/109mdy1gpIEhyd5JCyNGqdBvrfvgU1tS6/view?usp=sharing). It can also be downloaded from HuggingFace 
 ```
