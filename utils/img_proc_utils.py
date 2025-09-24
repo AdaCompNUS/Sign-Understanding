@@ -149,7 +149,7 @@ def rotate_sign_to_align_bbox(crop_img, bbox_cords1 , irregular_binary_mask, abl
 
 def get_rotated_image_crops(img_path, crop_model, ocr_map_queue=None, ablation=True):
     #ablation True means we are not canonicalizing the crop
-    ctd, area = crop_model.execute_model(img_path, ocr_map_queue,  type='box')
+    ctd, area = crop_model.execute_model(img_path, ocr_map_queue, type='box')
     crop_img = crop_buffer_bbox(img_path, crop_model.detections.xyxy[0])
     # if not ablation:
     #     crop_model.execute_model(crop_img,ocr_map_queue, type='mask')
