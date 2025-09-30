@@ -4,10 +4,9 @@ import cv2
 import time
 from collections import deque
 from tqdm import tqdm
-import pdb
 import math
 import base64, json, os
-import openai, pdb, cv2
+import openai, cv2
 from utils import img_proc_utils, mobilesam, file_utils
 from utils import process_utils
 from ast import literal_eval
@@ -24,6 +23,8 @@ class VLM:
     def __init__(self, config, args) -> None:
         self.root = args.root
         self.config = file_utils.load_yaml(config)
+        self.config['root'] = self.root
+
         self.img_queue = deque(maxlen=self.config['exp']['prompt_img_len'])
         self.video_name = None
         self.model_name = self.config['exp']['model_name']
@@ -110,23 +111,15 @@ class VLM:
                 if not os.path.exists(f"{self.root}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}"):
                     os.makedirs(f"{self.root}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}")
                 
-                try:
-                    temp_crop_name_list = list()
-                    rot_im_lst , bbox_lst, conf_lst = img_proc_utils.get_rotated_image_crops(img_path, self.crop_model)
-                    for idx, rot_im in enumerate(rot_im_lst):
-                        cv2.imwrite(f"{rot_img_path[:-4]}_{idx}.jpg", rot_im)
-                        self.img_dict['full'] = f"{img_path}"
-                        temp_crop_name_list.append(f"{rot_img_path[:-4]}_{idx}.jpg")  
-                    self.img_dict['rot_crops'] = temp_crop_name_list
-                    self.img_dict['bbox'] = bbox_lst
-                    self.img_dict['conf'] = conf_lst
-                
-                except Exception as e:
-                    print(e)
-                    print(f"while running {self.config['sam']['model_name']} on {img_path}")
-                    print('cropping messup - using full image for this!')
-                    print('not saved any rotation img as NONE generated')
-                    pdb.set_trace()
+                temp_crop_name_list = list()
+                rot_im_lst , bbox_lst, conf_lst = img_proc_utils.get_rotated_image_crops(img_path, self.crop_model)
+                for idx, rot_im in enumerate(rot_im_lst):
+                    cv2.imwrite(f"{rot_img_path[:-4]}_{idx}.jpg", rot_im)
+                    self.img_dict['full'] = f"{img_path}"
+                    temp_crop_name_list.append(f"{rot_img_path[:-4]}_{idx}.jpg")  
+                self.img_dict['rot_crops'] = temp_crop_name_list
+                self.img_dict['bbox'] = bbox_lst
+                self.img_dict['conf'] = conf_lst
                     
             elif isinstance(img_path, deque):
                 for x, img_p in enumerate(img_path):
@@ -134,25 +127,17 @@ class VLM:
                     if not os.path.exists(f"{self.root}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}"):
                         os.makedirs(f"{self.root}/{self.config['sam']['output_rotated_crop_folder']}/{self.video_name}")
                 
-                    try:
-                        temp_crop_name_list = list()
-                        rot_im_lst , bbox_lst , conf_lst = img_proc_utils.get_image_crops(img_p, self.crop_model)
-                        for idx, rot_im in enumerate(rot_im_lst):
-                            cv2.imwrite(f"{rot_img_path[:-4]}_{idx}.jpg", rot_im)
-                            self.img_dict[x]['full'] = f"{img_p}"
-                            temp_crop_name_list.append(f"{rot_img_path[:-4]}_{idx}.jpg")
-                        self.img_dict[x]['rot_crops'] = temp_crop_name_list
-                        self.img_dict[x]['bbox'] = bbox_lst
-                        self.img_dict[x]['conf'] = conf_lst
+                    temp_crop_name_list = list()
+                    rot_im_lst , bbox_lst , conf_lst = img_proc_utils.get_image_crops(img_p, self.crop_model)
+                    for idx, rot_im in enumerate(rot_im_lst):
+                        cv2.imwrite(f"{rot_img_path[:-4]}_{idx}.jpg", rot_im)
+                        self.img_dict[x]['full'] = f"{img_p}"
+                        temp_crop_name_list.append(f"{rot_img_path[:-4]}_{idx}.jpg")
+                    self.img_dict[x]['rot_crops'] = temp_crop_name_list
+                    self.img_dict[x]['bbox'] = bbox_lst
+                    self.img_dict[x]['conf'] = conf_lst
                     
-                    except Exception as e:
-                        print(e)
-                        print(f"UNSUCCESS-- at crop generation")
-                        print(f"while running {self.config['sam']['model_name']} on {img_p}")
-                        print('cropping messup - using full image for this!')
-                        print('not saved any rotation img as NONE generated')
-                        pdb.set_trace()
-                    
+
     def create_message(self, image_path):
         
         self.create_prompt()
@@ -235,7 +220,7 @@ class VLM:
         return temp_final
 
     def prompt_model(self, image_path):
-        
+
         if self.config['exp']['prompt_img_len'] == 1:
             self.list_message = self.create_message(image_path)
             mega_resp = []
@@ -275,23 +260,24 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="baseline")
     parser.add_argument('--root', type=str, help='/path/to/Sign-Understanding')
     args = parser.parse_args()
-    while True:
-        try:
-            r = input("Recognition or Full-Pipeline Evaluation? R/F")
-            if r.upper() == 'R':
-                config = os.path.join(root, 'config/recognition_eval_config.yaml')  
-            elif r.upper() == 'F':
-                config =  os.path.join(root,'config/full_pipeline_eval_config.yaml') 
-            break
-        except Exception as e:
-            print('Please enter valid response....')
 
-    vlm = VLM(config=config, args)
+    root = args.root
+
+    while True:
+        r = input("Recognition or Full-Pipeline Evaluation? R/F\n")
+        if r.upper() == 'R':
+            config = os.path.join(root, 'config/recognition_eval_config.yaml')  
+            break
+        elif r.upper() == 'F':
+            config =  os.path.join(root,'config/full_pipeline_eval_config.yaml') 
+            break
+        print('Please enter valid response....')
+
+    vlm = VLM(config, args)
     print(f"You are using this config: {config}")
     print(f"You are using this model: {vlm.config['exp']['model_name']} and version {vlm.config['exp']['model_version']}")
     print(f"You are using this prompt: {vlm.config['exp']['prompt_file']} and symbol_list {vlm.config['exp']['symbols']}")
     print('Do you agree (c) or disagree (q)?')
-    pdb.set_trace()
     confidence_tries = vlm.config['exp']['voting_iter_count']
     
     if vlm.config['exp']['source'] == 'selected-frames' and vlm.config['name'] == 'recognition':
@@ -299,7 +285,8 @@ if __name__ == "__main__":
     elif vlm.config['exp']['source'] == 'selected-frames' and vlm.config['name'] == 'full-pipeline':
         names = [f"{vlm.config['exp']['crop_gen_model']}-{vlm.config['exp']['model_name']}"]
         
-    for nm in tqdm(names):
+    print("Starting eval...")
+    for nm in names:
         vlm.video_name = nm
         if vlm.config['name'] == 'full-pipeline':
             vlm.crop_model.video_name = nm
@@ -335,10 +322,9 @@ if __name__ == "__main__":
         match_history = list()
         vlm.img_queue = deque(maxlen=vlm.config['exp']['prompt_img_len'])
         
+        print(f"Evaluating {len(frame_paths)} frames...")
         bbox_preds = dict()
         for cnt, frame_path in tqdm(enumerate(frame_paths)):
-            if cnt == 1:
-                break
             result = dict()
             vlm_decider_flag = True 
             vlm.img_queue.append(frame_path)

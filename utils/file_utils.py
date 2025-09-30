@@ -1,14 +1,8 @@
 import yaml, json, os
 
 def load_yaml(filepath):
-    try:
-        with open(f"{filepath}", "r") as file:
-            # print(os.getcwd())
-            data = yaml.safe_load(file)  # Use safe_load to avoid potential security issues            
-            # print(data)
-    except FileNotFoundError:
-        print(os.getcwd())
-        print("File not found.")
+    with open(f"{filepath}", "r") as file:
+        data = yaml.safe_load(file)  # Use safe_load to avoid potential security issues            
     return data
 
 def save_file_json(file_path, data):
