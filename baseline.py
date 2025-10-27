@@ -19,7 +19,16 @@ from google.genai import types
 from PIL import Image
 from io import BytesIO
 
-class VLM:
+from utils.ros_vlm import VLM
+
+def frame_paths_from_folder(folder_path):
+    frames= []
+    for f in os.listdir(folder_path):
+        frame = os.path.join(folder_path,f)
+        frames.append(frame)
+    return frames
+
+class Baseline_VLM:
     def __init__(self, config, args) -> None:
         self.root = args.root
         self.config = file_utils.load_yaml(config)
@@ -190,13 +199,6 @@ class VLM:
                 all_messages.append(messages)
         return all_messages
 
-    def frame_paths_from_folder(self, folder_path):
-        frames= []
-        for f in os.listdir(folder_path):
-            frame = os.path.join(folder_path,f)
-            frames.append(frame)
-        return frames
-
     def post_process_gemini_response(self, text, width, height):
         lines = text.splitlines()
         for i, line in enumerate(lines):
@@ -217,10 +219,12 @@ class VLM:
         temp_3 = [te.replace('python','') for te in temp_2]
         temp_4 = [te.replace('\t','') for te in temp_3]
         temp_final = [json.loads(te) for te in temp_4]
+        # print(">>>")
+        # print(temp_final)
+        # print("<<<")
         return temp_final
 
     def prompt_model(self, image_path):
-
         if self.config['exp']['prompt_img_len'] == 1:
             self.list_message = self.create_message(image_path)
             mega_resp = []
@@ -235,6 +239,8 @@ class VLM:
                         n=self.config['exp']['voting_iter_count']
                         )
                         prc_resp = self.process_gpt_output(completion.choices)
+                        print(prc_resp)
+                        print(type(prc_resp), type(prc_resp[0]))
                         mega_resp.append(prc_resp)
                         break
                     except Exception as e:
@@ -274,10 +280,10 @@ if __name__ == "__main__":
         print('Please enter valid response....')
 
     vlm = VLM(config, args)
+    # vlm = VLM(config)
     print(f"You are using this config: {config}")
     print(f"You are using this model: {vlm.config['exp']['model_name']} and version {vlm.config['exp']['model_version']}")
     print(f"You are using this prompt: {vlm.config['exp']['prompt_file']} and symbol_list {vlm.config['exp']['symbols']}")
-    print('Do you agree (c) or disagree (q)?')
     confidence_tries = vlm.config['exp']['voting_iter_count']
     
     if vlm.config['exp']['source'] == 'selected-frames' and vlm.config['name'] == 'recognition':
@@ -314,7 +320,7 @@ if __name__ == "__main__":
                                         'symbol labels' : ann['symbol labels']})
                 bbox_gt_dict[item['imagePath']] = gt_boxes #xyxy list
                 gt_resp_dict[item['imagePath']] = recg_ann
-        frame_paths = vlm.frame_paths_from_folder(all_frame_folder)
+        frame_paths = frame_paths_from_folder(all_frame_folder)
         
         base = 0
         correct = 0
@@ -330,7 +336,20 @@ if __name__ == "__main__":
             vlm.img_queue.append(frame_path)
             vlm.img_dict = {i: {'full': None, 'rot_crops': None, 'bbox': None} for i in range(len(vlm.img_queue))}
             vlm.last_message = None
-            resp = vlm.prompt_model(vlm.img_queue)
+            # resp = vlm.prompt_model(vlm.img_queue)
+
+            if vlm.config['exp']['rot_crops']:
+                if len(vlm.img_queue) != 1:
+                    raise NotImplementedError
+                # Should only take a single image path
+                tmp_deq = deque(maxlen=1)
+                tmp_deq.append(frame_path)
+                vlm.create_crops(tmp_deq)
+
+            resp = []
+            for rot_im in vlm.img_dict[0]['rot_crops']:
+                individual_resp = vlm.prompt_model([rot_im], return_json=False)
+                resp.append(individual_resp)
             
             outputs = []
             for r in resp:
